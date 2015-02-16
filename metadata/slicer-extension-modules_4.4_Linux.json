@@ -443,9 +443,6 @@
     }, 
     "SlicerRT": {
         "cli": [
-            "plastimatch_slicer_dicomrt_import", 
-            "plastimatch_slicer_xformwarp", 
-            "plastimatch_slicer_dicomrt_export", 
             "plastimatch_slicer_landwarp", 
             "plastimatch_slicer_bspline"
         ], 
@@ -468,6 +465,7 @@
         "scripted": [
             "DvhComparison", 
             "PlmRegister", 
+            "BatchContourConversion", 
             "DicomSroExport"
         ]
     }, 
@@ -665,11 +663,6 @@
             "ScenePerformance", 
             "SampleData"
         ]
-    }, 
-    "houghTransformCLI": {
-        "cli": [], 
-        "loadable": [], 
-        "scripted": []
     }, 
     "iGyne": {
         "cli": [], 

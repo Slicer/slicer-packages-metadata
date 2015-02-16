@@ -148,6 +148,14 @@
             "Andrey Fedorov (SPL, BWH)"
         ]
     }, 
+    "BatchContourConversion": {
+        "categories": [
+            "Testing.SlicerRT Tests"
+        ], 
+        "contributors": [
+            "Csaba Pinter (Queen's)"
+        ]
+    }, 
     "Beams": {
         "categories": [
             "Radiotherapy"
@@ -1475,14 +1483,6 @@
             "Nick Tustison (UPenn), Andrey Fedorov (SPL, BWH), Ron Kikinis (SPL, BWH)"
         ]
     }, 
-    "NAMIC_Tutorial_2013June_SelfTest": {
-        "categories": [
-            "Testing.SlicerRT Tests"
-        ], 
-        "contributors": [
-            "Csaba Pinter (Queen's)"
-        ]
-    }, 
     "NeedleFinder": {
         "categories": [
             "IGT"
@@ -1785,7 +1785,7 @@
             "Quantification"
         ], 
         "contributors": [
-            "Ethan Ulrich (University of Iowa), Andrey Fedorov (SPL, BWH), Markus Van Tol (University of Iowa), Hans Johnson (University of Iowa), Wendy Plesniak (SPL, BWH), Nicole Aucoin (SPL, BWH), Ron Kikinis (SPL, BWH)"
+            "Andrey Fedorov (SPL), Ethan Ulrich (University of Iowa), Markus van Tol (University of Iowa), Christian Bauer (University of Iowa), Reinhard Beichel (University of Iowa), John Buatti (University of Iowa), Hans Johnson (University of Iowa), Wendy Plesniak (SPL, BWH), Nicole Aucoin (SPL, BWH), Ron Kikinis (SPL, BWH)"
         ]
     }, 
     "SampleData": {
@@ -2245,6 +2245,14 @@
             "Bill Lorensen (GE)"
         ]
     }, 
+    "WatchdogSelfTest": {
+        "categories": [
+            "Testing.IGT Tests"
+        ], 
+        "contributors": [
+            "Tamas Ungi (Queen's University) Jaime Garcia-Guevara (Queen's University)"
+        ]
+    }, 
     "Welcome": {
         "categories": [
             ""
@@ -2331,31 +2339,7 @@
             "Please direct questions or suggestions to http://groups.google.com/group/plastimatch"
         ]
     }, 
-    "plastimatch_slicer_dicomrt_export": {
-        "categories": [
-            "Plastimatch.Utilities"
-        ], 
-        "contributors": [
-            "Please direct questions or suggestions to http://groups.google.com/group/plastimatch"
-        ]
-    }, 
-    "plastimatch_slicer_dicomrt_import": {
-        "categories": [
-            "Plastimatch.Utilities"
-        ], 
-        "contributors": [
-            "Please direct questions or suggestions to http://groups.google.com/group/plastimatch"
-        ]
-    }, 
     "plastimatch_slicer_landwarp": {
-        "categories": [
-            "Plastimatch.Registration"
-        ], 
-        "contributors": [
-            "Please direct questions or suggestions to http://groups.google.com/group/plastimatch"
-        ]
-    }, 
-    "plastimatch_slicer_xformwarp": {
         "categories": [
             "Plastimatch.Registration"
         ], 
