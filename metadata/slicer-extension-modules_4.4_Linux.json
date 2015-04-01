@@ -130,6 +130,13 @@
         "loadable": [], 
         "scripted": []
     }, 
+    "DeveloperToolsForExtensions": {
+        "cli": [], 
+        "loadable": [], 
+        "scripted": [
+            "DeveloperToolsForExtensions"
+        ]
+    }, 
     "DiceComputation": {
         "cli": [], 
         "loadable": [
@@ -319,6 +326,15 @@
         "loadable": [], 
         "scripted": []
     }, 
+    "PETTumorSegmentation": {
+        "cli": [], 
+        "loadable": [
+            "PETTumorSegmentation"
+        ], 
+        "scripted": [
+            "PETTumorSegmentationEffect"
+        ]
+    }, 
     "PercutaneousApproachAnalysis": {
         "cli": [], 
         "loadable": [], 
@@ -433,10 +449,12 @@
             "CreateModels", 
             "PathExplorer", 
             "BreachWarning", 
+            "Watchdog", 
             "TransformFusion", 
             "VolumeResliceDriver"
         ], 
         "scripted": [
+            "ModelRegistration", 
             "FiducialsToModelRegistration", 
             "PlusRemote"
         ]

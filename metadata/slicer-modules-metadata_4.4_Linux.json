@@ -676,6 +676,14 @@
             "Jean-Christophe Fillion-Robin (Kitware)"
         ]
     }, 
+    "DeveloperToolsForExtensions": {
+        "categories": [
+            "Developer Tools"
+        ], 
+        "contributors": [
+            "Francois Budin (UNC)"
+        ]
+    }, 
     "DiceComputation": {
         "categories": [
             "Quantification"
@@ -1417,6 +1425,14 @@
             "Nicole Aucoin (SPL, BWH), Ron Kikinis (SPL, BWH), Bill Lorensen (GE)"
         ]
     }, 
+    "ModelRegistration": {
+        "categories": [
+            "IGT"
+        ], 
+        "contributors": [
+            "Andras Lasso, Tamas Ungi (PerkLab, Queen's University"
+        ]
+    }, 
     "ModelToLabelMap": {
         "categories": [
             "Surface Models"
@@ -1567,6 +1583,23 @@
         ], 
         "contributors": [
             "Wendy Plesniak (SPL, BWH), Nicole Aucoin (SPL, BWH), Ron Kikinis (SPL, BWH)"
+        ]
+    }, 
+    "PETTumorSegmentation": {
+        "categories": [
+            "EditorEffect"
+        ], 
+        "contributors": [
+            "Christian Bauer (University of Iowa)", 
+            "Markus van Tol (University of Iowa)"
+        ]
+    }, 
+    "PETTumorSegmentationEffect": {
+        "categories": [
+            "Developer Tools.Editor Extensions"
+        ], 
+        "contributors": [
+            "Christian Bauer (University of Iowa), Markus van Tol (University of Iowa), Steve Pieper (Isomics)"
         ]
     }, 
     "PathExplorer": {
@@ -1916,7 +1949,7 @@
             "Exporter"
         ], 
         "contributors": [
-            "Jean-Christophe Fillion-Robin (Kitware), Pat Marion (Kitware), Steve Pieper (Isomics)"
+            "Jean-Christophe Fillion-Robin (Kitware), Pat Marion (Kitware), Steve Pieper (Isomics), Atsushi Yamada (Shiga University of Medical Science)"
         ]
     }, 
     "SobolevSegmenter": {
@@ -2243,6 +2276,15 @@
         ], 
         "contributors": [
             "Bill Lorensen (GE)"
+        ]
+    }, 
+    "Watchdog": {
+        "categories": [
+            "IGT"
+        ], 
+        "contributors": [
+            "Jaime Garcia-Guevara (Queen's University)", 
+            "Tamas Ungi (Queen's University)"
         ]
     }, 
     "WatchdogSelfTest": {
