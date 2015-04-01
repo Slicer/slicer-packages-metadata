@@ -1,8 +1,6 @@
 {
     "ABC": {
-        "cli": [
-            "ABC"
-        ], 
+        "cli": [], 
         "loadable": [], 
         "scripted": []
     }, 
@@ -52,6 +50,7 @@
             "CMRToolkitInhomogeneityCorrection", 
             "CMRToolkitConnectedThresholdFilter", 
             "CMRToolkitPVAntrumCut", 
+            "CMRToolkitLASegmentationGraphCuts", 
             "CMRToolkitAxialDilate", 
             "CMRToolkitAutomaticLeftAtrialScar"
         ], 
@@ -130,6 +129,13 @@
         "loadable": [], 
         "scripted": []
     }, 
+    "DeveloperToolsForExtensions": {
+        "cli": [], 
+        "loadable": [], 
+        "scripted": [
+            "DeveloperToolsForExtensions"
+        ]
+    }, 
     "DiceComputation": {
         "cli": [], 
         "loadable": [
@@ -143,10 +149,7 @@
         "scripted": []
     }, 
     "ErodeDilateLabel": {
-        "cli": [
-            "DilateLabel", 
-            "ErodeLabel"
-        ], 
+        "cli": [], 
         "loadable": [], 
         "scripted": []
     }, 
@@ -250,10 +253,7 @@
         "scripted": []
     }, 
     "MABMIS": {
-        "cli": [
-            "IGR3D_MABMIS_Testing", 
-            "IGR3D_MABMIS_Training"
-        ], 
+        "cli": [], 
         "loadable": [], 
         "scripted": []
     }, 
@@ -283,15 +283,6 @@
         "loadable": [], 
         "scripted": []
     }, 
-    "MultidimData": {
-        "cli": [], 
-        "loadable": [
-            "SequenceBrowser", 
-            "MetafileImporter", 
-            "Sequences"
-        ], 
-        "scripted": []
-    }, 
     "NeedleFinder": {
         "cli": [], 
         "loadable": [], 
@@ -314,12 +305,31 @@
         "loadable": [], 
         "scripted": []
     }, 
+    "PET-IndiC": {
+        "cli": [
+            "QuantitativeIndicesCLI"
+        ], 
+        "loadable": [], 
+        "scripted": [
+            "PETIndiC", 
+            "QuantitativeIndicesTool"
+        ]
+    }, 
     "PETDICOMExtension": {
         "cli": [
             "SUVFactorCalculator"
         ], 
         "loadable": [], 
         "scripted": []
+    }, 
+    "PETTumorSegmentation": {
+        "cli": [], 
+        "loadable": [
+            "PETTumorSegmentation"
+        ], 
+        "scripted": [
+            "PETTumorSegmentationEffect"
+        ]
     }, 
     "PercutaneousApproachAnalysis": {
         "cli": [], 
@@ -337,6 +347,13 @@
         ], 
         "scripted": [
             "PythonMetricsCalculator"
+        ]
+    }, 
+    "PetSpectAnalysis": {
+        "cli": [], 
+        "loadable": [], 
+        "scripted": [
+            "dPetBrainQuantification"
         ]
     }, 
     "PkModeling": {
@@ -399,10 +416,17 @@
         ]
     }, 
     "SegmentationAidedRegistration": {
-        "cli": [
-            "SegmentationAidedRegistration"
-        ], 
+        "cli": [], 
         "loadable": [], 
+        "scripted": []
+    }, 
+    "Sequences": {
+        "cli": [], 
+        "loadable": [
+            "SequenceBrowser", 
+            "MetafileImporter", 
+            "Sequences"
+        ], 
         "scripted": []
     }, 
     "ShapePopulationViewer": {
@@ -411,7 +435,9 @@
         "scripted": []
     }, 
     "SkullStripper": {
-        "cli": [], 
+        "cli": [
+            "SkullStripper"
+        ], 
         "loadable": [], 
         "scripted": []
     }, 
@@ -420,6 +446,13 @@
         "loadable": [], 
         "scripted": [
             "AirwaySegmentation"
+        ]
+    }, 
+    "Slicer-Wasp": {
+        "cli": [], 
+        "loadable": [], 
+        "scripted": [
+            "Wasp"
         ]
     }, 
     "SlicerExtension-VMTK": {
@@ -442,19 +475,18 @@
             "CreateModels", 
             "PathExplorer", 
             "BreachWarning", 
+            "Watchdog", 
             "TransformFusion", 
             "VolumeResliceDriver"
         ], 
         "scripted": [
+            "ModelRegistration", 
             "FiducialsToModelRegistration", 
             "PlusRemote"
         ]
     }, 
     "SlicerRT": {
         "cli": [
-            "plastimatch_slicer_dicomrt_import", 
-            "plastimatch_slicer_xformwarp", 
-            "plastimatch_slicer_dicomrt_export", 
             "plastimatch_slicer_landwarp", 
             "plastimatch_slicer_bspline"
         ], 
@@ -462,16 +494,10 @@
             "VffFileReader", 
             "Isodose", 
             "PlastimatchPy", 
-            "Contours", 
-            "ContourMorphology", 
-            "ContourComparison", 
             "DoseAccumulation", 
             "PlanarImage", 
-            "DoseVolumeHistogram", 
             "Beams", 
-            "DoseComparison", 
-            "DicomSroImport", 
-            "DicomRtImportExport"
+            "DicomSroImport"
         ], 
         "scripted": [
             "DvhComparison", 
@@ -675,11 +701,6 @@
             "ScenePerformance", 
             "SampleData"
         ]
-    }, 
-    "houghTransformCLI": {
-        "cli": [], 
-        "loadable": [], 
-        "scripted": []
     }, 
     "iGyne": {
         "cli": [], 

@@ -1,12 +1,4 @@
 {
-    "ABC": {
-        "categories": [
-            "Segmentation"
-        ], 
-        "contributors": [
-            "Marcel Prastawa prastawa@sci.utah.edu"
-        ]
-    }, 
     "ACPCTransform": {
         "categories": [
             "Registration.Specialized"
@@ -156,14 +148,6 @@
             "Andrey Fedorov (SPL, BWH)"
         ]
     }, 
-    "BatchContourConversion": {
-        "categories": [
-            "Testing.SlicerRT Tests"
-        ], 
-        "contributors": [
-            "Csaba Pinter (Queen's)"
-        ]
-    }, 
     "Beams": {
         "categories": [
             "Radiotherapy"
@@ -202,6 +186,8 @@
         ], 
         "contributors": [
             "Matthew Holden (Queen's University)", 
+            "Jaime Garcia Guevara (Queen's University)", 
+            "Andras Lasso (Queen's University)", 
             "Tamas Ungi (Queen's University)"
         ]
     }, 
@@ -275,6 +261,14 @@
         ], 
         "contributors": [
             "Salma Bengali (CARMA), Alan Morris (CARMA), Josh Cates (CARMA), Rob MacLeod (CARMA)"
+        ]
+    }, 
+    "CMRToolkitLASegmentationGraphCuts": {
+        "categories": [
+            "Cardiac MRI Toolkit"
+        ], 
+        "contributors": [
+            "Gopalkrishna Veni, Salma Bengali, Alan Morris, Josh Cates, Rob MacLeod, Ross Whitaker"
         ]
     }, 
     "CMRToolkitPVAntrumCut": {
@@ -429,36 +423,6 @@
             "Steve Pieper (Isomics)"
         ]
     }, 
-    "ContourComparison": {
-        "categories": [
-            "Radiotherapy"
-        ], 
-        "contributors": [
-            "Csaba Pinter (Queen's)", 
-            "Andras Lasso (Queen's)", 
-            "Kevin Wang (UHN, Toronto)"
-        ]
-    }, 
-    "ContourMorphology": {
-        "categories": [
-            "Radiotherapy"
-        ], 
-        "contributors": [
-            "Kevin Wang (UHN, Toronto)", 
-            "Csaba Pinter (Queen's)", 
-            "Andras Lasso (Queen's)"
-        ]
-    }, 
-    "Contours": {
-        "categories": [
-            "Radiotherapy"
-        ], 
-        "contributors": [
-            "Csaba Pinter (Queen's)", 
-            "Andras Lasso (Queen's)", 
-            "Kevin Wang (UHN, Toronto)"
-        ]
-    }, 
     "ConvertVTK": {
         "categories": [
             "File"
@@ -498,6 +462,14 @@
         "contributors": [
             "Andrey Fedorov (BWH, SPL)", 
             "Ron Kikinis (BWH, SPL)"
+        ]
+    }, 
+    "CropVolumeSelfTest": {
+        "categories": [
+            "Testing.TestCases"
+        ], 
+        "contributors": [
+            "Andrey Fedorov (BWH)"
         ]
     }, 
     "CurvatureAnisotropicDiffusion": {
@@ -570,7 +542,7 @@
             "Developer Tools.DICOM Plugins"
         ], 
         "contributors": [
-            "Steve Pieper (Isomics Inc.)"
+            "Steve Pieper (Isomics Inc.), Csaba Pinter (Queen's)"
         ]
     }, 
     "DICOMSegmentationPlugin": {
@@ -684,22 +656,20 @@
             "Jean-Christophe Fillion-Robin (Kitware)"
         ]
     }, 
+    "DeveloperToolsForExtensions": {
+        "categories": [
+            "Developer Tools"
+        ], 
+        "contributors": [
+            "Francois Budin (UNC)"
+        ]
+    }, 
     "DiceComputation": {
         "categories": [
             "Quantification"
         ], 
         "contributors": [
             "Laurent Chauvin (BWH), Sonia Pujol (BWH)"
-        ]
-    }, 
-    "DicomRtImportExport": {
-        "categories": [
-            "Radiotherapy"
-        ], 
-        "contributors": [
-            "Csaba Pinter (Queen's)", 
-            "Andras Lasso (Queen's)", 
-            "Kevin Wang (UHN, Toronto)"
         ]
     }, 
     "DicomRtImportExportPlugin": {
@@ -782,14 +752,6 @@
             ")"
         ]
     }, 
-    "DicomRtImportSelfTest": {
-        "categories": [
-            "Testing.SlicerRT Tests"
-        ], 
-        "contributors": [
-            "Csaba Pinter (Queen's)"
-        ]
-    }, 
     "DicomSroExport": {
         "categories": [
             "Plastimatch"
@@ -838,35 +800,7 @@
             "Demian Wassermann (SPL, BWH)"
         ]
     }, 
-    "DilateLabel": {
-        "categories": [
-            "Filtering.Morphology"
-        ], 
-        "contributors": [
-            "Junichi Tokuda"
-        ]
-    }, 
     "DoseAccumulation": {
-        "categories": [
-            "Radiotherapy"
-        ], 
-        "contributors": [
-            "Csaba Pinter (Queen's)", 
-            "Andras Lasso (Queen's)", 
-            "Kevin Wang (UHN, Toronto)"
-        ]
-    }, 
-    "DoseComparison": {
-        "categories": [
-            "Radiotherapy"
-        ], 
-        "contributors": [
-            "Csaba Pinter (Queen's)", 
-            "Andras Lasso (Queen's)", 
-            "Kevin Wang (UHN, Toronto)"
-        ]
-    }, 
-    "DoseVolumeHistogram": {
         "categories": [
             "Radiotherapy"
         ], 
@@ -944,14 +878,6 @@
         ], 
         "contributors": [
             "Steve Pieper (Isomics)"
-        ]
-    }, 
-    "ErodeLabel": {
-        "categories": [
-            "Filtering.Morphology"
-        ], 
-        "contributors": [
-            "Junichi Tokuda"
         ]
     }, 
     "EventBroker": {
@@ -1036,7 +962,7 @@
     }, 
     "FiberTractMeasurements": {
         "categories": [
-            "Diffusion.Diffusion Tensor Images"
+            "Diffusion.Tractography"
         ], 
         "contributors": [
             "Alex Yarmarkovich (SPL, BWH)"
@@ -1097,14 +1023,6 @@
         ], 
         "contributors": [
             "Julien Jomier (Kitware), Stephen Aylward (Kitware)"
-        ]
-    }, 
-    "GelDosimetryAnalysis": {
-        "categories": [
-            "Slicelets"
-        ], 
-        "contributors": [
-            "Csaba Pinter (Queen's University), Mattea Welch (Queen's University), Jennifer Andrea (Queen's University), Kevin Alexander (Kingston General Hospital)"
         ]
     }, 
     "GelDosimetryAnalysisAlgo": {
@@ -1193,22 +1111,6 @@
         ], 
         "contributors": [
             "Bradley Lowekamp"
-        ]
-    }, 
-    "IGR3D_MABMIS_Testing": {
-        "categories": [
-            "Segmentation"
-        ], 
-        "contributors": [
-            "Minjeong Kim, Dinggang Shen, Xiaofeng Liu"
-        ]
-    }, 
-    "IGR3D_MABMIS_Training": {
-        "categories": [
-            "Segmentation"
-        ], 
-        "contributors": [
-            "Minjeong Kim, Dinggang Shen, Xiaofeng Liu"
         ]
     }, 
     "ImageLabelCombine": {
@@ -1469,7 +1371,7 @@
     }, 
     "MetafileImporter": {
         "categories": [
-            "Multidimensional data"
+            "Sequences"
         ], 
         "contributors": [
             "Andras Lasso (PerkLab, Queen's), Matthew Holden (PerkLab, Queen's)"
@@ -1481,6 +1383,14 @@
         ], 
         "contributors": [
             "Nicole Aucoin (SPL, BWH), Ron Kikinis (SPL, BWH), Bill Lorensen (GE)"
+        ]
+    }, 
+    "ModelRegistration": {
+        "categories": [
+            "IGT"
+        ], 
+        "contributors": [
+            "Andras Lasso, Tamas Ungi (PerkLab, Queen's University"
         ]
     }, 
     "ModelToLabelMap": {
@@ -1547,14 +1457,6 @@
         ], 
         "contributors": [
             "Nick Tustison (UPenn), Andrey Fedorov (SPL, BWH), Ron Kikinis (SPL, BWH)"
-        ]
-    }, 
-    "NAMIC_Tutorial_2013June_SelfTest": {
-        "categories": [
-            "Testing.SlicerRT Tests"
-        ], 
-        "contributors": [
-            "Csaba Pinter (Queen's)"
         ]
     }, 
     "NeedleFinder": {
@@ -1627,6 +1529,14 @@
             "Fotis Drakopoulos (CRTC), Yixun Liu (CRTC), Andriy Kot (CRTC), Andrey Fedorov (SPL B&W Harvard), Olivier Clatz (Asclepios INRIA), Nikos Chrisochoides (CRTC)"
         ]
     }, 
+    "PETIndiC": {
+        "categories": [
+            "Segmentation"
+        ], 
+        "contributors": [
+            "Ethan Ulrich (Univ. of Iowa), Christian Bauer (Univ. of Iowa), Markus van Tol (Univ. of Iowa), Reinhard R. Beichel (Univ. of Iowa), John Buatti (Univ. of Iowa)"
+        ]
+    }, 
     "PETSUVImageMaker": {
         "categories": [
             "Quantification"
@@ -1641,6 +1551,23 @@
         ], 
         "contributors": [
             "Wendy Plesniak (SPL, BWH), Nicole Aucoin (SPL, BWH), Ron Kikinis (SPL, BWH)"
+        ]
+    }, 
+    "PETTumorSegmentation": {
+        "categories": [
+            "EditorEffect"
+        ], 
+        "contributors": [
+            "Christian Bauer (University of Iowa)", 
+            "Markus van Tol (University of Iowa)"
+        ]
+    }, 
+    "PETTumorSegmentationEffect": {
+        "categories": [
+            "Developer Tools.Editor Extensions"
+        ], 
+        "contributors": [
+            "Christian Bauer (University of Iowa), Markus van Tol (University of Iowa), Steve Pieper (Isomics)"
         ]
     }, 
     "PathExplorer": {
@@ -1764,6 +1691,22 @@
             "Matthew Holden (Queen's University), Tamas Ungi (Queen's University)"
         ]
     }, 
+    "QuantitativeIndicesCLI": {
+        "categories": [
+            "Quantification"
+        ], 
+        "contributors": [
+            "Ethan Ulrich (University of Iowa), Andrey Fedorov (SPL), Markus van Tol (University of Iowa), Christian Bauer (University of Iowa), Reinhard Beichel (University of Iowa), John Buatti (University of Iowa)"
+        ]
+    }, 
+    "QuantitativeIndicesTool": {
+        "categories": [
+            "Quantification"
+        ], 
+        "contributors": [
+            "Ethan Ulrich (University of Iowa), Andrey Fedorov (SPL), Markus van Tol (University of Iowa), Christian Bauer (University of Iowa), Reinhard Beichel (University of Iowa), John Buatti (University of Iowa)"
+        ]
+    }, 
     "RSNA2012ProstateDemo": {
         "categories": [
             "Testing.TestCases"
@@ -1838,14 +1781,6 @@
             "Bill Lorensen (GE)"
         ]
     }, 
-    "ResectionVolume": {
-        "categories": [
-            "IGT"
-        ], 
-        "contributors": [
-            "Matt Lougheed (Queen's University)"
-        ]
-    }, 
     "RobustStatisticsSegmenter": {
         "categories": [
             "Segmentation.Specialized"
@@ -1859,7 +1794,7 @@
             "Quantification"
         ], 
         "contributors": [
-            "Ethan Ulrich (University of Iowa), Andrey Fedorov (SPL, BWH), Markus Van Tol (University of Iowa), Hans Johnson (University of Iowa), Wendy Plesniak (SPL, BWH), Nicole Aucoin (SPL, BWH), Ron Kikinis (SPL, BWH)"
+            "Andrey Fedorov (SPL), Ethan Ulrich (University of Iowa), Markus van Tol (University of Iowa), Christian Bauer (University of Iowa), Reinhard Beichel (University of Iowa), John Buatti (University of Iowa), Hans Johnson (University of Iowa), Wendy Plesniak (SPL, BWH), Nicole Aucoin (SPL, BWH), Ron Kikinis (SPL, BWH)"
         ]
     }, 
     "SampleData": {
@@ -1913,14 +1848,6 @@
             "Vivek Narayan, Jayender Jagadeesan (BWH)"
         ]
     }, 
-    "SegmentationAidedRegistration": {
-        "categories": [
-            "Examples"
-        ], 
-        "contributors": [
-            "Yi Gao (BWH/UAB), Liang-Jia Zhu (UAB), Josh Cates (Utah), Alan Morris (Utah), Danny Perry (Utah), Greg Gardner (Utah), Rob MacLeod (Utah), Sylvain Bouix (BWH), Allen Tannenbaum (UAB)"
-        ]
-    }, 
     "SelfTests": {
         "categories": [
             "Testing"
@@ -1931,7 +1858,7 @@
     }, 
     "SequenceBrowser": {
         "categories": [
-            "Multidimensional data"
+            "Sequences"
         ], 
         "contributors": [
             "Andras Lasso (PerkLab, Queen's), Matthew Holden (PerkLab, Queen's), Kevin Wang (PMH)"
@@ -1939,7 +1866,7 @@
     }, 
     "Sequences": {
         "categories": [
-            "Multidimensional data"
+            "Sequences"
         ], 
         "contributors": [
             "Andras Lasso (PerkLab, Queen's), Matthew Holden (PerkLab, Queen's), Kevin Wang (PMH)"
@@ -1959,6 +1886,14 @@
         ], 
         "contributors": [
             "Jim Miller (GE)"
+        ]
+    }, 
+    "SkullStripper": {
+        "categories": [
+            "Segmentation"
+        ], 
+        "contributors": [
+            "Xiaodong Tao (GE)"
         ]
     }, 
     "SliceLinkLogic": {
@@ -1990,7 +1925,7 @@
             "Exporter"
         ], 
         "contributors": [
-            "Jean-Christophe Fillion-Robin (Kitware), Pat Marion (Kitware), Steve Pieper (Isomics)"
+            "Jean-Christophe Fillion-Robin (Kitware), Pat Marion (Kitware), Steve Pieper (Isomics), Atsushi Yamada (Shiga University of Medical Science)"
         ]
     }, 
     "SobolevSegmenter": {
@@ -2319,6 +2254,31 @@
             "Bill Lorensen (GE)"
         ]
     }, 
+    "Wasp": {
+        "categories": [
+            "Segmentation"
+        ], 
+        "contributors": [
+            "Thomas Lawson (MRC Harwell, Oxfordshire)"
+        ]
+    }, 
+    "Watchdog": {
+        "categories": [
+            "IGT"
+        ], 
+        "contributors": [
+            "Jaime Garcia-Guevara (Queen's University)", 
+            "Tamas Ungi (Queen's University)"
+        ]
+    }, 
+    "WatchdogSelfTest": {
+        "categories": [
+            "Testing.IGT Tests"
+        ], 
+        "contributors": [
+            "Tamas Ungi (Queen's University) Jaime Garcia-Guevara (Queen's University)"
+        ]
+    }, 
     "Welcome": {
         "categories": [
             ""
@@ -2351,6 +2311,14 @@
         ], 
         "contributors": [
             "Sunil Kumar (Moka Creative, LLC, kumar.sunil.p@gmail.com), Dan Marcus (WashU-St. Louis, dmarcus@wustl.edu), Steve Pieper (Isomics, pieper@isomics.com)"
+        ]
+    }, 
+    "dPetBrainQuantification": {
+        "categories": [
+            "Quantification"
+        ], 
+        "contributors": [
+            "Idk"
         ]
     }, 
     "dtitractstat": {
@@ -2405,31 +2373,7 @@
             "Please direct questions or suggestions to http://groups.google.com/group/plastimatch"
         ]
     }, 
-    "plastimatch_slicer_dicomrt_export": {
-        "categories": [
-            "Plastimatch.Utilities"
-        ], 
-        "contributors": [
-            "Please direct questions or suggestions to http://groups.google.com/group/plastimatch"
-        ]
-    }, 
-    "plastimatch_slicer_dicomrt_import": {
-        "categories": [
-            "Plastimatch.Utilities"
-        ], 
-        "contributors": [
-            "Please direct questions or suggestions to http://groups.google.com/group/plastimatch"
-        ]
-    }, 
     "plastimatch_slicer_landwarp": {
-        "categories": [
-            "Plastimatch.Registration"
-        ], 
-        "contributors": [
-            "Please direct questions or suggestions to http://groups.google.com/group/plastimatch"
-        ]
-    }, 
-    "plastimatch_slicer_xformwarp": {
         "categories": [
             "Plastimatch.Registration"
         ], 
