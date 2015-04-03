@@ -1531,7 +1531,7 @@
     }, 
     "PETIndiC": {
         "categories": [
-            "Segmentation"
+            "Quantification"
         ], 
         "contributors": [
             "Ethan Ulrich (Univ. of Iowa), Christian Bauer (Univ. of Iowa), Markus van Tol (Univ. of Iowa), Reinhard R. Beichel (Univ. of Iowa), John Buatti (Univ. of Iowa)"
