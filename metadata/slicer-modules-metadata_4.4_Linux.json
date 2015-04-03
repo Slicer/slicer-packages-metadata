@@ -1569,6 +1569,14 @@
             "Fotis Drakopoulos (CRTC), Yixun Liu (CRTC), Andriy Kot (CRTC), Andrey Fedorov (SPL B&W Harvard), Olivier Clatz (Asclepios INRIA), Nikos Chrisochoides (CRTC)"
         ]
     }, 
+    "PETIndiC": {
+        "categories": [
+            "Quantification"
+        ], 
+        "contributors": [
+            "Ethan Ulrich (Univ. of Iowa), Christian Bauer (Univ. of Iowa), Markus van Tol (Univ. of Iowa), Reinhard R. Beichel (Univ. of Iowa), John Buatti (Univ. of Iowa)"
+        ]
+    }, 
     "PETSUVImageMaker": {
         "categories": [
             "Quantification"
@@ -1721,6 +1729,22 @@
         ], 
         "contributors": [
             "Matthew Holden (Queen's University), Tamas Ungi (Queen's University)"
+        ]
+    }, 
+    "QuantitativeIndicesCLI": {
+        "categories": [
+            "Quantification"
+        ], 
+        "contributors": [
+            "Ethan Ulrich (University of Iowa), Andrey Fedorov (SPL), Markus van Tol (University of Iowa), Christian Bauer (University of Iowa), Reinhard Beichel (University of Iowa), John Buatti (University of Iowa)"
+        ]
+    }, 
+    "QuantitativeIndicesTool": {
+        "categories": [
+            "Quantification"
+        ], 
+        "contributors": [
+            "Ethan Ulrich (University of Iowa), Andrey Fedorov (SPL), Markus van Tol (University of Iowa), Christian Bauer (University of Iowa), Reinhard Beichel (University of Iowa), John Buatti (University of Iowa)"
         ]
     }, 
     "RSNA2012ProstateDemo": {

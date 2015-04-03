@@ -319,6 +319,16 @@
         "loadable": [], 
         "scripted": []
     }, 
+    "PET-IndiC": {
+        "cli": [
+            "QuantitativeIndicesCLI"
+        ], 
+        "loadable": [], 
+        "scripted": [
+            "PETIndiC", 
+            "QuantitativeIndicesTool"
+        ]
+    }, 
     "PETDICOMExtension": {
         "cli": [
             "SUVFactorCalculator"
