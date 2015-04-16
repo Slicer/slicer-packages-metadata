@@ -467,6 +467,7 @@
     "SlicerIGT": {
         "cli": [], 
         "loadable": [
+            "MarkupsToModel", 
             "UltrasoundSnapshots", 
             "FiducialRegistrationWizard", 
             "PivotCalibration", 
@@ -527,6 +528,11 @@
         "loadable": [], 
         "scripted": []
     }, 
+    "T1_Mapping": {
+        "cli": [], 
+        "loadable": [], 
+        "scripted": []
+    }, 
     "TCIABrowser": {
         "cli": [], 
         "loadable": [], 
@@ -549,10 +555,7 @@
         "scripted": []
     }, 
     "UKFTractography": {
-        "cli": [
-            "UKFTractography", 
-            "ConvertVTK"
-        ], 
+        "cli": [], 
         "loadable": [], 
         "scripted": []
     }, 

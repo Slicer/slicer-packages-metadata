@@ -329,6 +329,14 @@
             "Ivan Kolesov, Peter Karasev (Georgia Tech)"
         ]
     }, 
+    "CarreraSliceEffect": {
+        "categories": [
+            "Developer Tools.Editor Extensions"
+        ], 
+        "contributors": [
+            "Ivan Kolesov, Liangjia Zhu, Allen Tannenbaum (Stony Brook University), Yi Gao(University of Alabama Birmingham), Peter Karasev, Patricio Vela (Georgia Institute of Technology), and Steve Pieper (Isomics, Inc.)"
+        ]
+    }, 
     "CastScalarVolume": {
         "categories": [
             "Filtering.Arithmetic"
@@ -421,14 +429,6 @@
         ], 
         "contributors": [
             "Steve Pieper (Isomics)"
-        ]
-    }, 
-    "ConvertVTK": {
-        "categories": [
-            "File"
-        ], 
-        "contributors": [
-            "Yogesh Rathi, Stefan Lienhard, Yinpeng Li, Martin Styner, Ipek Oguz, Yundi Shi, Christian Baumgartner, Kent Williams"
         ]
     }, 
     "CornerAnnotation": {
@@ -872,6 +872,15 @@
             "Anonymous"
         ]
     }, 
+    "Editor": {
+        "categories": [
+            "", 
+            "Segmentation"
+        ], 
+        "contributors": [
+            "Steve Pieper (Isomics)"
+        ]
+    }, 
     "Endoscopy": {
         "categories": [
             "Endoscopy"
@@ -926,6 +935,14 @@
         ], 
         "contributors": [
             "Jean-Christophe Fillion-Robin (Kitware)"
+        ]
+    }, 
+    "FastGrowCutEffect": {
+        "categories": [
+            "Developer Tools.Editor Extensions"
+        ], 
+        "contributors": [
+            "Liangjia Zhu, Ivan Kolesov, Allen Tannenbaum (Stony Brook University), Yi Gao(University of Alabama Birmingham), and Ron Kikinis (BWH)"
         ]
     }, 
     "FastGrowCutSegmenter": {
@@ -1219,6 +1236,14 @@
             "Bradley Lowekamp (MSC/NLM)"
         ]
     }, 
+    "LabelStatistics": {
+        "categories": [
+            "Quantification"
+        ], 
+        "contributors": [
+            "Steve Pieper (Isomics)"
+        ]
+    }, 
     "LabelToDICOMSEGConverter": {
         "categories": [
             "Work in Progress.Converters"
@@ -1293,6 +1318,15 @@
         ], 
         "contributors": [
             "Nicole Aucoin (BWH)"
+        ]
+    }, 
+    "MarkupsToModel": {
+        "categories": [
+            "IGT"
+        ], 
+        "contributors": [
+            "Jaime Garcia Guevara (Queen's University)", 
+            "Andras Lasso (Queen's University)"
         ]
     }, 
     "MaskCreation": {
@@ -1578,14 +1612,6 @@
             "Laurent Chauvin (SNR), Atsushi Yamada (SNR), Junichi Tokuda (SNR)"
         ]
     }, 
-    "PercutaneousApproachAnalysis": {
-        "categories": [
-            "IGT"
-        ], 
-        "contributors": [
-            "Atsushi Yamada (Shiga University of Medical Science),Koichiro Murakami (Shiga University of Medical Science, Japan, SPL), Laurent Chauvin (SPL), Junichi Tokuda (SPL)"
-        ]
-    }, 
     "PerformMetricTest": {
         "categories": [
             "Registration"
@@ -1657,14 +1683,6 @@
         ], 
         "contributors": [
             "Amelie Meyer (PerkLab, Queen's University), Franklin King (PerkLab, Queen's University), Tamas Ungi (PerkLab, Queen's University), Andras Lasso (PerkLab, Queen's University)"
-        ]
-    }, 
-    "PortPlacement": {
-        "categories": [
-            "IGT"
-        ], 
-        "contributors": [
-            "Andinet Enquobahrie (Kitware), Luis G. Torres (UNC)"
         ]
     }, 
     "ProbeVolumeWithModel": {
@@ -2111,14 +2129,6 @@
             "Franklin King (PerkLab, Queen's)"
         ]
     }, 
-    "UKFTractography": {
-        "categories": [
-            "Diffusion.Tractography"
-        ], 
-        "contributors": [
-            "Yogesh Rathi, Stefan Lienhard, Yinpeng Li, Martin Styner, Ipek Oguz, Yundi Shi, Christian Baumgartner, Kent Williams, Hans Johnson, Peter Savadjiev, Carl-Fredrik Westin."
-        ]
-    }, 
     "UltrasoundSnapshots": {
         "categories": [
             "IGT"
@@ -2197,14 +2207,6 @@
         ], 
         "contributors": [
             "Andras Lasso, Matt Lougheed (PerkLab, Queen's University)"
-        ]
-    }, 
-    "VolumeClipWithRoi": {
-        "categories": [
-            "Segmentation"
-        ], 
-        "contributors": [
-            "Andras Lasso (Queen's University)"
         ]
     }, 
     "VolumeRendering": {
