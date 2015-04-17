@@ -195,8 +195,7 @@
         "cli": [
             "BinShrink", 
             "IASEMImport", 
-            "IASEMImportSeries", 
-            "SpacingAwareCurvatureDiffusion"
+            "IASEMImportSeries"
         ], 
         "loadable": [], 
         "scripted": [
@@ -528,7 +527,9 @@
     "T1_Mapping": {
         "cli": [], 
         "loadable": [], 
-        "scripted": []
+        "scripted": [
+            "T1_Mapping"
+        ]
     }, 
     "TCIABrowser": {
         "cli": [], 
