@@ -199,7 +199,6 @@
     "IASEM": {
         "cli": [
             "BinShrink", 
-            "SpacingAwareCurvatureDiffusion", 
             "IASEMImport", 
             "IASEMImportSeries"
         ], 
@@ -531,7 +530,9 @@
     "T1_Mapping": {
         "cli": [], 
         "loadable": [], 
-        "scripted": []
+        "scripted": [
+            "T1_Mapping"
+        ]
     }, 
     "TCIABrowser": {
         "cli": [], 
