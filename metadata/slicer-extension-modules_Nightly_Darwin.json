@@ -195,7 +195,8 @@
         "cli": [
             "BinShrink", 
             "IASEMImport", 
-            "IASEMImportSeries"
+            "IASEMImportSeries", 
+            "SpacingAwareCurvatureDiffusion"
         ], 
         "loadable": [], 
         "scripted": [
@@ -480,6 +481,16 @@
             "FiducialsToModelRegistration", 
             "ModelRegistration", 
             "PlusRemote"
+        ]
+    }, 
+    "SlicerProstate": {
+        "cli": [
+            "QuadEdgeSurfaceMesher", 
+            "SegmentationSmoothing"
+        ], 
+        "loadable": [], 
+        "scripted": [
+            "DistanceMapBasedRegistration"
         ]
     }, 
     "SlicerRT": {
