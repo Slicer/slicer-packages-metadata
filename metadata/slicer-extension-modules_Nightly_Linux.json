@@ -199,6 +199,7 @@
     "IASEM": {
         "cli": [
             "BinShrink", 
+            "SpacingAwareCurvatureDiffusion", 
             "IASEMImport", 
             "IASEMImportSeries"
         ], 
@@ -483,6 +484,16 @@
             "ModelRegistration", 
             "FiducialsToModelRegistration", 
             "PlusRemote"
+        ]
+    }, 
+    "SlicerProstate": {
+        "cli": [
+            "SegmentationSmoothing", 
+            "QuadEdgeSurfaceMesher"
+        ], 
+        "loadable": [], 
+        "scripted": [
+            "DistanceMapBasedRegistration"
         ]
     }, 
     "SlicerRT": {
