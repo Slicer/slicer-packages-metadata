@@ -199,7 +199,6 @@
     "IASEM": {
         "cli": [
             "BinShrink", 
-            "SpacingAwareCurvatureDiffusion", 
             "IASEMImport", 
             "IASEMImportSeries"
         ], 
@@ -505,10 +504,16 @@
             "VffFileReader", 
             "Isodose", 
             "PlastimatchPy", 
+            "Contours", 
+            "ContourMorphology", 
+            "ContourComparison", 
             "DoseAccumulation", 
             "PlanarImage", 
+            "DoseVolumeHistogram", 
             "Beams", 
-            "DicomSroImport"
+            "DoseComparison", 
+            "DicomSroImport", 
+            "DicomRtImportExport"
         ], 
         "scripted": [
             "DvhComparison", 

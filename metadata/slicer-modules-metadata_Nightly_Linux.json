@@ -148,6 +148,14 @@
             "Andrey Fedorov (SPL, BWH)"
         ]
     }, 
+    "BatchContourConversion": {
+        "categories": [
+            "Testing.SlicerRT Tests"
+        ], 
+        "contributors": [
+            "Csaba Pinter (Queen's)"
+        ]
+    }, 
     "Beams": {
         "categories": [
             "Radiotherapy"
@@ -312,15 +320,6 @@
             "Sebastien Barr&eacute; (Kitware)"
         ]
     }, 
-    "CardiacAgatstonMeasures": {
-        "categories": [
-            "Testing.TestCases"
-        ], 
-        "contributors": [
-            "Jessica Forbes (SINAPSE)", 
-            "Hans Johnson (SINAPSE)"
-        ]
-    }, 
     "CarreraSlice": {
         "categories": [
             "Examples"
@@ -429,6 +428,36 @@
         ], 
         "contributors": [
             "Steve Pieper (Isomics)"
+        ]
+    }, 
+    "ContourComparison": {
+        "categories": [
+            "Radiotherapy"
+        ], 
+        "contributors": [
+            "Csaba Pinter (Queen's)", 
+            "Andras Lasso (Queen's)", 
+            "Kevin Wang (UHN, Toronto)"
+        ]
+    }, 
+    "ContourMorphology": {
+        "categories": [
+            "Radiotherapy"
+        ], 
+        "contributors": [
+            "Kevin Wang (UHN, Toronto)", 
+            "Csaba Pinter (Queen's)", 
+            "Andras Lasso (Queen's)"
+        ]
+    }, 
+    "Contours": {
+        "categories": [
+            "Radiotherapy"
+        ], 
+        "contributors": [
+            "Csaba Pinter (Queen's)", 
+            "Andras Lasso (Queen's)", 
+            "Kevin Wang (UHN, Toronto)"
         ]
     }, 
     "CornerAnnotation": {
@@ -672,6 +701,16 @@
             "Laurent Chauvin (BWH), Sonia Pujol (BWH)"
         ]
     }, 
+    "DicomRtImportExport": {
+        "categories": [
+            "Radiotherapy"
+        ], 
+        "contributors": [
+            "Csaba Pinter (Queen's)", 
+            "Andras Lasso (Queen's)", 
+            "Kevin Wang (UHN, Toronto)"
+        ]
+    }, 
     "DicomRtImportExportPlugin": {
         "categories": [
             "Developer Tools.DICOM Plugins"
@@ -752,6 +791,14 @@
             ")"
         ]
     }, 
+    "DicomRtImportSelfTest": {
+        "categories": [
+            "Testing.SlicerRT Tests"
+        ], 
+        "contributors": [
+            "Csaba Pinter (Queen's)"
+        ]
+    }, 
     "DicomSroExport": {
         "categories": [
             "Plastimatch"
@@ -800,15 +847,27 @@
             "Demian Wassermann (SPL, BWH)"
         ]
     }, 
-    "DistanceMapBasedRegistration": {
+    "DoseAccumulation": {
         "categories": [
-            "Registration.Label Registration"
+            "Radiotherapy"
         ], 
         "contributors": [
-            "Andrey Fedorov (BWH), Andras Lasso (Queen's University)"
+            "Csaba Pinter (Queen's)", 
+            "Andras Lasso (Queen's)", 
+            "Kevin Wang (UHN, Toronto)"
         ]
     }, 
-    "DoseAccumulation": {
+    "DoseComparison": {
+        "categories": [
+            "Radiotherapy"
+        ], 
+        "contributors": [
+            "Csaba Pinter (Queen's)", 
+            "Andras Lasso (Queen's)", 
+            "Kevin Wang (UHN, Toronto)"
+        ]
+    }, 
+    "DoseVolumeHistogram": {
         "categories": [
             "Radiotherapy"
         ], 
@@ -824,14 +883,6 @@
         ], 
         "contributors": [
             "Julien Finet (Kitware)"
-        ]
-    }, 
-    "DoubleThresholdEffect": {
-        "categories": [
-            "Developer Tools.Editor Extensions"
-        ], 
-        "contributors": [
-            "Bradley Lowekamp"
         ]
     }, 
     "Downsize": {
@@ -1050,6 +1101,14 @@
             "Julien Jomier (Kitware), Stephen Aylward (Kitware)"
         ]
     }, 
+    "GelDosimetryAnalysis": {
+        "categories": [
+            "Slicelets"
+        ], 
+        "contributors": [
+            "Csaba Pinter (Queen's University), Mattea Welch (Queen's University), Jennifer Andrea (Queen's University), Kevin Alexander (Kingston General Hospital)"
+        ]
+    }, 
     "GelDosimetryAnalysisAlgo": {
         "categories": [
             "Slicelets"
@@ -1234,14 +1293,6 @@
         ], 
         "contributors": [
             "Dirk Padfield (GE), Josh Cates (Utah), Ross Whitaker (Utah)"
-        ]
-    }, 
-    "LabelObjectStatistics": {
-        "categories": [
-            "Microscopy"
-        ], 
-        "contributors": [
-            "Bradley Lowekamp (MSC/NLM)"
         ]
     }, 
     "LabelStatistics": {
@@ -1501,20 +1552,12 @@
             "Nick Tustison (UPenn), Andrey Fedorov (SPL, BWH), Ron Kikinis (SPL, BWH)"
         ]
     }, 
-    "NeedleFinder": {
+    "NAMIC_Tutorial_2013June_SelfTest": {
         "categories": [
-            "IGT"
+            "Testing.SlicerRT Tests"
         ], 
         "contributors": [
-            "Guillaume Pernelle", 
-            "Alireza Mehrtash", 
-            "Lauren Barber", 
-            "Nabgha Fahrat", 
-            "Sandy Wells", 
-            "Yi Gao", 
-            "Antonio Damato", 
-            "Tina Kapur", 
-            "Akila Viswanathan"
+            "Csaba Pinter (Queen's)"
         ]
     }, 
     "NeurosurgicalPlanningTutorialMarkupsSelfTest": {
@@ -1815,6 +1858,14 @@
             "Bill Lorensen (GE)"
         ]
     }, 
+    "ResectionVolume": {
+        "categories": [
+            "IGT"
+        ], 
+        "contributors": [
+            "Matt Lougheed (Queen's University)"
+        ]
+    }, 
     "RobustStatisticsSegmenter": {
         "categories": [
             "Segmentation.Specialized"
@@ -1914,14 +1965,6 @@
             "Andras Lasso (PerkLab, Queen's), Matthew Holden (PerkLab, Queen's), Kevin Wang (PMH)"
         ]
     }, 
-    "SimpleFilters": {
-        "categories": [
-            "Filtering"
-        ], 
-        "contributors": [
-            "Bradley Lowekamp (MSC/NLM), Steve Pieper (Isomics), Jean-Christophe Fillion-Robin (Kitware)"
-        ]
-    }, 
     "SimpleRegionGrowingSegmentation": {
         "categories": [
             "Segmentation"
@@ -1976,14 +2019,6 @@
         ], 
         "contributors": [
             "Arie Nakhmani (UAB), Allen Tannenbaum (UAB)"
-        ]
-    }, 
-    "SpacingAwareCurvatureDiffusion": {
-        "categories": [
-            "Microscopy"
-        ], 
-        "contributors": [
-            "Bradley Lowekamp and Bill Lorensen (GE)"
         ]
     }, 
     "SpinalCurvatureMeasurement": {
@@ -2288,14 +2323,6 @@
             "Bill Lorensen (GE)"
         ]
     }, 
-    "Wasp": {
-        "categories": [
-            "Segmentation"
-        ], 
-        "contributors": [
-            "Thomas Lawson (MRC Harwell, Oxfordshire)"
-        ]
-    }, 
     "Watchdog": {
         "categories": [
             "IGT"
@@ -2345,14 +2372,6 @@
         ], 
         "contributors": [
             "Sunil Kumar (Moka Creative, LLC, kumar.sunil.p@gmail.com), Dan Marcus (WashU-St. Louis, dmarcus@wustl.edu), Steve Pieper (Isomics, pieper@isomics.com)"
-        ]
-    }, 
-    "dPetBrainQuantification": {
-        "categories": [
-            "Quantification"
-        ], 
-        "contributors": [
-            "Idk"
         ]
     }, 
     "dtitractstat": {
