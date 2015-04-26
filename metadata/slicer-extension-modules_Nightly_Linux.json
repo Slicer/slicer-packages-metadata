@@ -199,7 +199,6 @@
     "IASEM": {
         "cli": [
             "BinShrink", 
-            "SpacingAwareCurvatureDiffusion", 
             "IASEMImport", 
             "IASEMImportSeries"
         ], 
