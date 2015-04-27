@@ -197,17 +197,9 @@
         ]
     }, 
     "IASEM": {
-        "cli": [
-            "BinShrink", 
-            "IASEMImport", 
-            "IASEMImportSeries"
-        ], 
+        "cli": [], 
         "loadable": [], 
-        "scripted": [
-            "DoubleThresholdEffect", 
-            "LabelObjectStatistics", 
-            "BinaryWatershedEffect"
-        ]
+        "scripted": []
     }, 
     "ImageMaker": {
         "cli": [

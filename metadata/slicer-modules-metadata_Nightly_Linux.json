@@ -164,22 +164,6 @@
             "Csaba Pinter (Queen's)"
         ]
     }, 
-    "BinShrink": {
-        "categories": [
-            "Microscopy"
-        ], 
-        "contributors": [
-            "Bradley Lowekamp"
-        ]
-    }, 
-    "BinaryWatershedEffect": {
-        "categories": [
-            "Developer Tools.Editor Extensions"
-        ], 
-        "contributors": [
-            "Steve Pieper (Isomics)"
-        ]
-    }, 
     "BodyCentricCubicMesh": {
         "categories": [
             "MeshGeneration"
@@ -1179,22 +1163,6 @@
         ], 
         "contributors": [
             "Bill Lorensen (GE)"
-        ]
-    }, 
-    "IASEMImport": {
-        "categories": [
-            "Microscopy"
-        ], 
-        "contributors": [
-            "Bradley Lowekamp"
-        ]
-    }, 
-    "IASEMImportSeries": {
-        "categories": [
-            "Microscopy"
-        ], 
-        "contributors": [
-            "Bradley Lowekamp"
         ]
     }, 
     "ImageLabelCombine": {
