@@ -197,9 +197,18 @@
         ]
     }, 
     "IASEM": {
-        "cli": [], 
+        "cli": [
+            "BinShrink", 
+            "SpacingAwareCurvatureDiffusion", 
+            "IASEMImport", 
+            "IASEMImportSeries"
+        ], 
         "loadable": [], 
-        "scripted": []
+        "scripted": [
+            "DoubleThresholdEffect", 
+            "LabelObjectStatistics", 
+            "BinaryWatershedEffect"
+        ]
     }, 
     "ImageMaker": {
         "cli": [
