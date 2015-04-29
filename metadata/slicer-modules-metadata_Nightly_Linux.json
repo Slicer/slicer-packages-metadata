@@ -1,4 +1,12 @@
 {
+    "ABC": {
+        "categories": [
+            "Segmentation"
+        ], 
+        "contributors": [
+            "Marcel Prastawa marcel.prastawa@gmail.com"
+        ]
+    }, 
     "ACPCTransform": {
         "categories": [
             "Registration.Specialized"

@@ -1,6 +1,8 @@
 {
     "ABC": {
-        "cli": [], 
+        "cli": [
+            "ABC"
+        ], 
         "loadable": [], 
         "scripted": []
     }, 
