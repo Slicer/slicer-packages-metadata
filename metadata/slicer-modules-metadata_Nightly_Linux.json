@@ -39,14 +39,6 @@
             "Pietro Nardelli (University College Cork)"
         ]
     }, 
-    "AirwaySegmentationCLI": {
-        "categories": [
-            "Segmentation"
-        ], 
-        "contributors": [
-            "Pietro Nardelli (University College Cork)"
-        ]
-    }, 
     "Annotations": {
         "categories": [
             "", 
@@ -475,6 +467,14 @@
             "Csaba Pinter (Queen's)", 
             "Andras Lasso (Queen's)", 
             "Kevin Wang (UHN, Toronto)"
+        ]
+    }, 
+    "ConvertVTK": {
+        "categories": [
+            "File"
+        ], 
+        "contributors": [
+            "Yogesh Rathi, Stefan Lienhard, Yinpeng Li, Martin Styner, Ipek Oguz, Yundi Shi, Christian Baumgartner, Kent Williams"
         ]
     }, 
     "CornerAnnotation": {
@@ -2267,6 +2267,14 @@
             "Julien Finet (Kitware)", 
             "Andras Lasso (PerkLab, Queen's)", 
             "Franklin King (PerkLab, Queen's)"
+        ]
+    }, 
+    "UKFTractography": {
+        "categories": [
+            "Diffusion.Tractography"
+        ], 
+        "contributors": [
+            "Yogesh Rathi, Stefan Lienhard, Yinpeng Li, Martin Styner, Ipek Oguz, Yundi Shi, Christian Baumgartner, Kent Williams, Hans Johnson, Peter Savadjiev, Carl-Fredrik Westin."
         ]
     }, 
     "UltrasoundSnapshots": {
