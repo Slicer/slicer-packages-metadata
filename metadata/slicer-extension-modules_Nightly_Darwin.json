@@ -6,13 +6,6 @@
         "loadable": [], 
         "scripted": []
     }, 
-    "AirwaySegmentation": {
-        "cli": [
-            "AirwaySegmentationCLI"
-        ], 
-        "loadable": [], 
-        "scripted": []
-    }, 
     "CBC_3D_I2MConversion": {
         "cli": [
             "BodyCentricCubicMesh", 
@@ -572,7 +565,10 @@
         "scripted": []
     }, 
     "UKFTractography": {
-        "cli": [], 
+        "cli": [
+            "ConvertVTK", 
+            "UKFTractography"
+        ], 
         "loadable": [], 
         "scripted": []
     }, 
