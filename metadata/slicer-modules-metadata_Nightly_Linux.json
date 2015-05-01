@@ -2357,6 +2357,14 @@
             "Andras Lasso, Matt Lougheed (PerkLab, Queen's University)"
         ]
     }, 
+    "VolumeClipWithRoi": {
+        "categories": [
+            "Segmentation"
+        ], 
+        "contributors": [
+            "Andras Lasso (Queen's University)"
+        ]
+    }, 
     "VolumeRendering": {
         "categories": [
             ""
