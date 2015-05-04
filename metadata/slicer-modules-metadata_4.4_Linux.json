@@ -1499,6 +1499,14 @@
             "Nick Tustison (UPenn), Andrey Fedorov (SPL, BWH), Ron Kikinis (SPL, BWH)"
         ]
     }, 
+    "NAMIC_Tutorial_2013June_SelfTest": {
+        "categories": [
+            "Testing.SlicerRT Tests"
+        ], 
+        "contributors": [
+            "Csaba Pinter (Queen's)"
+        ]
+    }, 
     "NeedleFinder": {
         "categories": [
             "IGT"
