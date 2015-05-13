@@ -480,6 +480,7 @@
     }, 
     "SlicerProstate": {
         "cli": [
+            "DWModeling", 
             "QuadEdgeSurfaceMesher", 
             "SegmentationSmoothing"
         ], 
@@ -559,9 +560,7 @@
     }, 
     "TrackerStabilizer": {
         "cli": [], 
-        "loadable": [
-            "TrackerStabilizer"
-        ], 
+        "loadable": [], 
         "scripted": []
     }, 
     "UKFTractography": {

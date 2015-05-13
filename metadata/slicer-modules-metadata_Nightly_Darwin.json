@@ -671,6 +671,14 @@
             "Antonio Tristan Vega (UVa), Santiago Aja Fernandez (UVa)"
         ]
     }, 
+    "DWModeling": {
+        "categories": [
+            "Quantification"
+        ], 
+        "contributors": [
+            "Andriy Fedorov (SPL/BWH)"
+        ]
+    }, 
     "Data": {
         "categories": [
             "", 
@@ -2189,14 +2197,6 @@
         ], 
         "contributors": [
             "Steve Pieper (Isomics Inc.)"
-        ]
-    }, 
-    "TrackerStabilizer": {
-        "categories": [
-            "IGT"
-        ], 
-        "contributors": [
-            "Laurent Chauvin (SNR), Jayender Jagadeesan (SPL)"
         ]
     }, 
     "TractographyDisplay": {
