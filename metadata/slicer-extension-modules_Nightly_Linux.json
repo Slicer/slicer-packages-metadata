@@ -239,8 +239,12 @@
         "scripted": []
     }, 
     "LongitudinalPETCT": {
-        "cli": [], 
-        "loadable": [], 
+        "cli": [
+            "PETSUVImageMaker"
+        ], 
+        "loadable": [
+            "LongitudinalPETCT"
+        ], 
         "scripted": []
     }, 
     "MABMIS": {
@@ -249,12 +253,18 @@
         "scripted": []
     }, 
     "MatlabBridge": {
-        "cli": [], 
-        "loadable": [], 
+        "cli": [
+            "MatlabCommander"
+        ], 
+        "loadable": [
+            "MatlabModuleGenerator"
+        ], 
         "scripted": []
     }, 
     "MeshToLabelMap": {
-        "cli": [], 
+        "cli": [
+            "MeshToLabelMap"
+        ], 
         "loadable": [], 
         "scripted": []
     }, 
@@ -271,47 +281,75 @@
     "NeedleFinder": {
         "cli": [], 
         "loadable": [], 
-        "scripted": []
+        "scripted": [
+            "NeedleFinder"
+        ]
     }, 
     "OpenCAD": {
         "cli": [], 
         "loadable": [], 
-        "scripted": []
+        "scripted": [
+            "HeterogeneityCAD", 
+            "SegmentCAD"
+        ]
     }, 
     "PBNRR": {
-        "cli": [], 
+        "cli": [
+            "PBNRR"
+        ], 
         "loadable": [], 
         "scripted": []
     }, 
     "PET-IndiC": {
-        "cli": [], 
+        "cli": [
+            "QuantitativeIndicesCLI"
+        ], 
         "loadable": [], 
-        "scripted": []
+        "scripted": [
+            "PETIndiC", 
+            "QuantitativeIndicesTool"
+        ]
     }, 
     "PETDICOMExtension": {
-        "cli": [], 
+        "cli": [
+            "SUVFactorCalculator"
+        ], 
         "loadable": [], 
         "scripted": []
     }, 
     "PETTumorSegmentation": {
         "cli": [], 
-        "loadable": [], 
-        "scripted": []
+        "loadable": [
+            "PETTumorSegmentation"
+        ], 
+        "scripted": [
+            "PETTumorSegmentationEffect"
+        ]
     }, 
     "PercutaneousApproachAnalysis": {
         "cli": [], 
         "loadable": [], 
-        "scripted": []
+        "scripted": [
+            "PercutaneousApproachAnalysis"
+        ]
     }, 
     "PerkTutor": {
         "cli": [], 
-        "loadable": [], 
-        "scripted": []
+        "loadable": [
+            "TransformRecorder", 
+            "WorkflowSegmentation", 
+            "PerkEvaluator"
+        ], 
+        "scripted": [
+            "PythonMetricsCalculator"
+        ]
     }, 
     "PetSpectAnalysis": {
         "cli": [], 
         "loadable": [], 
-        "scripted": []
+        "scripted": [
+            "dPetBrainQuantification"
+        ]
     }, 
     "PkModeling": {
         "cli": [
@@ -330,7 +368,9 @@
     "PyDevRemoteDebug": {
         "cli": [], 
         "loadable": [], 
-        "scripted": []
+        "scripted": [
+            "PyDevRemoteDebug"
+        ]
     }, 
     "RSSExtension": {
         "cli": [], 

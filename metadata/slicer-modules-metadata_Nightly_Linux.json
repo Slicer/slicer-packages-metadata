@@ -559,6 +559,30 @@
             "Steve Pieper (Isomics Inc.)"
         ]
     }, 
+    "DICOMLongitudinalPETCTPlugin": {
+        "categories": [
+            "Developer Tools.DICOM Plugins"
+        ], 
+        "contributors": [
+            "Steve Pieper (Isomics Inc.)"
+        ]
+    }, 
+    "DICOMPETSUVPlugin": {
+        "categories": [
+            "Developer Tools.DICOM Plugins"
+        ], 
+        "contributors": [
+            "Ethan Ulrich (Univ. of Iowa)"
+        ]
+    }, 
+    "DICOMRWVMPlugin": {
+        "categories": [
+            "Developer Tools.DICOM Plugins"
+        ], 
+        "contributors": [
+            "Ethan Ulrich (Univ. of Iowa), Andrey Fedorov (BWH)"
+        ]
+    }, 
     "DICOMScalarVolumePlugin": {
         "categories": [
             "Developer Tools.DICOM Plugins"
@@ -589,6 +613,15 @@
         ], 
         "contributors": [
             "Jean-Baptiste Berger, Benjamin Yvernault, Francois Budin"
+        ]
+    }, 
+    "DTINotReproducibleIssue3977": {
+        "categories": [
+            "Testing.TestCases"
+        ], 
+        "contributors": [
+            "Lauren J. O'Donnell (SPL, BWH)", 
+            "Jean-Christophe Fillion-Robin (Kitware)"
         ]
     }, 
     "DTIexport": {
@@ -1182,6 +1215,14 @@
             "Ruifeng Chen, Luping Fang, Qing Pan (College of Information Engineering, Zhejiang University of Technology, Hangzhou, China);  Xiaolei Chen, Jiashu Zhang(Department of Neurosurgery, PLA General Hospital, Beijing, China)"
         ]
     }, 
+    "HeterogeneityCAD": {
+        "categories": [
+            "Quantification"
+        ], 
+        "contributors": [
+            "Vivek Narayan, Jayender Jagadeesan (BWH)"
+        ]
+    }, 
     "HistogramMatching": {
         "categories": [
             "Filtering"
@@ -1363,6 +1404,14 @@
             "Sebastian Tauscher"
         ]
     }, 
+    "LongitudinalPETCT": {
+        "categories": [
+            "Work in Progress"
+        ], 
+        "contributors": [
+            "Paul Mercea (University of Heidelberg), Markus Van Tol (University of Iowa) and Andrey Fedorov (SPL)"
+        ]
+    }, 
     "Markups": {
         "categories": [
             "", 
@@ -1413,6 +1462,24 @@
             "Nicole Aucoin (SPL, BWH), Ron Kikinis (SPL, BWH)"
         ]
     }, 
+    "MatlabCommander": {
+        "categories": [
+            "Developer Tools.Matlab"
+        ], 
+        "contributors": [
+            "Andras Lasso (PerkLab, Queen's University), Jean-Christophe Fillion-Robin (Kitware), Kevin Wang (Radiation Medicine Program, Princess Margaret Hospital, University Health Network Toronto)"
+        ]
+    }, 
+    "MatlabModuleGenerator": {
+        "categories": [
+            "Developer Tools.Matlab"
+        ], 
+        "contributors": [
+            "Andras Lasso (PerkLab, Queen's University)", 
+            "Jean-Christophe Fillion-Robin (Kitware)", 
+            "Kevin Wang (Radiation Medicine Program, Princess Margaret Hospital, University Health Network Toronto)"
+        ]
+    }, 
     "MedianImageFilter": {
         "categories": [
             "Filtering.Denoising"
@@ -1443,6 +1510,14 @@
         ], 
         "contributors": [
             "Fotis Drakopoulos (CRTC), Yixun Liu (CRTC), Andrey Fedorov (CRTC), Nikos Chrisochoides (CRTC)"
+        ]
+    }, 
+    "MeshToLabelMap": {
+        "categories": [
+            "Shape Analysis"
+        ], 
+        "contributors": [
+            "Francois Budin, Ipek Oguz"
         ]
     }, 
     "MetafileImporter": {
@@ -1543,6 +1618,22 @@
             "Csaba Pinter (Queen's)"
         ]
     }, 
+    "NeedleFinder": {
+        "categories": [
+            "IGT"
+        ], 
+        "contributors": [
+            "Guillaume Pernelle", 
+            "Alireza Mehrtash", 
+            "Lauren Barber", 
+            "Nabgha Fahrat", 
+            "Sandy Wells", 
+            "Yi Gao", 
+            "Antonio Damato", 
+            "Tina Kapur", 
+            "Akila Viswanathan"
+        ]
+    }, 
     "NeurosurgicalPlanningTutorialMarkupsSelfTest": {
         "categories": [
             "Testing.TestCases"
@@ -1589,12 +1680,53 @@
             "Bill Lorensen (GE)"
         ]
     }, 
+    "PBNRR": {
+        "categories": [
+            "Registration"
+        ], 
+        "contributors": [
+            "Fotis Drakopoulos (CRTC), Yixun Liu (CRTC), Andriy Kot (CRTC), Andrey Fedorov (SPL B&W Harvard), Olivier Clatz (Asclepios INRIA), Nikos Chrisochoides (CRTC)"
+        ]
+    }, 
+    "PETIndiC": {
+        "categories": [
+            "Quantification"
+        ], 
+        "contributors": [
+            "Ethan Ulrich (Univ. of Iowa), Christian Bauer (Univ. of Iowa), Markus van Tol (Univ. of Iowa), Reinhard R. Beichel (Univ. of Iowa), John Buatti (Univ. of Iowa)"
+        ]
+    }, 
+    "PETSUVImageMaker": {
+        "categories": [
+            "Quantification"
+        ], 
+        "contributors": [
+            "Markus Van Tol (University of Iowa), Hans Johnson (University of Iowa), Wendy Plesniak (SPL, BWH), Nicole Aucoin (SPL, BWH), Ron Kikinis (SPL, BWH)"
+        ]
+    }, 
     "PETStandardUptakeValueComputation": {
         "categories": [
             "Quantification"
         ], 
         "contributors": [
             "Wendy Plesniak (SPL, BWH), Nicole Aucoin (SPL, BWH), Ron Kikinis (SPL, BWH)"
+        ]
+    }, 
+    "PETTumorSegmentation": {
+        "categories": [
+            "EditorEffect"
+        ], 
+        "contributors": [
+            "Christian Bauer (University of Iowa)", 
+            "Markus van Tol (University of Iowa)"
+        ]
+    }, 
+    "PETTumorSegmentationEffect": {
+        "categories": [
+            "Developer Tools.Editor Extensions"
+        ], 
+        "contributors": [
+            "Christian Bauer (University of Iowa), Markus van Tol (University of Iowa), Steve Pieper (Isomics)"
         ]
     }, 
     "PathExplorer": {
@@ -1619,6 +1751,15 @@
         ], 
         "contributors": [
             "Steve Pieper (Isomics)"
+        ]
+    }, 
+    "PerkEvaluator": {
+        "categories": [
+            "Perk Tutor"
+        ], 
+        "contributors": [
+            "Tamas Ungi (Queen's University)", 
+            "Matthew S. Holden (Queen's University)"
         ]
     }, 
     "PivotCalibration": {
@@ -1677,12 +1818,44 @@
             "Lauren O'Donnell (SPL, BWH)"
         ]
     }, 
+    "PyDevRemoteDebug": {
+        "categories": [
+            "Developer Tools"
+        ], 
+        "contributors": [
+            "Andras Lasso (PerkLab at Queen's University)"
+        ]
+    }, 
+    "PythonMetricsCalculator": {
+        "categories": [
+            "Perk Tutor"
+        ], 
+        "contributors": [
+            "Matthew Holden (Queen's University), Tamas Ungi (Queen's University)"
+        ]
+    }, 
     "QuadEdgeSurfaceMesher": {
         "categories": [
             "Converters"
         ], 
         "contributors": [
             "Andrey Fedorov (SPL/BWH)"
+        ]
+    }, 
+    "QuantitativeIndicesCLI": {
+        "categories": [
+            "Quantification"
+        ], 
+        "contributors": [
+            "Ethan Ulrich (University of Iowa), Andrey Fedorov (SPL), Markus van Tol (University of Iowa), Christian Bauer (University of Iowa), Reinhard Beichel (University of Iowa), John Buatti (University of Iowa)"
+        ]
+    }, 
+    "QuantitativeIndicesTool": {
+        "categories": [
+            "Quantification"
+        ], 
+        "contributors": [
+            "Ethan Ulrich (University of Iowa), Andrey Fedorov (SPL), Markus van Tol (University of Iowa), Christian Bauer (University of Iowa), Reinhard Beichel (University of Iowa), John Buatti (University of Iowa)"
         ]
     }, 
     "RSNA2012ProstateDemo": {
@@ -1775,6 +1948,14 @@
             "Yi Gao (gatech), Allen Tannenbaum (gatech), Ron Kikinis (SPL, BWH)"
         ]
     }, 
+    "SUVFactorCalculator": {
+        "categories": [
+            "Quantification"
+        ], 
+        "contributors": [
+            "Andrey Fedorov (SPL), Ethan Ulrich (University of Iowa), Markus van Tol (University of Iowa), Christian Bauer (University of Iowa), Reinhard Beichel (University of Iowa), John Buatti (University of Iowa), Hans Johnson (University of Iowa), Wendy Plesniak (SPL, BWH), Nicole Aucoin (SPL, BWH), Ron Kikinis (SPL, BWH)"
+        ]
+    }, 
     "SampleData": {
         "categories": [
             "Informatics"
@@ -1816,6 +1997,14 @@
         ], 
         "contributors": [
             "Franklin King (Queen's University), Tamas Ungi (Queen's University)"
+        ]
+    }, 
+    "SegmentCAD": {
+        "categories": [
+            "Segmentation"
+        ], 
+        "contributors": [
+            "Vivek Narayan, Jayender Jagadeesan (BWH)"
         ]
     }, 
     "SegmentationSmoothing": {
@@ -2067,6 +2256,15 @@
             "Franklin King (Queen's University), Tamas Ungi (Queen's University)"
         ]
     }, 
+    "TransformRecorder": {
+        "categories": [
+            "Perk Tutor"
+        ], 
+        "contributors": [
+            "Tamas Ungi (Queen's University)", 
+            "Matthew S. Holden (Queen's University)"
+        ]
+    }, 
     "Transforms": {
         "categories": [
             "", 
@@ -2265,12 +2463,29 @@
             "Andrey Fedorov (BWH)"
         ]
     }, 
+    "WorkflowSegmentation": {
+        "categories": [
+            "Perk Tutor"
+        ], 
+        "contributors": [
+            "Tamas Ungi (Queen's University)", 
+            "Matthew S. Holden (Queen's University)"
+        ]
+    }, 
     "XnatSlicer": {
         "categories": [
             "XNATSlicer"
         ], 
         "contributors": [
             "Sunil Kumar (Moka Creative, LLC, kumar.sunil.p@gmail.com), Dan Marcus (WashU-St. Louis, dmarcus@wustl.edu), Steve Pieper (Isomics, pieper@isomics.com)"
+        ]
+    }, 
+    "dPetBrainQuantification": {
+        "categories": [
+            "Quantification"
+        ], 
+        "contributors": [
+            "Idk"
         ]
     }, 
     "dtitractstat": {
