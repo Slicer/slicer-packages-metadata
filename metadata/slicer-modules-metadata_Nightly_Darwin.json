@@ -615,6 +615,15 @@
             "Steve Pieper (Isomics Inc.)"
         ]
     }, 
+    "DTINotReproducibleIssue3977": {
+        "categories": [
+            "Testing.TestCases"
+        ], 
+        "contributors": [
+            "Lauren J. O'Donnell (SPL, BWH)", 
+            "Jean-Christophe Fillion-Robin (Kitware)"
+        ]
+    }, 
     "DTIexport": {
         "categories": [
             "Legacy.Diffusion.Diffusion Data Conversion"
