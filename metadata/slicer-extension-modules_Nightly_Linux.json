@@ -443,6 +443,13 @@
             "AirwaySegmentation"
         ]
     }, 
+    "Slicer-TrackerStabilizer": {
+        "cli": [], 
+        "loadable": [
+            "TrackerStabilizer"
+        ], 
+        "scripted": []
+    }, 
     "Slicer-Wasp": {
         "cli": [], 
         "loadable": [], 
