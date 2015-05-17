@@ -2208,6 +2208,14 @@
             "Steve Pieper (Isomics Inc.)"
         ]
     }, 
+    "TrackerStabilizer": {
+        "categories": [
+            "IGT"
+        ], 
+        "contributors": [
+            "Laurent Chauvin (BWH), Jayender Jagadeesan (BWH), Andras Lasso (Queen's University)"
+        ]
+    }, 
     "TractographyDisplay": {
         "categories": [
             "Diffusion"
