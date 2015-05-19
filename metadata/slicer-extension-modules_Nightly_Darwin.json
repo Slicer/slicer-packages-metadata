@@ -565,11 +565,6 @@
             "ThingiverseBrowser"
         ]
     }, 
-    "TrackerStabilizer": {
-        "cli": [], 
-        "loadable": [], 
-        "scripted": []
-    }, 
     "UKFTractography": {
         "cli": [
             "ConvertVTK", 
