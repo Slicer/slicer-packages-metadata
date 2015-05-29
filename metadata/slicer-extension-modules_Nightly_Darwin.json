@@ -454,6 +454,19 @@
             "Wasp"
         ]
     }, 
+    "SlicerCIP": {
+        "cli": [], 
+        "loadable": [
+            "ParticlesDisplay", 
+            "RegionType"
+        ], 
+        "scripted": [
+            "EmphysemaSubtypes", 
+            "InteractiveLobeSegmentation", 
+            "LungRegistration", 
+            "ParenchymaAnalysis"
+        ]
+    }, 
     "SlicerExtension-VMTK": {
         "cli": [], 
         "loadable": [], 
