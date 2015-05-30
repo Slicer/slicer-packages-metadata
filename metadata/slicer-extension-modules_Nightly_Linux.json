@@ -78,6 +78,19 @@
             "ChangeTracker"
         ]
     }, 
+    "Chest_Imaging_Platform": {
+        "cli": [], 
+        "loadable": [
+            "ParticlesDisplay", 
+            "RegionType"
+        ], 
+        "scripted": [
+            "EmphysemaSubtypes", 
+            "LungRegistration", 
+            "ParenchymaAnalysis", 
+            "InteractiveLobeSegmentation"
+        ]
+    }, 
     "CleaverExtension": {
         "cli": [
             "CleaverCLI"
@@ -455,19 +468,6 @@
         "loadable": [], 
         "scripted": [
             "Wasp"
-        ]
-    }, 
-    "SlicerCIP": {
-        "cli": [], 
-        "loadable": [
-            "ParticlesDisplay", 
-            "RegionType"
-        ], 
-        "scripted": [
-            "EmphysemaSubtypes", 
-            "LungRegistration", 
-            "ParenchymaAnalysis", 
-            "InteractiveLobeSegmentation"
         ]
     }, 
     "SlicerExtension-VMTK": {
