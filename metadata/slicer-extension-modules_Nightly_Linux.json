@@ -519,18 +519,12 @@
         ], 
         "loadable": [
             "VffFileReader", 
-            "Isodose", 
             "PlastimatchPy", 
-            "Contours", 
-            "ContourMorphology", 
             "ContourComparison", 
             "DoseAccumulation", 
             "PlanarImage", 
-            "DoseVolumeHistogram", 
             "Beams", 
-            "DoseComparison", 
-            "DicomSroImport", 
-            "DicomRtImportExport"
+            "DicomSroImport"
         ], 
         "scripted": [
             "DvhComparison", 
@@ -689,10 +683,8 @@
         "loadable": [
             "ViewControllers", 
             "Data", 
-            "Volumes", 
             "Welcome", 
             "TractographyDisplay", 
-            "SubjectHierarchy", 
             "Colors", 
             "MultiVolumeExplorer", 
             "DataStore", 
@@ -700,11 +692,7 @@
             "Annotations", 
             "Units", 
             "Reformat", 
-            "Models", 
-            "Transforms", 
-            "SceneViews", 
             "TractographyInteractiveSeeding", 
-            "Markups", 
             "DoubleArrays", 
             "OpenIGTLinkIF", 
             "VolumeRendering", 
