@@ -148,6 +148,14 @@
             "Andrey Fedorov (SPL, BWH)"
         ]
     }, 
+    "BatchContourConversion": {
+        "categories": [
+            "Testing.SlicerRT Tests"
+        ], 
+        "contributors": [
+            "Csaba Pinter (Queen's)"
+        ]
+    }, 
     "Beams": {
         "categories": [
             "Radiotherapy"
@@ -441,6 +449,26 @@
             "Kevin Wang (UHN, Toronto)"
         ]
     }, 
+    "ContourMorphology": {
+        "categories": [
+            "Radiotherapy"
+        ], 
+        "contributors": [
+            "Kevin Wang (UHN, Toronto)", 
+            "Csaba Pinter (Queen's)", 
+            "Andras Lasso (Queen's)"
+        ]
+    }, 
+    "Contours": {
+        "categories": [
+            "Radiotherapy"
+        ], 
+        "contributors": [
+            "Csaba Pinter (Queen's)", 
+            "Andras Lasso (Queen's)", 
+            "Kevin Wang (UHN, Toronto)"
+        ]
+    }, 
     "ConvertVTK": {
         "categories": [
             "File"
@@ -473,6 +501,15 @@
             "Tamas Ungi (Queen's University)"
         ]
     }, 
+    "CropVolume": {
+        "categories": [
+            "Converters"
+        ], 
+        "contributors": [
+            "Andrey Fedorov (BWH, SPL)", 
+            "Ron Kikinis (BWH, SPL)"
+        ]
+    }, 
     "CropVolumeSelfTest": {
         "categories": [
             "Testing.TestCases"
@@ -495,6 +532,15 @@
         ], 
         "contributors": [
             "Junichi Tokuda (BWH), Laurent Chauvin (BWH)"
+        ]
+    }, 
+    "DICOM": {
+        "categories": [
+            "", 
+            "Informatics"
+        ], 
+        "contributors": [
+            "Steve Pieper (Isomics)"
         ]
     }, 
     "DICOM2FullBrainTractography": {
@@ -543,6 +589,14 @@
         ], 
         "contributors": [
             "Steve Pieper (Isomics Inc.), Csaba Pinter (Queen's)"
+        ]
+    }, 
+    "DICOMSegmentationPlugin": {
+        "categories": [
+            "Developer Tools.DICOM Plugins"
+        ], 
+        "contributors": [
+            "Andrey Fedorov, BWH"
         ]
     }, 
     "DICOMSlicerDataBundlePlugin": {
@@ -681,6 +735,16 @@
             "Laurent Chauvin (BWH), Sonia Pujol (BWH)"
         ]
     }, 
+    "DicomRtImportExport": {
+        "categories": [
+            "Radiotherapy"
+        ], 
+        "contributors": [
+            "Csaba Pinter (Queen's)", 
+            "Andras Lasso (Queen's)", 
+            "Kevin Wang (UHN, Toronto)"
+        ]
+    }, 
     "DicomRtImportExportPlugin": {
         "categories": [
             "Developer Tools.DICOM Plugins"
@@ -761,6 +825,14 @@
             ")"
         ]
     }, 
+    "DicomRtImportSelfTest": {
+        "categories": [
+            "Testing.SlicerRT Tests"
+        ], 
+        "contributors": [
+            "Csaba Pinter (Queen's)"
+        ]
+    }, 
     "DicomSroExport": {
         "categories": [
             "Plastimatch"
@@ -818,6 +890,26 @@
         ]
     }, 
     "DoseAccumulation": {
+        "categories": [
+            "Radiotherapy"
+        ], 
+        "contributors": [
+            "Csaba Pinter (Queen's)", 
+            "Andras Lasso (Queen's)", 
+            "Kevin Wang (UHN, Toronto)"
+        ]
+    }, 
+    "DoseComparison": {
+        "categories": [
+            "Radiotherapy"
+        ], 
+        "contributors": [
+            "Csaba Pinter (Queen's)", 
+            "Andras Lasso (Queen's)", 
+            "Kevin Wang (UHN, Toronto)"
+        ]
+    }, 
+    "DoseVolumeHistogram": {
         "categories": [
             "Radiotherapy"
         ], 
@@ -1026,6 +1118,15 @@
             "Casey B Goodlett (Kitware), Dominik Meier (SPL, BWH)"
         ]
     }, 
+    "FiducialRegistrationWizard": {
+        "categories": [
+            "IGT"
+        ], 
+        "contributors": [
+            "Matthew Holden (Queen's University)", 
+            "Tamas Ungi (Queen's University)"
+        ]
+    }, 
     "FiducialsToModelRegistration": {
         "categories": [
             "IGT"
@@ -1056,6 +1157,14 @@
         ], 
         "contributors": [
             "Julien Jomier (Kitware), Stephen Aylward (Kitware)"
+        ]
+    }, 
+    "GelDosimetryAnalysis": {
+        "categories": [
+            "Slicelets"
+        ], 
+        "contributors": [
+            "Csaba Pinter (Queen's University), Mattea Welch (Queen's University), Jennifer Andrea (Queen's University), Kevin Alexander (Kingston General Hospital)"
         ]
     }, 
     "GelDosimetryAnalysisAlgo": {
@@ -1186,6 +1295,16 @@
             "Pietro Nardelli (UCC/SPL) and Applied Chest Imaging Laboratory, Brigham and Women's Hopsital"
         ]
     }, 
+    "Isodose": {
+        "categories": [
+            "Radiotherapy"
+        ], 
+        "contributors": [
+            "Kevin Wang (PMH, Toronto)", 
+            "Csaba Pinter (Queen's)", 
+            "Andras Lasso (Queen's)"
+        ]
+    }, 
     "JRC2013Vis": {
         "categories": [
             "Testing.TestCases"
@@ -1258,6 +1377,22 @@
             "Steve Pieper (Isomics)"
         ]
     }, 
+    "LabelToDICOMSEGConverter": {
+        "categories": [
+            "Work in Progress.Converters"
+        ], 
+        "contributors": [
+            "Andrey Fedorov (Surgical Planning Lab)"
+        ]
+    }, 
+    "LabelToDICOMSEGConverterSelfTest": {
+        "categories": [
+            "Work in Progress.Informatics.TestCases"
+        ], 
+        "contributors": [
+            "Andrey Fedorov (SPL)"
+        ]
+    }, 
     "LandmarkRegistration": {
         "categories": [
             "CMF Registration"
@@ -1301,6 +1436,15 @@
             "Applied Chest Imaging Laboratory, Brigham and Women's Hopsital"
         ]
     }, 
+    "Markups": {
+        "categories": [
+            "", 
+            "Informatics"
+        ], 
+        "contributors": [
+            "Nicole Aucoin (BWH)"
+        ]
+    }, 
     "MarkupsInCompareViewersSelfTest": {
         "categories": [
             "Testing.TestCases"
@@ -1315,6 +1459,15 @@
         ], 
         "contributors": [
             "Nicole Aucoin (BWH)"
+        ]
+    }, 
+    "MarkupsToModel": {
+        "categories": [
+            "IGT"
+        ], 
+        "contributors": [
+            "Jaime Garcia Guevara (Queen's University)", 
+            "Andras Lasso (Queen's University)"
         ]
     }, 
     "MaskCreation": {
@@ -1423,6 +1576,16 @@
             "Nicole Aucoin (SPL, BWH), Xiaodong Tao (GE)"
         ]
     }, 
+    "Models": {
+        "categories": [
+            ""
+        ], 
+        "contributors": [
+            "Julien Finet (Kitware)", 
+            "Alex Yarmakovich (Isomics)", 
+            "Nicole Aucoin (SPL, BWH)"
+        ]
+    }, 
     "MultiVolumeExplorer": {
         "categories": [
             "MultiVolume Support"
@@ -1469,6 +1632,14 @@
         ], 
         "contributors": [
             "Nick Tustison (UPenn), Andrey Fedorov (SPL, BWH), Ron Kikinis (SPL, BWH)"
+        ]
+    }, 
+    "NAMIC_Tutorial_2013June_SelfTest": {
+        "categories": [
+            "Testing.SlicerRT Tests"
+        ], 
+        "contributors": [
+            "Csaba Pinter (Queen's)"
         ]
     }, 
     "NeedleFinder": {
@@ -1588,6 +1759,22 @@
         ], 
         "contributors": [
             "Applied Chest Imaging Laboratory"
+        ]
+    }, 
+    "ParticlesDisplay": {
+        "categories": [
+            "Converters"
+        ], 
+        "contributors": [
+            "Pietro Nardelli (UCC)"
+        ]
+    }, 
+    "PathExplorer": {
+        "categories": [
+            "IGT"
+        ], 
+        "contributors": [
+            "Laurent Chauvin (SNR), Atsushi Yamada (SNR), Junichi Tokuda (SNR)"
         ]
     }, 
     "PerformMetricTest": {
@@ -1743,6 +1930,24 @@
             "Michael Jeulin-Lagarrigue (Kitware)"
         ]
     }, 
+    "RegionType": {
+        "categories": [
+            "Converters"
+        ], 
+        "contributors": [
+            "Pietro Nardelli (UCC)"
+        ]
+    }, 
+    "Reporting": {
+        "categories": [
+            "Work in Progress.Informatics"
+        ], 
+        "contributors": [
+            "Andrey Fedorov (SPL, BWH)", 
+            "Nicole Aucoin (SPL, BWH)", 
+            "Steve Pieper (Isomics)"
+        ]
+    }, 
     "ReportingSelfTest": {
         "categories": [
             "Work in Progress.Informatics.TestCases"
@@ -1773,6 +1978,14 @@
         ], 
         "contributors": [
             "Bill Lorensen (GE)"
+        ]
+    }, 
+    "ResectionVolume": {
+        "categories": [
+            "IGT"
+        ], 
+        "contributors": [
+            "Matt Lougheed (Queen's University)"
         ]
     }, 
     "RobustStatisticsSegmenter": {
@@ -1813,6 +2026,17 @@
         ], 
         "contributors": [
             "Julien Finet (Kitware)"
+        ]
+    }, 
+    "SceneViews": {
+        "categories": [
+            ""
+        ], 
+        "contributors": [
+            "Nicole Aucoin (SPL, BWH)", 
+            "Wendy Plesniak (SPL, BWH)", 
+            "Daniel Haehn (UPenn)", 
+            "Kilian Pohl (UPenn)"
         ]
     }, 
     "ScoliosisMonitoring": {
@@ -1941,6 +2165,31 @@
         ], 
         "contributors": [
             "Franklin King (Queen's University), Tamas Ungi (Queen's University)"
+        ]
+    }, 
+    "SubjectHierarchy": {
+        "categories": [
+            "", 
+            "Informatics"
+        ], 
+        "contributors": [
+            "Csaba Pinter (Queen's)"
+        ]
+    }, 
+    "SubjectHierarchyCorePluginsSelfTest": {
+        "categories": [
+            "Testing.TestCases"
+        ], 
+        "contributors": [
+            "Csaba Pinter (Queen's)"
+        ]
+    }, 
+    "SubjectHierarchyGenericSelfTest": {
+        "categories": [
+            "Testing.TestCases"
+        ], 
+        "contributors": [
+            "Csaba Pinter (Queen's)"
         ]
     }, 
     "SubtractScalarVolumes": {
@@ -2072,6 +2321,19 @@
             "Matthew S. Holden (Queen's University)"
         ]
     }, 
+    "Transforms": {
+        "categories": [
+            "", 
+            "Registration"
+        ], 
+        "contributors": [
+            "Alex Yarmarkovich (Isomics)", 
+            "Jean-Christophe Fillion-Robin (Kitware)", 
+            "Julien Finet (Kitware)", 
+            "Andras Lasso (PerkLab, Queen's)", 
+            "Franklin King (PerkLab, Queen's)"
+        ]
+    }, 
     "UKFTractography": {
         "categories": [
             "Diffusion.Tractography"
@@ -2194,6 +2456,17 @@
         ], 
         "contributors": [
             "Junichi Tokuda (Brigham and Women's Hospital), Tamas Ungi (Queen's University)"
+        ]
+    }, 
+    "Volumes": {
+        "categories": [
+            ""
+        ], 
+        "contributors": [
+            "Steve Pieper (Isomics)", 
+            "Julien Finet (Kitware)", 
+            "Alex Yarmarkovich (Isomics)", 
+            "Nicole Aucoin (SPL, BWH)"
         ]
     }, 
     "VotingBinaryHoleFillingImageFilter": {
