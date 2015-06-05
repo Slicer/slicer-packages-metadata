@@ -1,8 +1,6 @@
 {
     "ABC": {
-        "cli": [
-            "ABC"
-        ], 
+        "cli": [], 
         "loadable": [], 
         "scripted": []
     }, 
@@ -146,9 +144,7 @@
     }, 
     "DiceComputation": {
         "cli": [], 
-        "loadable": [
-            "DiceComputation"
-        ], 
+        "loadable": [], 
         "scripted": []
     }, 
     "Eigen": {
@@ -431,8 +427,6 @@
     "Sequences": {
         "cli": [], 
         "loadable": [
-            "SequenceBrowser", 
-            "MetafileImporter", 
             "Sequences"
         ], 
         "scripted": []
@@ -521,21 +515,15 @@
             "VffFileReader", 
             "Isodose", 
             "PlastimatchPy", 
-            "Contours", 
-            "ContourMorphology", 
-            "ContourComparison", 
             "DoseAccumulation", 
             "PlanarImage", 
-            "DoseVolumeHistogram", 
             "Beams", 
-            "DoseComparison", 
-            "DicomSroImport", 
-            "DicomRtImportExport"
+            "DicomSroImport"
         ], 
         "scripted": [
             "DvhComparison", 
             "PlmRegister", 
-            "BatchContourConversion", 
+            "BatchStructureSetConversion", 
             "DicomSroExport"
         ]
     }, 
@@ -547,9 +535,7 @@
         ]
     }, 
     "SobolevSegmenter": {
-        "cli": [
-            "SobolevSegmenter"
-        ], 
+        "cli": [], 
         "loadable": [], 
         "scripted": []
     }, 
@@ -577,9 +563,7 @@
     "ThingiverseBrowser": {
         "cli": [], 
         "loadable": [], 
-        "scripted": [
-            "ThingiverseBrowser"
-        ]
+        "scripted": []
     }, 
     "UKFTractography": {
         "cli": [
@@ -600,9 +584,7 @@
     "WindowLevelEffect": {
         "cli": [], 
         "loadable": [], 
-        "scripted": [
-            "WindowLevelEffect"
-        ]
+        "scripted": []
     }, 
     "XNATSlicer": {
         "cli": [], 
@@ -669,6 +651,7 @@
             "BRAINSFit", 
             "BRAINSLabelStats", 
             "GrayscaleFillHoleImageFilter", 
+            "IslandRemoval", 
             "DWIJointRicianLMMSEFilter", 
             "CurvatureAnisotropicDiffusion", 
             "N4ITKBiasFieldCorrection", 
