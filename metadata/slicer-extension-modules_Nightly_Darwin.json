@@ -1,8 +1,6 @@
 {
     "ABC": {
-        "cli": [
-            "ABC"
-        ], 
+        "cli": [], 
         "loadable": [], 
         "scripted": []
     }, 
@@ -141,9 +139,7 @@
     }, 
     "DiceComputation": {
         "cli": [], 
-        "loadable": [
-            "DiceComputation"
-        ], 
+        "loadable": [], 
         "scripted": []
     }, 
     "Eigen": {
@@ -426,8 +422,6 @@
     "Sequences": {
         "cli": [], 
         "loadable": [
-            "MetafileImporter", 
-            "SequenceBrowser", 
             "Sequences"
         ], 
         "scripted": []
@@ -516,9 +510,6 @@
         ], 
         "loadable": [
             "Beams", 
-            "ContourComparison", 
-            "ContourMorphology", 
-            "Contours", 
             "DicomRtImportExport", 
             "DicomSroImport", 
             "DoseAccumulation", 
@@ -527,10 +518,13 @@
             "Isodose", 
             "PlanarImage", 
             "PlastimatchPy", 
+            "Segmentations", 
+            "SegmentComparison", 
+            "SegmentMorphology", 
             "VffFileReader"
         ], 
         "scripted": [
-            "BatchContourConversion", 
+            "BatchStructureSetConversion", 
             "DicomSroExport", 
             "DvhComparison", 
             "PlmRegister"
@@ -544,9 +538,7 @@
         ]
     }, 
     "SobolevSegmenter": {
-        "cli": [
-            "SobolevSegmenter"
-        ], 
+        "cli": [], 
         "loadable": [], 
         "scripted": []
     }, 
@@ -574,9 +566,7 @@
     "ThingiverseBrowser": {
         "cli": [], 
         "loadable": [], 
-        "scripted": [
-            "ThingiverseBrowser"
-        ]
+        "scripted": []
     }, 
     "UKFTractography": {
         "cli": [
@@ -597,9 +587,7 @@
     "WindowLevelEffect": {
         "cli": [], 
         "loadable": [], 
-        "scripted": [
-            "WindowLevelEffect"
-        ]
+        "scripted": []
     }, 
     "XNATSlicer": {
         "cli": [], 
@@ -658,6 +646,7 @@
             "GrayscaleModelMaker", 
             "HistogramMatching", 
             "ImageLabelCombine", 
+            "IslandRemoval", 
             "LabelMapSmoothing", 
             "MaskScalarVolume", 
             "MedianImageFilter", 

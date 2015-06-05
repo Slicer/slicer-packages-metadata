@@ -1,12 +1,4 @@
 {
-    "ABC": {
-        "categories": [
-            "Segmentation"
-        ], 
-        "contributors": [
-            "Marcel Prastawa marcel.prastawa@gmail.com"
-        ]
-    }, 
     "ACPCTransform": {
         "categories": [
             "Registration.Specialized"
@@ -156,7 +148,7 @@
             "Andrey Fedorov (SPL, BWH)"
         ]
     }, 
-    "BatchContourConversion": {
+    "BatchStructureSetConversion": {
         "categories": [
             "Testing.SlicerRT Tests"
         ], 
@@ -447,36 +439,6 @@
             "Steve Pieper (Isomics)"
         ]
     }, 
-    "ContourComparison": {
-        "categories": [
-            "Radiotherapy"
-        ], 
-        "contributors": [
-            "Csaba Pinter (Queen's)", 
-            "Andras Lasso (Queen's)", 
-            "Kevin Wang (UHN, Toronto)"
-        ]
-    }, 
-    "ContourMorphology": {
-        "categories": [
-            "Radiotherapy"
-        ], 
-        "contributors": [
-            "Kevin Wang (UHN, Toronto)", 
-            "Csaba Pinter (Queen's)", 
-            "Andras Lasso (Queen's)"
-        ]
-    }, 
-    "Contours": {
-        "categories": [
-            "Radiotherapy"
-        ], 
-        "contributors": [
-            "Csaba Pinter (Queen's)", 
-            "Andras Lasso (Queen's)", 
-            "Kevin Wang (UHN, Toronto)"
-        ]
-    }, 
     "ConvertVTK": {
         "categories": [
             "File"
@@ -725,14 +687,6 @@
         ], 
         "contributors": [
             "Francois Budin (UNC)"
-        ]
-    }, 
-    "DiceComputation": {
-        "categories": [
-            "Quantification"
-        ], 
-        "contributors": [
-            "Laurent Chauvin (BWH), Sonia Pujol (BWH)"
         ]
     }, 
     "DicomRtImportExport": {
@@ -1247,6 +1201,14 @@
             "Bradley Lowekamp"
         ]
     }, 
+    "IGRTWorkflow_SelfTest": {
+        "categories": [
+            "Testing.SlicerRT Tests"
+        ], 
+        "contributors": [
+            "Csaba Pinter (Queen's)"
+        ]
+    }, 
     "ImageLabelCombine": {
         "categories": [
             "Filtering"
@@ -1285,6 +1247,14 @@
         ], 
         "contributors": [
             "Pietro Nardelli (UCC/SPL) and Applied Chest Imaging Laboratory, Brigham and Women's Hopsital"
+        ]
+    }, 
+    "IslandRemoval": {
+        "categories": [
+            "Filter"
+        ], 
+        "contributors": [
+            "Kilian M Pohl (SRI/Stanford)"
         ]
     }, 
     "Isodose": {
@@ -1528,14 +1498,6 @@
             "Francois Budin, Ipek Oguz"
         ]
     }, 
-    "MetafileImporter": {
-        "categories": [
-            "Sequences"
-        ], 
-        "contributors": [
-            "Andras Lasso (PerkLab, Queen's), Matthew Holden (PerkLab, Queen's)"
-        ]
-    }, 
     "ModelMaker": {
         "categories": [
             "Surface Models"
@@ -1616,14 +1578,6 @@
         ], 
         "contributors": [
             "Nick Tustison (UPenn), Andrey Fedorov (SPL, BWH), Ron Kikinis (SPL, BWH)"
-        ]
-    }, 
-    "NAMIC_Tutorial_2013June_SelfTest": {
-        "categories": [
-            "Testing.SlicerRT Tests"
-        ], 
-        "contributors": [
-            "Csaba Pinter (Queen's)"
         ]
     }, 
     "NeedleFinder": {
@@ -1964,14 +1918,6 @@
             "Bill Lorensen (GE)"
         ]
     }, 
-    "ResectionVolume": {
-        "categories": [
-            "IGT"
-        ], 
-        "contributors": [
-            "Matt Lougheed (Queen's University)"
-        ]
-    }, 
     "RobustStatisticsSegmenter": {
         "categories": [
             "Segmentation.Specialized"
@@ -2039,6 +1985,26 @@
             "Vivek Narayan, Jayender Jagadeesan (BWH)"
         ]
     }, 
+    "SegmentComparison": {
+        "categories": [
+            "Radiotherapy"
+        ], 
+        "contributors": [
+            "Csaba Pinter (Queen's)", 
+            "Andras Lasso (Queen's)", 
+            "Kevin Wang (UHN, Toronto)"
+        ]
+    }, 
+    "SegmentMorphology": {
+        "categories": [
+            "Radiotherapy"
+        ], 
+        "contributors": [
+            "Kevin Wang (UHN, Toronto)", 
+            "Csaba Pinter (Queen's)", 
+            "Andras Lasso (Queen's)"
+        ]
+    }, 
     "SegmentationSmoothing": {
         "categories": [
             "Filtering"
@@ -2047,20 +2013,22 @@
             "Andrey Fedorov (BWH)"
         ]
     }, 
+    "Segmentations": {
+        "categories": [
+            ""
+        ], 
+        "contributors": [
+            "Csaba Pinter (Queen's)", 
+            "Adam Rankin (Robarts)", 
+            "Andras Lasso (Queen's)"
+        ]
+    }, 
     "SelfTests": {
         "categories": [
             "Testing"
         ], 
         "contributors": [
             "Steve Pieper (Isomics)"
-        ]
-    }, 
-    "SequenceBrowser": {
-        "categories": [
-            "Sequences"
-        ], 
-        "contributors": [
-            "Andras Lasso (PerkLab, Queen's), Matthew Holden (PerkLab, Queen's), Kevin Wang (PMH)"
         ]
     }, 
     "Sequences": {
@@ -2125,14 +2093,6 @@
         ], 
         "contributors": [
             "Jean-Christophe Fillion-Robin (Kitware), Pat Marion (Kitware), Steve Pieper (Isomics), Atsushi Yamada (Shiga University of Medical Science)"
-        ]
-    }, 
-    "SobolevSegmenter": {
-        "categories": [
-            "Segmentation"
-        ], 
-        "contributors": [
-            "Arie Nakhmani (UAB), Allen Tannenbaum (UAB)"
         ]
     }, 
     "SpacingAwareCurvatureDiffusion": {
@@ -2230,14 +2190,6 @@
         ], 
         "contributors": [
             "Yinglin Lee (SPL, BWH)"
-        ]
-    }, 
-    "ThingiverseBrowser": {
-        "categories": [
-            "Utilities"
-        ], 
-        "contributors": [
-            "Nigel Goh (UWA)"
         ]
     }, 
     "ThresholdScalarVolume": {
@@ -2495,14 +2447,6 @@
             "Jean-Christophe Fillion-Robin (Kitware)"
         ]
     }, 
-    "WindowLevelEffect": {
-        "categories": [
-            "Editor Effects"
-        ], 
-        "contributors": [
-            "Andrey Fedorov (BWH)"
-        ]
-    }, 
     "WorkflowSegmentation": {
         "categories": [
             "Perk Tutor"
@@ -2554,14 +2498,6 @@
             "Antonio Damato", 
             "Tina Kapur", 
             "Akila Viswanathan"
-        ]
-    }, 
-    "labelToggleBug2049": {
-        "categories": [
-            "Testing.TestCases"
-        ], 
-        "contributors": [
-            "Jean-Christophe Fillion-Robin (Kitware), Steve Pieper (Isomics)"
         ]
     }, 
     "plastimatch_slicer_bspline": {
