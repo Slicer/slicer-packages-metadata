@@ -515,10 +515,16 @@
             "VffFileReader", 
             "Isodose", 
             "PlastimatchPy", 
+            "Segmentations", 
             "DoseAccumulation", 
+            "SegmentComparison", 
+            "SegmentMorphology", 
             "PlanarImage", 
+            "DoseVolumeHistogram", 
             "Beams", 
-            "DicomSroImport"
+            "DoseComparison", 
+            "DicomSroImport", 
+            "DicomRtImportExport"
         ], 
         "scripted": [
             "DvhComparison", 
