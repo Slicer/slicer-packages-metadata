@@ -1872,6 +1872,14 @@
             "Francois Budin, Ipek Oguz"
         ]
     }, 
+    "MetafileImporter": {
+        "categories": [
+            "Sequences"
+        ], 
+        "contributors": [
+            "Andras Lasso (PerkLab, Queen's), Matthew Holden (PerkLab, Queen's)"
+        ]
+    }, 
     "ModelMaker": {
         "categories": [
             "Surface Models"
@@ -2573,6 +2581,14 @@
         ], 
         "contributors": [
             "Steve Pieper (Isomics)"
+        ]
+    }, 
+    "SequenceBrowser": {
+        "categories": [
+            "Sequences"
+        ], 
+        "contributors": [
+            "Andras Lasso (PerkLab, Queen's), Matthew Holden (PerkLab, Queen's), Kevin Wang (PMH)"
         ]
     }, 
     "Sequences": {
