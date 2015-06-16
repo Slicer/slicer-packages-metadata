@@ -1789,6 +1789,14 @@
             "Francois Budin (UNC)"
         ]
     }, 
+    "ResampleDTIlogEuclidean": {
+        "categories": [
+            "Diffusion.Diffusion Tensor Images"
+        ], 
+        "contributors": [
+            "Francois Budin"
+        ]
+    }, 
     "ResampleScalarVectorDWIVolume": {
         "categories": [
             "Diffusion.Diffusion Weighted Images"
