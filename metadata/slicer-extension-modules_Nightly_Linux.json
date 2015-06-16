@@ -463,6 +463,13 @@
             "LabelToDICOMSEGConverter"
         ]
     }, 
+    "ResampleDTIlogEuclidean": {
+        "cli": [
+            "ResampleDTIlogEuclidean"
+        ], 
+        "loadable": [], 
+        "scripted": []
+    }, 
     "ResectionPlanner": {
         "cli": [], 
         "loadable": [], 

@@ -2422,6 +2422,14 @@
             "Francois Budin (UNC)"
         ]
     }, 
+    "ResampleDTIlogEuclidean": {
+        "categories": [
+            "Diffusion.Diffusion Tensor Images"
+        ], 
+        "contributors": [
+            "Francois Budin"
+        ]
+    }, 
     "ResampleLabelMap": {
         "categories": [
             "Chest Imaging Platform.Toolkit.Processing"
