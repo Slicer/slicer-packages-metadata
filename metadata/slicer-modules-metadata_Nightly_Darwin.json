@@ -2132,6 +2132,14 @@
             "Brigham and Women's Hospital"
         ]
     }, 
+    "PickAndPaint": {
+        "categories": [
+            "Shape Analysis"
+        ], 
+        "contributors": [
+            "Lucie Macron (University of Michigan)"
+        ]
+    }, 
     "PivotCalibration": {
         "categories": [
             "IGT"

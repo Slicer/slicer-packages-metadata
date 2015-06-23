@@ -36,6 +36,13 @@
             "CardiacAgatstonMeasures"
         ]
     }, 
+    "CardiacAgatstonMeasures": {
+        "cli": [], 
+        "loadable": [], 
+        "scripted": [
+            "CardiacAgatstonMeasures"
+        ]
+    }, 
     "Cardiac_MRI_Toolkit": {
         "cli": [
             "CMRToolkitAutomaticLeftAtrialScar", 
@@ -421,6 +428,13 @@
         "loadable": [], 
         "scripted": [
             "dPetBrainQuantification"
+        ]
+    }, 
+    "PickAndPaintExtension": {
+        "cli": [], 
+        "loadable": [], 
+        "scripted": [
+            "PickAndPaint"
         ]
     }, 
     "PkModeling": {
