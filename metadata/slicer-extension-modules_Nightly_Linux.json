@@ -222,6 +222,13 @@
         "loadable": [], 
         "scripted": []
     }, 
+    "EasyClip": {
+        "cli": [], 
+        "loadable": [], 
+        "scripted": [
+            "EasyClip"
+        ]
+    }, 
     "Eigen": {
         "cli": [], 
         "loadable": [], 

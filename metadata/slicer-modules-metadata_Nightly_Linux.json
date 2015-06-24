@@ -1045,6 +1045,14 @@
             "Anonymous"
         ]
     }, 
+    "EasyClip": {
+        "categories": [
+            "Shape Analysis"
+        ], 
+        "contributors": [
+            "Julia Lopinto, (University Of Michigan)"
+        ]
+    }, 
     "Editor": {
         "categories": [
             "", 
