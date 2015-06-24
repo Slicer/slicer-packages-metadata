@@ -358,6 +358,13 @@
             "PythonMetricsCalculator"
         ]
     }, 
+    "PickAndPaintExtension": {
+        "cli": [], 
+        "loadable": [], 
+        "scripted": [
+            "PickAndPaint"
+        ]
+    }, 
     "PkModeling": {
         "cli": [
             "PkModeling"

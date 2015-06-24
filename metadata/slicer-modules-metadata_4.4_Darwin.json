@@ -1635,6 +1635,14 @@
             "Matthew S. Holden (Queen's University)"
         ]
     }, 
+    "PickAndPaint": {
+        "categories": [
+            "Shape Analysis"
+        ], 
+        "contributors": [
+            "Lucie Macron (University of Michigan)"
+        ]
+    }, 
     "PivotCalibration": {
         "categories": [
             "IGT"
