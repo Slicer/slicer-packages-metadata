@@ -6,8 +6,7 @@
     }, 
     "CBC_3D_I2MConversion": {
         "cli": [
-            "BodyCentricCubicMesh", 
-            "MeshCompression"
+            "BodyCentricCubicMesh"
         ], 
         "loadable": [], 
         "scripted": []
@@ -380,9 +379,7 @@
         ]
     }, 
     "PBNRR": {
-        "cli": [
-            "PBNRR"
-        ], 
+        "cli": [], 
         "loadable": [], 
         "scripted": []
     }, 
@@ -705,7 +702,6 @@
             "AddScalarVolumes", 
             "BRAINSDemonWarp", 
             "BRAINSDWICleanup", 
-            "BRAINSFit", 
             "BRAINSLabelStats", 
             "BRAINSResample", 
             "BRAINSResize", 
