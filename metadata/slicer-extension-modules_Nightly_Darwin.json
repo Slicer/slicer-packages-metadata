@@ -702,6 +702,7 @@
             "AddScalarVolumes", 
             "BRAINSDemonWarp", 
             "BRAINSDWICleanup", 
+            "BRAINSFit", 
             "BRAINSLabelStats", 
             "BRAINSResample", 
             "BRAINSResize", 

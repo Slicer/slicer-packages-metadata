@@ -84,6 +84,14 @@
             "This tool was developed by Hans J. Johnson and Greg Harris."
         ]
     }, 
+    "BRAINSFit": {
+        "categories": [
+            "Registration"
+        ], 
+        "contributors": [
+            "Hans J. Johnson, hans-johnson -at- uiowa.edu, http://www.psychiatry.uiowa.edu"
+        ]
+    }, 
     "BRAINSLabelStats": {
         "categories": [
             "BRAINS.LabelStatistics"
@@ -340,6 +348,15 @@
         "contributors": [
             "Julien Finet (Kitware)", 
             "Sebastien Barr&eacute; (Kitware)"
+        ]
+    }, 
+    "CardiacAgatstonMeasures": {
+        "categories": [
+            "Testing.TestCases"
+        ], 
+        "contributors": [
+            "Jessica Forbes (SINAPSE)", 
+            "Hans Johnson (SINAPSE)"
         ]
     }, 
     "CarreraSlice": {
@@ -928,6 +945,14 @@
             "Demian Wassermann (SPL, BWH)"
         ]
     }, 
+    "DistanceMapBasedRegistration": {
+        "categories": [
+            "Registration.Label Registration"
+        ], 
+        "contributors": [
+            "Andrey Fedorov (BWH), Andras Lasso (Queen's University)"
+        ]
+    }, 
     "DoseAccumulation": {
         "categories": [
             "Radiotherapy"
@@ -964,6 +989,14 @@
         ], 
         "contributors": [
             "Julien Finet (Kitware)"
+        ]
+    }, 
+    "DoubleThresholdEffect": {
+        "categories": [
+            "Developer Tools.Editor Extensions"
+        ], 
+        "contributors": [
+            "Bradley Lowekamp"
         ]
     }, 
     "Downsize": {
@@ -1010,6 +1043,14 @@
         ], 
         "contributors": [
             "Anonymous"
+        ]
+    }, 
+    "EasyClip": {
+        "categories": [
+            "Shape Analysis"
+        ], 
+        "contributors": [
+            "Julia Lopinto, (University Of Michigan)"
         ]
     }, 
     "Editor": {
@@ -1254,6 +1295,14 @@
             "Julien Jomier (Kitware), Stephen Aylward (Kitware)"
         ]
     }, 
+    "GelDosimetryAnalysis": {
+        "categories": [
+            "Slicelets"
+        ], 
+        "contributors": [
+            "Csaba Pinter (Queen's University), Mattea Welch (Queen's University), Jennifer Andrea (Queen's University), Kevin Alexander (Kingston General Hospital)"
+        ]
+    }, 
     "GelDosimetryAnalysisAlgo": {
         "categories": [
             "Slicelets"
@@ -1478,6 +1527,14 @@
             "Bradley Lowekamp"
         ]
     }, 
+    "IGRTWorkflow_SelfTest": {
+        "categories": [
+            "Testing.SlicerRT Tests"
+        ], 
+        "contributors": [
+            "Csaba Pinter (Queen's)"
+        ]
+    }, 
     "ImageLabelCombine": {
         "categories": [
             "Filtering"
@@ -1598,6 +1655,14 @@
         ], 
         "contributors": [
             "Dirk Padfield (GE), Josh Cates (Utah), Ross Whitaker (Utah)"
+        ]
+    }, 
+    "LabelObjectStatistics": {
+        "categories": [
+            "Microscopy"
+        ], 
+        "contributors": [
+            "Bradley Lowekamp (MSC/NLM)"
         ]
     }, 
     "LabelParticlesByChestRegionChestType": {
@@ -1879,6 +1944,22 @@
         ], 
         "contributors": [
             "Nick Tustison (UPenn), Andrey Fedorov (SPL, BWH), Ron Kikinis (SPL, BWH)"
+        ]
+    }, 
+    "NeedleFinder": {
+        "categories": [
+            "IGT"
+        ], 
+        "contributors": [
+            "Guillaume Pernelle", 
+            "Alireza Mehrtash", 
+            "Lauren Barber", 
+            "Nabgha Fahrat", 
+            "Sandy Wells", 
+            "Yi Gao", 
+            "Antonio Damato", 
+            "Tina Kapur", 
+            "Akila Viswanathan"
         ]
     }, 
     "NeurosurgicalPlanningTutorialMarkupsSelfTest": {
@@ -2510,6 +2591,14 @@
             "Andras Lasso (PerkLab, Queen's), Matthew Holden (PerkLab, Queen's), Kevin Wang (PMH)"
         ]
     }, 
+    "SimpleFilters": {
+        "categories": [
+            "Filtering"
+        ], 
+        "contributors": [
+            "Bradley Lowekamp (MSC/NLM), Steve Pieper (Isomics), Jean-Christophe Fillion-Robin (Kitware)"
+        ]
+    }, 
     "SimpleRegionGrowingSegmentation": {
         "categories": [
             "Segmentation"
@@ -2892,6 +2981,14 @@
             "Bill Lorensen (GE)"
         ]
     }, 
+    "Wasp": {
+        "categories": [
+            "Segmentation"
+        ], 
+        "contributors": [
+            "Thomas Lawson (MRC Harwell, Oxfordshire)"
+        ]
+    }, 
     "Watchdog": {
         "categories": [
             "IGT"
@@ -2934,6 +3031,14 @@
         ], 
         "contributors": [
             "Sunil Kumar (Moka Creative, LLC, kumar.sunil.p@gmail.com), Dan Marcus (WashU-St. Louis, dmarcus@wustl.edu), Steve Pieper (Isomics, pieper@isomics.com)"
+        ]
+    }, 
+    "dPetBrainQuantification": {
+        "categories": [
+            "Quantification"
+        ], 
+        "contributors": [
+            "Idk"
         ]
     }, 
     "fiber_visibility_crash2438": {
