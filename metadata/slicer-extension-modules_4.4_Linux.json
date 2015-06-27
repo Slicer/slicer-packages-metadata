@@ -363,6 +363,13 @@
             "PythonMetricsCalculator"
         ]
     }, 
+    "PetSpectAnalysis": {
+        "cli": [], 
+        "loadable": [], 
+        "scripted": [
+            "dPetBrainQuantification"
+        ]
+    }, 
     "PickAndPaintExtension": {
         "cli": [], 
         "loadable": [], 
