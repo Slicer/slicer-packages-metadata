@@ -1872,6 +1872,14 @@
             "Fotis Drakopoulos (CRTC), Yixun Liu (CRTC), Andrey Fedorov (CRTC), Nikos Chrisochoides (CRTC)"
         ]
     }, 
+    "MeshStatistics": {
+        "categories": [
+            "Shape Analysis"
+        ], 
+        "contributors": [
+            "Lucie Macron"
+        ]
+    }, 
     "MeshToLabelMap": {
         "categories": [
             "Shape Analysis"
