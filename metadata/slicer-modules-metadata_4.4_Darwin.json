@@ -889,6 +889,14 @@
             "Anonymous"
         ]
     }, 
+    "EasyClip": {
+        "categories": [
+            "Shape Analysis"
+        ], 
+        "contributors": [
+            "Julia Lopinto, (University Of Michigan)"
+        ]
+    }, 
     "Endoscopy": {
         "categories": [
             "Endoscopy"
@@ -1375,6 +1383,14 @@
         ], 
         "contributors": [
             "Fotis Drakopoulos (CRTC), Yixun Liu (CRTC), Andrey Fedorov (CRTC), Nikos Chrisochoides (CRTC)"
+        ]
+    }, 
+    "MeshStatistics": {
+        "categories": [
+            "Shape Analysis"
+        ], 
+        "contributors": [
+            "Lucie Macron"
         ]
     }, 
     "MeshToLabelMap": {
@@ -2351,6 +2367,14 @@
         ], 
         "contributors": [
             "Sunil Kumar (Moka Creative, LLC, kumar.sunil.p@gmail.com), Dan Marcus (WashU-St. Louis, dmarcus@wustl.edu), Steve Pieper (Isomics, pieper@isomics.com)"
+        ]
+    }, 
+    "dPetBrainQuantification": {
+        "categories": [
+            "Quantification"
+        ], 
+        "contributors": [
+            "Martin Bertran, Natalia Martinez, Guillermo Carbajal, Alvaro Gomez"
         ]
     }, 
     "fiber_visibility_crash2438": {

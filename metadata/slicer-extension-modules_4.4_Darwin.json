@@ -139,6 +139,13 @@
         ], 
         "scripted": []
     }, 
+    "EasyClip": {
+        "cli": [], 
+        "loadable": [], 
+        "scripted": [
+            "EasyClip"
+        ]
+    }, 
     "Eigen": {
         "cli": [], 
         "loadable": [], 
@@ -265,6 +272,13 @@
             "MatlabModuleGenerator"
         ], 
         "scripted": []
+    }, 
+    "MeshStatisticsExtension": {
+        "cli": [], 
+        "loadable": [], 
+        "scripted": [
+            "MeshStatistics"
+        ]
     }, 
     "MeshToLabelMap": {
         "cli": [
