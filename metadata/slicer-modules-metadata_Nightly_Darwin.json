@@ -1848,6 +1848,14 @@
             "Applied Chest Imaging Laboratory, Brigham and women's hospital"
         ]
     }, 
+    "MeshStatistics": {
+        "categories": [
+            "Shape Analysis"
+        ], 
+        "contributors": [
+            "Lucie Macron"
+        ]
+    }, 
     "MeshToLabelMap": {
         "categories": [
             "Shape Analysis"

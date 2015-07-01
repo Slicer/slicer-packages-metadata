@@ -346,6 +346,13 @@
         ], 
         "scripted": []
     }, 
+    "MeshStatisticsExtension": {
+        "cli": [], 
+        "loadable": [], 
+        "scripted": [
+            "MeshStatistics"
+        ]
+    }, 
     "MeshToLabelMap": {
         "cli": [
             "MeshToLabelMap"
