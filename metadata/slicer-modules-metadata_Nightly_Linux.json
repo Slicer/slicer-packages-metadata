@@ -31,6 +31,14 @@
             "Pietro Nardelli (University College Cork)"
         ]
     }, 
+    "AnglePlanes": {
+        "categories": [
+            "Shape Analysis"
+        ], 
+        "contributors": [
+            "Julia Lopinto"
+        ]
+    }, 
     "Annotations": {
         "categories": [
             "", 
