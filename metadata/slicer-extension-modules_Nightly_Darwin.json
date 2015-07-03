@@ -4,6 +4,13 @@
         "loadable": [], 
         "scripted": []
     }, 
+    "AnglePlanesExtension": {
+        "cli": [], 
+        "loadable": [], 
+        "scripted": [
+            "AnglePlanes"
+        ]
+    }, 
     "CBC_3D_I2MConversion": {
         "cli": [
             "BodyCentricCubicMesh"
