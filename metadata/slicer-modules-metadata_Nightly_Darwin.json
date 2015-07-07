@@ -3041,14 +3041,6 @@
             "Matthew S. Holden (Queen's University)"
         ]
     }, 
-    "XnatSlicer": {
-        "categories": [
-            "XNATSlicer"
-        ], 
-        "contributors": [
-            "Sunil Kumar (Moka Creative, LLC, kumar.sunil.p@gmail.com), Dan Marcus (WashU-St. Louis, dmarcus@wustl.edu), Steve Pieper (Isomics, pieper@isomics.com)"
-        ]
-    }, 
     "dPetBrainQuantification": {
         "categories": [
             "Quantification"
