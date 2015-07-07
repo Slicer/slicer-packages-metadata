@@ -607,9 +607,7 @@
     "XNATSlicer": {
         "cli": [], 
         "loadable": [], 
-        "scripted": [
-            "XnatSlicer"
-        ]
+        "scripted": []
     }, 
     "boost": {
         "cli": [], 
