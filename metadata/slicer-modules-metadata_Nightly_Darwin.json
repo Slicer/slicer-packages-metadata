@@ -23,6 +23,14 @@
             "Bill Lorensen (GE)"
         ]
     }, 
+    "AddStorableDataAfterSceneViewTest": {
+        "categories": [
+            "Testing.TestCases"
+        ], 
+        "contributors": [
+            "Nicole Aucoin (BWH)"
+        ]
+    }, 
     "AirwaySegmentation": {
         "categories": [
             "Segmentation"
@@ -2220,6 +2228,14 @@
             "Matthew Holden (Queen's University), Tamas Ungi (Queen's University)"
         ]
     }, 
+    "Q3DC": {
+        "categories": [
+            "Shape Analysis"
+        ], 
+        "contributors": [
+            "Lucie Macron (University of Michigan)"
+        ]
+    }, 
     "QuadEdgeSurfaceMesher": {
         "categories": [
             "Converters"
@@ -2645,6 +2661,30 @@
         ], 
         "contributors": [
             "Jim Miller (GE)"
+        ]
+    }, 
+    "SlicerMRBMultipleSaveRestoreLoopTest": {
+        "categories": [
+            "Testing"
+        ], 
+        "contributors": [
+            "Nicole Aucoin (BWH)"
+        ]
+    }, 
+    "SlicerMRBMultipleSaveRestoreTest": {
+        "categories": [
+            "Testing"
+        ], 
+        "contributors": [
+            "Nicole Aucoin (BWH)"
+        ]
+    }, 
+    "SlicerMRBSaveRestoreCheckPathsTest": {
+        "categories": [
+            "Testing"
+        ], 
+        "contributors": [
+            "Nicole Aucoin (BWH)"
         ]
     }, 
     "SlicerMRBTest": {
