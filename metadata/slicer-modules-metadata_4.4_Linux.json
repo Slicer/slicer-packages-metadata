@@ -1771,6 +1771,14 @@
             "Matthew Holden (Queen's University), Tamas Ungi (Queen's University)"
         ]
     }, 
+    "Q3DC": {
+        "categories": [
+            "Shape Analysis"
+        ], 
+        "contributors": [
+            "Lucie Macron (University of Michigan)"
+        ]
+    }, 
     "QuantitativeIndicesCLI": {
         "categories": [
             "Quantification"
