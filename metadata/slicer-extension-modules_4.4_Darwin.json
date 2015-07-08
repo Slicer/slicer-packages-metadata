@@ -414,6 +414,13 @@
             "PyDevRemoteDebug"
         ]
     }, 
+    "Q3DC": {
+        "cli": [], 
+        "loadable": [], 
+        "scripted": [
+            "Q3DC"
+        ]
+    }, 
     "RSSExtension": {
         "cli": [], 
         "loadable": [], 
