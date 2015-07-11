@@ -551,7 +551,7 @@
     }, 
     "ConvertVTK": {
         "categories": [
-            "File"
+            "Converters"
         ], 
         "contributors": [
             "Yogesh Rathi, Stefan Lienhard, Yinpeng Li, Martin Styner, Ipek Oguz, Yundi Shi, Christian Baumgartner, Kent Williams"
@@ -2931,7 +2931,7 @@
             "Diffusion.Tractography"
         ], 
         "contributors": [
-            "Yogesh Rathi, Stefan Lienhard, Yinpeng Li, Martin Styner, Ipek Oguz, Yundi Shi, Christian Baumgartner, Kent Williams, Hans Johnson, Peter Savadjiev, Carl-Fredrik Westin."
+            "Yogesh Rathi, Stefan Lienhard, Yinpeng Li, Martin Styner, Ipek Oguz, Yundi Shi, Christian Baumgartner, Kent Williams, Hans Johnson, Peter Savadjiev, Carl-Fredrik Westin, Lauren O'Donnell, Jessica Lee."
         ]
     }, 
     "UltrasoundSnapshots": {
