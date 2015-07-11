@@ -13,7 +13,8 @@
     }, 
     "CBC_3D_I2MConversion": {
         "cli": [
-            "BodyCentricCubicMesh"
+            "BodyCentricCubicMesh", 
+            "MeshCompression"
         ], 
         "loadable": [], 
         "scripted": []
@@ -393,7 +394,9 @@
         ]
     }, 
     "PBNRR": {
-        "cli": [], 
+        "cli": [
+            "PBNRR"
+        ], 
         "loadable": [], 
         "scripted": []
     }, 

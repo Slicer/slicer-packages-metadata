@@ -559,7 +559,7 @@
     }, 
     "ConvertVTK": {
         "categories": [
-            "File"
+            "Converters"
         ], 
         "contributors": [
             "Yogesh Rathi, Stefan Lienhard, Yinpeng Li, Martin Styner, Ipek Oguz, Yundi Shi, Christian Baumgartner, Kent Williams"
@@ -1864,6 +1864,14 @@
             "Applied Chest Imaging Laboratory, Brigham and women's hospital"
         ]
     }, 
+    "MeshCompression": {
+        "categories": [
+            "MeshGeneration"
+        ], 
+        "contributors": [
+            "Fotis Drakopoulos (CRTC), Yixun Liu (CRTC), Andrey Fedorov (CRTC), Nikos Chrisochoides (CRTC)"
+        ]
+    }, 
     "MeshStatistics": {
         "categories": [
             "Shape Analysis"
@@ -2030,6 +2038,14 @@
         ], 
         "contributors": [
             "Bill Lorensen (GE)"
+        ]
+    }, 
+    "PBNRR": {
+        "categories": [
+            "Registration"
+        ], 
+        "contributors": [
+            "Fotis Drakopoulos (CRTC), Yixun Liu (CRTC), Andriy Kot (CRTC), Andrey Fedorov (SPL B&W Harvard), Olivier Clatz (Asclepios INRIA), Nikos Chrisochoides (CRTC)"
         ]
     }, 
     "PETIndiC": {
@@ -2899,7 +2915,7 @@
             "Diffusion.Tractography"
         ], 
         "contributors": [
-            "Yogesh Rathi, Stefan Lienhard, Yinpeng Li, Martin Styner, Ipek Oguz, Yundi Shi, Christian Baumgartner, Kent Williams, Hans Johnson, Peter Savadjiev, Carl-Fredrik Westin."
+            "Yogesh Rathi, Stefan Lienhard, Yinpeng Li, Martin Styner, Ipek Oguz, Yundi Shi, Christian Baumgartner, Kent Williams, Hans Johnson, Peter Savadjiev, Carl-Fredrik Westin, Lauren O'Donnell, Jessica Lee."
         ]
     }, 
     "UltrasoundSnapshots": {
