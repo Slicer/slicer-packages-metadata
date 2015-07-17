@@ -589,14 +589,6 @@
             "Steve Pieper (Isomics Inc.)"
         ]
     }, 
-    "DTIAtlasFiberAnalyzer": {
-        "categories": [
-            "Diffusion.FiberAnalysis"
-        ], 
-        "contributors": [
-            "Jean-Baptiste Berger, Benjamin Yvernault, Francois Budin"
-        ]
-    }, 
     "DTIexport": {
         "categories": [
             "Legacy.Diffusion.Diffusion Data Conversion"
