@@ -195,12 +195,8 @@
     }, 
     "GelDosimetryAnalysis": {
         "cli": [], 
-        "loadable": [
-            "GelDosimetryAnalysisAlgo"
-        ], 
-        "scripted": [
-            "GelDosimetryAnalysis"
-        ]
+        "loadable": [], 
+        "scripted": []
     }, 
     "GyroGuide": {
         "cli": [], 
