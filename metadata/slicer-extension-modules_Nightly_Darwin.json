@@ -623,31 +623,9 @@
         ]
     }, 
     "SlicerRT": {
-        "cli": [
-            "plastimatch_slicer_bspline", 
-            "plastimatch_slicer_landwarp"
-        ], 
-        "loadable": [
-            "Beams", 
-            "DicomRtImportExport", 
-            "DicomSroImport", 
-            "DoseAccumulation", 
-            "DoseComparison", 
-            "DoseVolumeHistogram", 
-            "Isodose", 
-            "PlanarImage", 
-            "PlastimatchPy", 
-            "Segmentations", 
-            "SegmentComparison", 
-            "SegmentMorphology", 
-            "VffFileReader"
-        ], 
-        "scripted": [
-            "BatchStructureSetConversion", 
-            "DicomSroExport", 
-            "DvhComparison", 
-            "PlmRegister"
-        ]
+        "cli": [], 
+        "loadable": [], 
+        "scripted": []
     }, 
     "SlicerToKiwiExporter": {
         "cli": [], 
@@ -698,10 +676,7 @@
     "VolumeClip": {
         "cli": [], 
         "loadable": [], 
-        "scripted": [
-            "VolumeClipWithModel", 
-            "VolumeClipWithRoi"
-        ]
+        "scripted": []
     }, 
     "WindowLevelEffect": {
         "cli": [], 
