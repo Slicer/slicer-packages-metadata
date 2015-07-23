@@ -1050,6 +1050,22 @@
             "Julien Jomier (Kitware), Stephen Aylward (Kitware)"
         ]
     }, 
+    "GelDosimetryAnalysis": {
+        "categories": [
+            "Slicelets"
+        ], 
+        "contributors": [
+            "Csaba Pinter (Queen's University), Mattea Welch (Queen's University), Jennifer Andrea (Queen's University), Kevin Alexander (Kingston General Hospital)"
+        ]
+    }, 
+    "GelDosimetryAnalysisAlgo": {
+        "categories": [
+            "Slicelets"
+        ], 
+        "contributors": [
+            "Csaba Pinter (Queen's)"
+        ]
+    }, 
     "GradientAnisotropicDiffusion": {
         "categories": [
             "Filtering.Denoising"
