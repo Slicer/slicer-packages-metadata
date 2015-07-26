@@ -120,6 +120,7 @@
     "DTIAtlasFiberAnalyzer": {
         "cli": [
             "MergeStatWithFiber", 
+            "DTIAtlasFiberAnalyzer", 
             "FiberCompare", 
             "dtitractstat"
         ], 
