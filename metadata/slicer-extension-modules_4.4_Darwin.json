@@ -483,6 +483,15 @@
         "loadable": [], 
         "scripted": []
     }, 
+    "Slicer-AirwaySegmentation": {
+        "cli": [
+            "AirwaySegmentationCLI"
+        ], 
+        "loadable": [], 
+        "scripted": [
+            "AirwaySegmentation"
+        ]
+    }, 
     "SlicerExtension-VMTK": {
         "cli": [], 
         "loadable": [], 
