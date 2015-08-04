@@ -192,6 +192,11 @@
             "CurveMaker"
         ]
     }, 
+    "DTI-Reg": {
+        "cli": [], 
+        "loadable": [], 
+        "scripted": []
+    }, 
     "DTIAtlasBuilder": {
         "cli": [], 
         "loadable": [], 
