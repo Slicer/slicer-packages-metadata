@@ -1,4 +1,12 @@
 {
+    "ABC": {
+        "categories": [
+            "Segmentation"
+        ], 
+        "contributors": [
+            "Marcel Prastawa marcel.prastawa@gmail.com"
+        ]
+    }, 
     "ACPCTransform": {
         "categories": [
             "Registration.Specialized"
@@ -163,6 +171,22 @@
         ], 
         "contributors": [
             "Andrey Fedorov (SPL, BWH)"
+        ]
+    }, 
+    "BatchStructureSetConversion": {
+        "categories": [
+            "Testing.SlicerRT Tests"
+        ], 
+        "contributors": [
+            "Csaba Pinter (Queen's)"
+        ]
+    }, 
+    "Beams": {
+        "categories": [
+            "Radiotherapy"
+        ], 
+        "contributors": [
+            "Csaba Pinter (Queen's)"
         ]
     }, 
     "BinShrink": {
@@ -800,6 +824,128 @@
             "Francois Budin (UNC)"
         ]
     }, 
+    "DicomRtImportExport": {
+        "categories": [
+            "Radiotherapy"
+        ], 
+        "contributors": [
+            "Csaba Pinter (Queen's)", 
+            "Andras Lasso (Queen's)", 
+            "Kevin Wang (UHN, Toronto)"
+        ]
+    }, 
+    "DicomRtImportExportPlugin": {
+        "categories": [
+            "Developer Tools.DICOM Plugins"
+        ], 
+        "contributors": [
+            "C", 
+            "s", 
+            "a", 
+            "b", 
+            "a", 
+            " ", 
+            "P", 
+            "i", 
+            "n", 
+            "t", 
+            "e", 
+            "r", 
+            " ", 
+            "(", 
+            "Q", 
+            "u", 
+            "e", 
+            "e", 
+            "n", 
+            "'", 
+            "s", 
+            ")", 
+            ",", 
+            " ", 
+            "A", 
+            "n", 
+            "d", 
+            "r", 
+            "a", 
+            "s", 
+            " ", 
+            "L", 
+            "a", 
+            "s", 
+            "s", 
+            "o", 
+            " ", 
+            "(", 
+            "Q", 
+            "u", 
+            "e", 
+            "e", 
+            "n", 
+            "'", 
+            "s", 
+            ")", 
+            ",", 
+            " ", 
+            "K", 
+            "e", 
+            "v", 
+            "i", 
+            "n", 
+            " ", 
+            "W", 
+            "a", 
+            "n", 
+            "g", 
+            " ", 
+            "(", 
+            "U", 
+            "H", 
+            "N", 
+            ",", 
+            " ", 
+            "T", 
+            "o", 
+            "r", 
+            "o", 
+            "n", 
+            "t", 
+            "o", 
+            ")"
+        ]
+    }, 
+    "DicomRtImportSelfTest": {
+        "categories": [
+            "Testing.SlicerRT Tests"
+        ], 
+        "contributors": [
+            "Csaba Pinter (Queen's)"
+        ]
+    }, 
+    "DicomSroExport": {
+        "categories": [
+            "Plastimatch"
+        ], 
+        "contributors": [
+            "Gregory Sharp (MGH), Kevin Wang (Princess Margaret Cancer Centre)"
+        ]
+    }, 
+    "DicomSroImport": {
+        "categories": [
+            "Radiotherapy"
+        ], 
+        "contributors": [
+            "Kevin Wang (Princess Margaret Cancer Centre)"
+        ]
+    }, 
+    "DicomSroImportPlugin": {
+        "categories": [
+            "Developer Tools.DICOM Plugins"
+        ], 
+        "contributors": [
+            "Kevin Wang (RMP, PMH)"
+        ]
+    }, 
     "DiffusionTensorScalarMeasurements": {
         "categories": [
             "Diffusion.Diffusion Tensor Images"
@@ -832,6 +978,36 @@
             "Andrey Fedorov (BWH), Andras Lasso (Queen's University)"
         ]
     }, 
+    "DoseAccumulation": {
+        "categories": [
+            "Radiotherapy"
+        ], 
+        "contributors": [
+            "Csaba Pinter (Queen's)", 
+            "Andras Lasso (Queen's)", 
+            "Kevin Wang (UHN, Toronto)"
+        ]
+    }, 
+    "DoseComparison": {
+        "categories": [
+            "Radiotherapy"
+        ], 
+        "contributors": [
+            "Csaba Pinter (Queen's)", 
+            "Andras Lasso (Queen's)", 
+            "Kevin Wang (UHN, Toronto)"
+        ]
+    }, 
+    "DoseVolumeHistogram": {
+        "categories": [
+            "Radiotherapy"
+        ], 
+        "contributors": [
+            "Csaba Pinter (Queen's)", 
+            "Andras Lasso (Queen's)", 
+            "Kevin Wang (UHN, Toronto)"
+        ]
+    }, 
     "DoubleArrays": {
         "categories": [
             "Developer Tools"
@@ -854,6 +1030,14 @@
         ], 
         "contributors": [
             "Vinicius Boen and Mason Winsauer, Neuro Image Resarch and Analysis Laboratory, UNC Medical School, UofM School of Dentistry"
+        ]
+    }, 
+    "DvhComparison": {
+        "categories": [
+            "Radiotherapy"
+        ], 
+        "contributors": [
+            "Kyle Sunderland (Queen's University), Csaba Pinter (Queen's University)"
         ]
     }, 
     "EMSegment": {
@@ -1136,6 +1320,14 @@
             "Julien Jomier (Kitware), Stephen Aylward (Kitware)"
         ]
     }, 
+    "GelDosimetryAnalysis": {
+        "categories": [
+            "Slicelets"
+        ], 
+        "contributors": [
+            "Csaba Pinter (Queen's University), Mattea Welch (Queen's University), Jennifer Andrea (Queen's University), Kevin Alexander (Kingston General Hospital)"
+        ]
+    }, 
     "GelDosimetryAnalysisAlgo": {
         "categories": [
             "Slicelets"
@@ -1360,6 +1552,14 @@
             "Bradley Lowekamp"
         ]
     }, 
+    "IGRTWorkflow_SelfTest": {
+        "categories": [
+            "Testing.SlicerRT Tests"
+        ], 
+        "contributors": [
+            "Csaba Pinter (Queen's)"
+        ]
+    }, 
     "ImageLabelCombine": {
         "categories": [
             "Filtering"
@@ -1406,6 +1606,16 @@
         ], 
         "contributors": [
             "Kilian M Pohl (SRI/Stanford)"
+        ]
+    }, 
+    "Isodose": {
+        "categories": [
+            "Radiotherapy"
+        ], 
+        "contributors": [
+            "Kevin Wang (PMH, Toronto)", 
+            "Csaba Pinter (Queen's)", 
+            "Andras Lasso (Queen's)"
         ]
     }, 
     "JRC2013Vis": {
@@ -1987,6 +2197,30 @@
             "Yingxuan Zhu (while at GE), Andrey Fedorov (SPL), John Evans (MGH), Jim Miller (GE)"
         ]
     }, 
+    "PlanarImage": {
+        "categories": [
+            "Radiotherapy"
+        ], 
+        "contributors": [
+            "Csaba Pinter (Queen's)"
+        ]
+    }, 
+    "PlastimatchPy": {
+        "categories": [
+            "Plastimatch.Utilities"
+        ], 
+        "contributors": [
+            "Paolo Zaffino (University 'Magna Graecia' of Catanzaro)"
+        ]
+    }, 
+    "PlmRegister": {
+        "categories": [
+            "Plastimatch"
+        ], 
+        "contributors": [
+            "Gregory Sharp (MGH)"
+        ]
+    }, 
     "PlusRemote": {
         "categories": [
             "IGT"
@@ -2344,6 +2578,16 @@
             "Vivek Narayan, Jayender Jagadeesan (BWH)"
         ]
     }, 
+    "SegmentComparison": {
+        "categories": [
+            "Radiotherapy"
+        ], 
+        "contributors": [
+            "Csaba Pinter (Queen's)", 
+            "Andras Lasso (Queen's)", 
+            "Kevin Wang (UHN, Toronto)"
+        ]
+    }, 
     "SegmentLungLobes": {
         "categories": [
             "Chest Imaging Platform.Toolkit.Segmentation"
@@ -2352,12 +2596,32 @@
             "Applied Chest Imaging Laboratory, Brigham and Women's Hospital"
         ]
     }, 
+    "SegmentMorphology": {
+        "categories": [
+            "Radiotherapy"
+        ], 
+        "contributors": [
+            "Kevin Wang (UHN, Toronto)", 
+            "Csaba Pinter (Queen's)", 
+            "Andras Lasso (Queen's)"
+        ]
+    }, 
     "SegmentationSmoothing": {
         "categories": [
             "Filtering"
         ], 
         "contributors": [
             "Andrey Fedorov (BWH)"
+        ]
+    }, 
+    "Segmentations": {
+        "categories": [
+            ""
+        ], 
+        "contributors": [
+            "Csaba Pinter (Queen's)", 
+            "Adam Rankin (Robarts)", 
+            "Andras Lasso (Queen's)"
         ]
     }, 
     "SelfTests": {
@@ -2706,6 +2970,15 @@
             "Steve Pieper (Isomics)"
         ]
     }, 
+    "VffFileReader": {
+        "categories": [
+            ""
+        ], 
+        "contributors": [
+            "Jennifer Andrea (Queen's)", 
+            "Csaba Pinter (Queen's)"
+        ]
+    }, 
     "ViewControllers": {
         "categories": [
             ""
@@ -2867,6 +3140,22 @@
             "Antonio Damato", 
             "Tina Kapur", 
             "Akila Viswanathan"
+        ]
+    }, 
+    "plastimatch_slicer_bspline": {
+        "categories": [
+            "Plastimatch.Registration"
+        ], 
+        "contributors": [
+            "Please direct questions or suggestions to http://groups.google.com/group/plastimatch"
+        ]
+    }, 
+    "plastimatch_slicer_landwarp": {
+        "categories": [
+            "Plastimatch.Registration"
+        ], 
+        "contributors": [
+            "Please direct questions or suggestions to http://groups.google.com/group/plastimatch"
         ]
     }, 
     "sceneImport2428": {
