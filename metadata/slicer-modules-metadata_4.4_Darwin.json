@@ -1,4 +1,12 @@
 {
+    "ABC": {
+        "categories": [
+            "Segmentation"
+        ], 
+        "contributors": [
+            "Marcel Prastawa marcel.prastawa@gmail.com"
+        ]
+    }, 
     "ACPCTransform": {
         "categories": [
             "Registration.Specialized"
@@ -37,6 +45,14 @@
         ], 
         "contributors": [
             "Pietro Nardelli (University College Cork)"
+        ]
+    }, 
+    "AnglePlanes": {
+        "categories": [
+            "Shape Analysis"
+        ], 
+        "contributors": [
+            "Julia Lopinto"
         ]
     }, 
     "Annotations": {
@@ -219,6 +235,86 @@
         ], 
         "contributors": [
             "Anonymous"
+        ]
+    }, 
+    "CMRToolkitAutomaticLeftAtrialScar": {
+        "categories": [
+            "Cardiac MRI Toolkit"
+        ], 
+        "contributors": [
+            "Alan Morris (CARMA), Josh Cates (CARMA), Rob MacLeod (CARMA)"
+        ]
+    }, 
+    "CMRToolkitAxialDilate": {
+        "categories": [
+            "Cardiac MRI Toolkit"
+        ], 
+        "contributors": [
+            "Alan Morris (CARMA), Salma Bengali (CARMA), Josh Cates (CARMA), Rob MacLeod (CARMA)"
+        ]
+    }, 
+    "CMRToolkitBooleanREMOVEFilter": {
+        "categories": [
+            "Cardiac MRI Toolkit"
+        ], 
+        "contributors": [
+            "Salma Bengali(CARMA), Alan Morris(CARMA), Josh Cates(CARMA), Rob MacLeod(CARMA)"
+        ]
+    }, 
+    "CMRToolkitConnectedThresholdFilter": {
+        "categories": [
+            "Cardiac MRI Toolkit"
+        ], 
+        "contributors": [
+            "Salma Bengali (CARMA), Alan Morris (CARMA), Josh Cates (CARMA), Rob MacLeod (CARMA)"
+        ]
+    }, 
+    "CMRToolkitInhomogeneityCorrection": {
+        "categories": [
+            "Cardiac MRI Toolkit"
+        ], 
+        "contributors": [
+            "Alan Morris (CARMA), Eugene Kholmovski (CARMA), Josh Cates (CARMA), Danny Perry (CARMA), Rob MacLeod (CARMA)"
+        ]
+    }, 
+    "CMRToolkitIsolatedConnectedFilter": {
+        "categories": [
+            "Cardiac MRI Toolkit"
+        ], 
+        "contributors": [
+            "Salma Bengali (CARMA), Alan Morris (CARMA), Josh Cates (CARMA), Rob MacLeod (CARMA)"
+        ]
+    }, 
+    "CMRToolkitPVAntrumCut": {
+        "categories": [
+            "Cardiac MRI Toolkit"
+        ], 
+        "contributors": [
+            "Alan Morris(CARMA), Salma Bengali(CARMA), Greg Gardner(CARMA), Josh Cates(CARMA), Rob MacLeod(CARMA)"
+        ]
+    }, 
+    "CMRToolkitRegistration": {
+        "categories": [
+            "Cardiac MRI Toolkit"
+        ], 
+        "contributors": [
+            "Alan Morris (CARMA), Greg Gardner (CARMA), Salma Bengali (CARMA), Josh Cates (CARMA), Rob MacLeod (CARMA)"
+        ]
+    }, 
+    "CMRToolkitRegistrationBRAINSFit": {
+        "categories": [
+            "Cardiac MRI Toolkit"
+        ], 
+        "contributors": [
+            "Salma Bengali (CARMA), Alan Morris (CARMA), Greg Gardner (CARMA), Josh Cates (CARMA), Rob MacLeod (CARMA)"
+        ]
+    }, 
+    "CMRToolkitWizard": {
+        "categories": [
+            "Cardiac MRI Toolkit"
+        ], 
+        "contributors": [
+            "Salma Bengali (CARMA), Alan Morris (CARMA), Brian Zenger (CARMA), Josh Cates (CARMA), Rob MacLeod (CARMA)"
         ]
     }, 
     "Cameras": {
@@ -1140,6 +1236,14 @@
             "Liangjia Zhu (SBU), Yi Gao (UAB), Josh Cates (Utah), Alan Morris (Utah), Danny Perry (Utah), Greg Gardner (Utah), Rob MacLeod (Utah), Allen Tannenbaum (SBU)"
         ]
     }, 
+    "LASegmentationWorkflow": {
+        "categories": [
+            "Cardiac MRI Toolkit"
+        ], 
+        "contributors": [
+            "Salma Bengali (CARMA), Alan Morris (CARMA), Josh Cates (CARMA), Rob MacLeod (CARMA)"
+        ]
+    }, 
     "LabelAddition": {
         "categories": [
             "CMF Registration"
@@ -1787,6 +1891,14 @@
         ], 
         "contributors": [
             "Steve Pieper (Isomics), Benjamin Long (Kitware), Jean-Christophe Fillion-Robin (Kitware)"
+        ]
+    }, 
+    "ScarVisualization": {
+        "categories": [
+            "Cardiac MRI Toolkit"
+        ], 
+        "contributors": [
+            "Salma Bengali (CARMA), Alan Morris (CARMA), Josh Cates (CARMA), Rob MacLeod (CARMA)"
         ]
     }, 
     "ScenePerformance": {

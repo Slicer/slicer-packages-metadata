@@ -1,4 +1,25 @@
 {
+    "ABC": {
+        "cli": [
+            "ABC"
+        ], 
+        "loadable": [], 
+        "scripted": []
+    }, 
+    "AirwaySegmentation": {
+        "cli": [
+            "AirwaySegmentationCLI"
+        ], 
+        "loadable": [], 
+        "scripted": []
+    }, 
+    "AnglePlanesExtension": {
+        "cli": [], 
+        "loadable": [], 
+        "scripted": [
+            "AnglePlanes"
+        ]
+    }, 
     "CBC_3D_I2MConversion": {
         "cli": [
             "BodyCentricCubicMesh", 
@@ -32,9 +53,23 @@
         ]
     }, 
     "Cardiac_MRI_Toolkit": {
-        "cli": [], 
+        "cli": [
+            "CMRToolkitAutomaticLeftAtrialScar", 
+            "CMRToolkitAxialDilate", 
+            "CMRToolkitBooleanREMOVEFilter", 
+            "CMRToolkitConnectedThresholdFilter", 
+            "CMRToolkitInhomogeneityCorrection", 
+            "CMRToolkitIsolatedConnectedFilter", 
+            "CMRToolkitPVAntrumCut"
+        ], 
         "loadable": [], 
-        "scripted": []
+        "scripted": [
+            "CMRToolkitRegistration", 
+            "CMRToolkitRegistrationBRAINSFit", 
+            "CMRToolkitWizard", 
+            "LASegmentationWorkflow", 
+            "ScarVisualization"
+        ]
     }, 
     "CarreraSlice": {
         "cli": [], 
@@ -586,6 +621,11 @@
         ]
     }, 
     "XNATSlicer": {
+        "cli": [], 
+        "loadable": [], 
+        "scripted": []
+    }, 
+    "boost": {
         "cli": [], 
         "loadable": [], 
         "scripted": []
