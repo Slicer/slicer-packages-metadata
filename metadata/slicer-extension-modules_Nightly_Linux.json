@@ -1,6 +1,8 @@
 {
     "ABC": {
-        "cli": [], 
+        "cli": [
+            "ABC"
+        ], 
         "loadable": [], 
         "scripted": []
     }, 
@@ -631,9 +633,31 @@
         ]
     }, 
     "SlicerRT": {
-        "cli": [], 
-        "loadable": [], 
-        "scripted": []
+        "cli": [
+            "plastimatch_slicer_landwarp", 
+            "plastimatch_slicer_bspline"
+        ], 
+        "loadable": [
+            "VffFileReader", 
+            "Isodose", 
+            "PlastimatchPy", 
+            "Segmentations", 
+            "DoseAccumulation", 
+            "SegmentComparison", 
+            "SegmentMorphology", 
+            "PlanarImage", 
+            "DoseVolumeHistogram", 
+            "Beams", 
+            "DoseComparison", 
+            "DicomSroImport", 
+            "DicomRtImportExport"
+        ], 
+        "scripted": [
+            "DvhComparison", 
+            "PlmRegister", 
+            "BatchStructureSetConversion", 
+            "DicomSroExport"
+        ]
     }, 
     "SlicerToKiwiExporter": {
         "cli": [], 
