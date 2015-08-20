@@ -216,6 +216,14 @@
             "Tamas Ungi (Queen's University)"
         ]
     }, 
+    "BreachWarningLight": {
+        "categories": [
+            "IGT"
+        ], 
+        "contributors": [
+            "Kaci Carter (Queen's University, PERK Lab)"
+        ]
+    }, 
     "BreachWarningSelfTest": {
         "categories": [
             "Testing.IGT Tests"
@@ -1765,6 +1773,14 @@
             "Paul Mercea (University of Heidelberg), Markus Van Tol (University of Iowa) and Andrey Fedorov (SPL)"
         ]
     }, 
+    "LumpNav": {
+        "categories": [
+            "IGT"
+        ], 
+        "contributors": [
+            "Tamas Ungi (Perk Lab)"
+        ]
+    }, 
     "LungRegistration": {
         "categories": [
             "Chest Imaging Platform"
@@ -3013,6 +3029,17 @@
         ], 
         "contributors": [
             "Jim Miller (GE)"
+        ]
+    }, 
+    "Viewpoint": {
+        "categories": [
+            "IGT"
+        ], 
+        "contributors": [
+            "Thomas Vaughan (Queen's)", 
+            "Andras Lasso (Queen's)", 
+            "Tamas Ungi (Queen's)", 
+            "Gabor Fichtinger (Queen's)"
         ]
     }, 
     "VolumeClipWithModel": {
