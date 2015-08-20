@@ -347,6 +347,15 @@
         ], 
         "scripted": []
     }, 
+    "LumpNav": {
+        "cli": [], 
+        "loadable": [], 
+        "scripted": [
+            "BreachWarningLight", 
+            "LumpNav", 
+            "Viewpoint"
+        ]
+    }, 
     "MABMIS": {
         "cli": [], 
         "loadable": [], 
@@ -475,9 +484,7 @@
     "PortPlacement": {
         "cli": [], 
         "loadable": [], 
-        "scripted": [
-            "PortPlacement"
-        ]
+        "scripted": []
     }, 
     "PyDevRemoteDebug": {
         "cli": [], 
