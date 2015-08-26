@@ -101,7 +101,9 @@
     "CornerAnnotation": {
         "cli": [], 
         "loadable": [], 
-        "scripted": []
+        "scripted": [
+            "CornerAnnotation"
+        ]
     }, 
     "CurveMaker": {
         "cli": [], 
@@ -324,12 +326,17 @@
     "NeedleFinder": {
         "cli": [], 
         "loadable": [], 
-        "scripted": []
+        "scripted": [
+            "NeedleFinder"
+        ]
     }, 
     "OpenCAD": {
         "cli": [], 
         "loadable": [], 
-        "scripted": []
+        "scripted": [
+            "HeterogeneityCAD", 
+            "SegmentCAD"
+        ]
     }, 
     "PBNRR": {
         "cli": [
@@ -349,14 +356,20 @@
         ]
     }, 
     "PETDICOMExtension": {
-        "cli": [], 
+        "cli": [
+            "SUVFactorCalculator"
+        ], 
         "loadable": [], 
         "scripted": []
     }, 
     "PETTumorSegmentation": {
         "cli": [], 
-        "loadable": [], 
-        "scripted": []
+        "loadable": [
+            "PETTumorSegmentation"
+        ], 
+        "scripted": [
+            "PETTumorSegmentationEffect"
+        ]
     }, 
     "PercutaneousApproachAnalysis": {
         "cli": [], 
@@ -367,8 +380,14 @@
     }, 
     "PerkTutor": {
         "cli": [], 
-        "loadable": [], 
-        "scripted": []
+        "loadable": [
+            "TransformRecorder", 
+            "WorkflowSegmentation", 
+            "PerkEvaluator"
+        ], 
+        "scripted": [
+            "PythonMetricsCalculator"
+        ]
     }, 
     "PetSpectAnalysis": {
         "cli": [], 
@@ -475,9 +494,13 @@
         "scripted": []
     }, 
     "Slicer-AirwaySegmentation": {
-        "cli": [], 
+        "cli": [
+            "AirwaySegmentationCLI"
+        ], 
         "loadable": [], 
-        "scripted": []
+        "scripted": [
+            "AirwaySegmentation"
+        ]
     }, 
     "SlicerExtension-VMTK": {
         "cli": [], 
