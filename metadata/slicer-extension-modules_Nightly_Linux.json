@@ -723,7 +723,9 @@
     "WindowLevelEffect": {
         "cli": [], 
         "loadable": [], 
-        "scripted": []
+        "scripted": [
+            "WindowLevelEffect"
+        ]
     }, 
     "XNATSlicer": {
         "cli": [], 
