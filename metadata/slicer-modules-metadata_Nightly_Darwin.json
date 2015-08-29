@@ -3124,6 +3124,14 @@
             "Jean-Christophe Fillion-Robin (Kitware)"
         ]
     }, 
+    "WindowLevelEffect": {
+        "categories": [
+            "Editor Effects"
+        ], 
+        "contributors": [
+            "Andrey Fedorov (BWH)"
+        ]
+    }, 
     "WorkflowSegmentation": {
         "categories": [
             "Perk Tutor"
