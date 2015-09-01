@@ -961,6 +961,14 @@
             "Stephen R Aylward (Kitware), Casey B Goodlett (Kitware)"
         ]
     }, 
+    "ExtensionStats": {
+        "categories": [
+            "Developer Tools"
+        ], 
+        "contributors": [
+            "Andras Lasso (PerkLab, Queen's University), Jean-Christophe Fillion-Robin (Kitware)"
+        ]
+    }, 
     "ExtensionWizard": {
         "categories": [
             "Developer Tools"
