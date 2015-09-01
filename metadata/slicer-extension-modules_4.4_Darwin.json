@@ -141,7 +141,8 @@
         "cli": [], 
         "loadable": [], 
         "scripted": [
-            "DeveloperToolsForExtensions"
+            "DeveloperToolsForExtensions", 
+            "ExtensionStats"
         ]
     }, 
     "DiceComputation": {
