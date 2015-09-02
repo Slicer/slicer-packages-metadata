@@ -159,7 +159,6 @@
             "LabelParticlesByChestRegionChestType"
         ], 
         "loadable": [
-            "ParticlesDisplay", 
             "RegionType"
         ], 
         "scripted": [
@@ -458,9 +457,7 @@
     "PerkTutor": {
         "cli": [], 
         "loadable": [
-            "TransformRecorder", 
-            "WorkflowSegmentation", 
-            "PerkEvaluator"
+            "WorkflowSegmentation"
         ], 
         "scripted": [
             "PythonMetricsCalculator"
@@ -513,9 +510,7 @@
     }, 
     "Reporting": {
         "cli": [], 
-        "loadable": [
-            "Reporting"
-        ], 
+        "loadable": [], 
         "scripted": [
             "LabelToDICOMSEGConverter"
         ]
@@ -559,9 +554,7 @@
     "Sequences": {
         "cli": [], 
         "loadable": [
-            "SequenceBrowser", 
-            "MetafileImporter", 
-            "Sequences"
+            "SequenceBrowser"
         ], 
         "scripted": []
     }, 
@@ -646,10 +639,8 @@
             "plastimatch_slicer_bspline"
         ], 
         "loadable": [
-            "VffFileReader", 
             "Isodose", 
             "PlastimatchPy", 
-            "Segmentations", 
             "DoseAccumulation", 
             "SegmentComparison", 
             "SegmentMorphology", 
