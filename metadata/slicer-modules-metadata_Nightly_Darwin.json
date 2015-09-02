@@ -173,14 +173,6 @@
             "Andrey Fedorov (SPL, BWH)"
         ]
     }, 
-    "BatchStructureSetConversion": {
-        "categories": [
-            "Testing.SlicerRT Tests"
-        ], 
-        "contributors": [
-            "Csaba Pinter (Queen's)"
-        ]
-    }, 
     "Beams": {
         "categories": [
             "Radiotherapy"
@@ -704,14 +696,6 @@
             "Steve Pieper (Isomics Inc.), Csaba Pinter (Queen's)"
         ]
     }, 
-    "DICOMSegmentationPlugin": {
-        "categories": [
-            "Developer Tools.DICOM Plugins"
-        ], 
-        "contributors": [
-            "Andrey Fedorov, BWH"
-        ]
-    }, 
     "DICOMSlicerDataBundlePlugin": {
         "categories": [
             "Developer Tools.DICOM Plugins"
@@ -920,14 +904,6 @@
             "t", 
             "o", 
             ")"
-        ]
-    }, 
-    "DicomRtImportSelfTest": {
-        "categories": [
-            "Testing.SlicerRT Tests"
-        ], 
-        "contributors": [
-            "Csaba Pinter (Queen's)"
         ]
     }, 
     "DicomSroExport": {
@@ -1568,14 +1544,6 @@
             "Bradley Lowekamp"
         ]
     }, 
-    "IGRTWorkflow_SelfTest": {
-        "categories": [
-            "Testing.SlicerRT Tests"
-        ], 
-        "contributors": [
-            "Csaba Pinter (Queen's)"
-        ]
-    }, 
     "ImageLabelCombine": {
         "categories": [
             "Filtering"
@@ -1720,22 +1688,6 @@
         ], 
         "contributors": [
             "Steve Pieper (Isomics)"
-        ]
-    }, 
-    "LabelToDICOMSEGConverter": {
-        "categories": [
-            "Work in Progress.Converters"
-        ], 
-        "contributors": [
-            "Andrey Fedorov (Surgical Planning Lab)"
-        ]
-    }, 
-    "LabelToDICOMSEGConverterSelfTest": {
-        "categories": [
-            "Work in Progress.Informatics.TestCases"
-        ], 
-        "contributors": [
-            "Andrey Fedorov (SPL)"
         ]
     }, 
     "LandmarkRegistration": {
@@ -1919,14 +1871,6 @@
         ], 
         "contributors": [
             "Francois Budin, Ipek Oguz"
-        ]
-    }, 
-    "MetafileImporter": {
-        "categories": [
-            "Sequences"
-        ], 
-        "contributors": [
-            "Andras Lasso (PerkLab, Queen's), Matthew Holden (PerkLab, Queen's)"
         ]
     }, 
     "ModelMaker": {
@@ -2130,14 +2074,6 @@
             "Applied Chest Imaging Laboratory"
         ]
     }, 
-    "ParticlesDisplay": {
-        "categories": [
-            "Converters"
-        ], 
-        "contributors": [
-            "Pietro Nardelli (UCC)"
-        ]
-    }, 
     "PathExplorer": {
         "categories": [
             "IGT"
@@ -2168,15 +2104,6 @@
         ], 
         "contributors": [
             "Steve Pieper (Isomics)"
-        ]
-    }, 
-    "PerkEvaluator": {
-        "categories": [
-            "Perk Tutor"
-        ], 
-        "contributors": [
-            "Tamas Ungi (Queen's University)", 
-            "Matthew S. Holden (Queen's University)"
         ]
     }, 
     "PerturbParticles": {
@@ -2267,14 +2194,6 @@
         ], 
         "contributors": [
             "Andras Lasso (PerkLab at Queen's University)"
-        ]
-    }, 
-    "PythonMetricsCalculator": {
-        "categories": [
-            "Perk Tutor"
-        ], 
-        "contributors": [
-            "Matthew Holden (Queen's University), Tamas Ungi (Queen's University)"
         ]
     }, 
     "Q3DC": {
@@ -2453,16 +2372,6 @@
             "Applied Chest Imaging Laboratory, Brigham and Women's Hospital"
         ]
     }, 
-    "Reporting": {
-        "categories": [
-            "Work in Progress.Informatics"
-        ], 
-        "contributors": [
-            "Andrey Fedorov (SPL, BWH)", 
-            "Nicole Aucoin (SPL, BWH)", 
-            "Steve Pieper (Isomics)"
-        ]
-    }, 
     "ReportingSelfTest": {
         "categories": [
             "Work in Progress.Informatics.TestCases"
@@ -2638,16 +2547,6 @@
             "Andrey Fedorov (BWH)"
         ]
     }, 
-    "Segmentations": {
-        "categories": [
-            ""
-        ], 
-        "contributors": [
-            "Csaba Pinter (Queen's)", 
-            "Adam Rankin (Robarts)", 
-            "Andras Lasso (Queen's)"
-        ]
-    }, 
     "SelfTests": {
         "categories": [
             "Testing"
@@ -2657,14 +2556,6 @@
         ]
     }, 
     "SequenceBrowser": {
-        "categories": [
-            "Sequences"
-        ], 
-        "contributors": [
-            "Andras Lasso (PerkLab, Queen's), Matthew Holden (PerkLab, Queen's), Kevin Wang (PMH)"
-        ]
-    }, 
-    "Sequences": {
         "categories": [
             "Sequences"
         ], 
@@ -2921,15 +2812,6 @@
             "Franklin King (Queen's University), Tamas Ungi (Queen's University)"
         ]
     }, 
-    "TransformRecorder": {
-        "categories": [
-            "Perk Tutor"
-        ], 
-        "contributors": [
-            "Tamas Ungi (Queen's University)", 
-            "Matthew S. Holden (Queen's University)"
-        ]
-    }, 
     "Transforms": {
         "categories": [
             "", 
@@ -2992,15 +2874,6 @@
             "Daniel Haehn (Boston Children's Hospital)", 
             "Luca Antiga (Orobix)", 
             "Steve Pieper (Isomics)"
-        ]
-    }, 
-    "VffFileReader": {
-        "categories": [
-            ""
-        ], 
-        "contributors": [
-            "Jennifer Andrea (Queen's)", 
-            "Csaba Pinter (Queen's)"
         ]
     }, 
     "ViewControllers": {
@@ -3138,15 +3011,6 @@
         ], 
         "contributors": [
             "Andrey Fedorov (BWH)"
-        ]
-    }, 
-    "WorkflowSegmentation": {
-        "categories": [
-            "Perk Tutor"
-        ], 
-        "contributors": [
-            "Tamas Ungi (Queen's University)", 
-            "Matthew S. Holden (Queen's University)"
         ]
     }, 
     "dPetBrainQuantification": {

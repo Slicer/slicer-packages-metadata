@@ -159,7 +159,6 @@
             "TransferFieldDataToFromPointData"
         ], 
         "loadable": [
-            "ParticlesDisplay", 
             "RegionType"
         ], 
         "scripted": [
@@ -453,8 +452,6 @@
     "PerkTutor": {
         "cli": [], 
         "loadable": [
-            "PerkEvaluator", 
-            "TransformRecorder", 
             "WorkflowSegmentation"
         ], 
         "scripted": [
@@ -508,9 +505,7 @@
     }, 
     "Reporting": {
         "cli": [], 
-        "loadable": [
-            "Reporting"
-        ], 
+        "loadable": [], 
         "scripted": [
             "LabelToDICOMSEGConverter"
         ]
@@ -554,9 +549,7 @@
     "Sequences": {
         "cli": [], 
         "loadable": [
-            "MetafileImporter", 
-            "SequenceBrowser", 
-            "Sequences"
+            "SequenceBrowser"
         ], 
         "scripted": []
     }, 
@@ -652,10 +645,8 @@
             "Isodose", 
             "PlanarImage", 
             "PlastimatchPy", 
-            "Segmentations", 
             "SegmentComparison", 
-            "SegmentMorphology", 
-            "VffFileReader"
+            "SegmentMorphology"
         ], 
         "scripted": [
             "BatchStructureSetConversion", 
