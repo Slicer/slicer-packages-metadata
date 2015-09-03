@@ -639,8 +639,10 @@
             "plastimatch_slicer_bspline"
         ], 
         "loadable": [
+            "VffFileReader", 
             "Isodose", 
             "PlastimatchPy", 
+            "Segmentations", 
             "DoseAccumulation", 
             "SegmentComparison", 
             "SegmentMorphology", 
