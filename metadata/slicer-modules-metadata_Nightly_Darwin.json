@@ -173,6 +173,14 @@
             "Andrey Fedorov (SPL, BWH)"
         ]
     }, 
+    "BatchStructureSetConversion": {
+        "categories": [
+            "Testing.SlicerRT Tests"
+        ], 
+        "contributors": [
+            "Csaba Pinter (Queen's)"
+        ]
+    }, 
     "Beams": {
         "categories": [
             "Radiotherapy"
@@ -906,6 +914,14 @@
             ")"
         ]
     }, 
+    "DicomRtImportSelfTest": {
+        "categories": [
+            "Testing.SlicerRT Tests"
+        ], 
+        "contributors": [
+            "Csaba Pinter (Queen's)"
+        ]
+    }, 
     "DicomSroExport": {
         "categories": [
             "Plastimatch"
@@ -1542,6 +1558,14 @@
         ], 
         "contributors": [
             "Bradley Lowekamp"
+        ]
+    }, 
+    "IGRTWorkflow_SelfTest": {
+        "categories": [
+            "Testing.SlicerRT Tests"
+        ], 
+        "contributors": [
+            "Csaba Pinter (Queen's)"
         ]
     }, 
     "ImageLabelCombine": {
@@ -2547,6 +2571,16 @@
             "Andrey Fedorov (BWH)"
         ]
     }, 
+    "Segmentations": {
+        "categories": [
+            ""
+        ], 
+        "contributors": [
+            "Csaba Pinter (Queen's)", 
+            "Adam Rankin (Robarts)", 
+            "Andras Lasso (Queen's)"
+        ]
+    }, 
     "SelfTests": {
         "categories": [
             "Testing"
@@ -2874,6 +2908,15 @@
             "Daniel Haehn (Boston Children's Hospital)", 
             "Luca Antiga (Orobix)", 
             "Steve Pieper (Isomics)"
+        ]
+    }, 
+    "VffFileReader": {
+        "categories": [
+            ""
+        ], 
+        "contributors": [
+            "Jennifer Andrea (Queen's)", 
+            "Csaba Pinter (Queen's)"
         ]
     }, 
     "ViewControllers": {

@@ -645,8 +645,10 @@
             "Isodose", 
             "PlanarImage", 
             "PlastimatchPy", 
+            "Segmentations", 
             "SegmentComparison", 
-            "SegmentMorphology"
+            "SegmentMorphology", 
+            "VffFileReader"
         ], 
         "scripted": [
             "BatchStructureSetConversion", 
