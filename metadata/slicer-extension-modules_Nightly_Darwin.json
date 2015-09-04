@@ -106,12 +106,15 @@
             "CropLung", 
             "EnhanceFissuresInImage", 
             "EvaluateLungLobeSegmentationResults", 
+            "ExecuteSystemCommand", 
             "ExtractChestLabelMap", 
+            "ExtractFissureBoundaryFromLobeMap", 
             "ExtractParticlesFromChestRegionChestType", 
             "FilterAirwayParticleData", 
             "FilterConnectedComponents", 
             "FilterFissureParticleData", 
             "FilterVesselParticleData", 
+            "FindPatchMatch", 
             "FitLobeSurfaceModelsToParticleData", 
             "GenerateAtlasConvexHull", 
             "GenerateBinaryThinning3D", 
@@ -144,6 +147,7 @@
             "ReadVTKWriteNRRDs", 
             "ReadWriteImageData", 
             "ReadWriteRegionAndTypePoints", 
+            "RegionTypeLocationsToROIVolume", 
             "RegisterCT", 
             "RegisterLabelMaps", 
             "RegisterLungAtlas", 
@@ -156,21 +160,11 @@
             "ScourParticleData", 
             "SegmentLungLobes", 
             "SplitLeftLungRightLung", 
-            "TransferFieldDataToFromPointData"
+            "TransferFieldDataToFromPointData", 
+            "TransferRegionAndTypeIndicesToFromPoints"
         ], 
-        "loadable": [
-            "RegionType"
-        ], 
-        "scripted": [
-            "CIP_BodyComposition", 
-            "CIP_Common", 
-            "CIP_GetImage", 
-            "EmphysemaSubtypes", 
-            "InteractiveLobeSegmentation", 
-            "LungRegistration", 
-            "ParenchymaAnalysis", 
-            "PicasaSnap"
-        ]
+        "loadable": [], 
+        "scripted": []
     }, 
     "CleaverExtension": {
         "cli": [
@@ -549,7 +543,9 @@
     "Sequences": {
         "cli": [], 
         "loadable": [
-            "SequenceBrowser"
+            "MetafileImporter", 
+            "SequenceBrowser", 
+            "Sequences"
         ], 
         "scripted": []
     }, 
