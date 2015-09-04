@@ -101,6 +101,7 @@
             "RegisterLungAtlas", 
             "GenerateNLMFilteredImage", 
             "QualityControl", 
+            "ExecuteSystemCommand", 
             "SegmentLungLobes", 
             "RemapLabelMap", 
             "GenerateStenciledLabelMapFromParticles", 
@@ -111,6 +112,8 @@
             "ConvertChestRegionChestTypeToLabelMapValue", 
             "ResampleLabelMap", 
             "MaskOutLabelMapStructures", 
+            "ExtractFissureBoundaryFromLobeMap", 
+            "RegionTypeLocationsToROIVolume", 
             "MergeParticleDataSets", 
             "GetTransformationSimilarityMetric", 
             "FitLobeSurfaceModelsToParticleData", 
@@ -127,6 +130,7 @@
             "GetStructuresInLabelMap", 
             "ReadDicomWriteTags", 
             "ComputeFeatureStrength", 
+            "TransferRegionAndTypeIndicesToFromPoints", 
             "ReadWriteImageData", 
             "ComputeDistanceMap", 
             "RescaleLabelMap", 
@@ -144,6 +148,7 @@
             "ReadWriteRegionAndTypePoints", 
             "LabelMapFromRegionAndTypePoints", 
             "GetTransformationKappa2D", 
+            "FindPatchMatch", 
             "GenerateOverlayImages", 
             "PerformMorphological", 
             "GenerateLesionSegmentation", 
@@ -158,19 +163,8 @@
             "RemoveChestTypeFromLabelMapUsingParticles", 
             "LabelParticlesByChestRegionChestType"
         ], 
-        "loadable": [
-            "RegionType"
-        ], 
-        "scripted": [
-            "EmphysemaSubtypes", 
-            "LungRegistration", 
-            "CIP_GetImage", 
-            "CIP_BodyComposition", 
-            "ParenchymaAnalysis", 
-            "InteractiveLobeSegmentation", 
-            "PicasaSnap", 
-            "CIP_Common"
-        ]
+        "loadable": [], 
+        "scripted": []
     }, 
     "CleaverExtension": {
         "cli": [
@@ -554,7 +548,9 @@
     "Sequences": {
         "cli": [], 
         "loadable": [
-            "SequenceBrowser"
+            "SequenceBrowser", 
+            "MetafileImporter", 
+            "Sequences"
         ], 
         "scripted": []
     }, 
