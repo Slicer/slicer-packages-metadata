@@ -674,6 +674,14 @@
             "Steve Pieper (Isomics Inc.), Csaba Pinter (Queen's)"
         ]
     }, 
+    "DICOMSegmentationPlugin": {
+        "categories": [
+            "Developer Tools.DICOM Plugins"
+        ], 
+        "contributors": [
+            "Andrey Fedorov, BWH"
+        ]
+    }, 
     "DICOMSlicerDataBundlePlugin": {
         "categories": [
             "Developer Tools.DICOM Plugins"
@@ -1692,6 +1700,22 @@
             "Steve Pieper (Isomics)"
         ]
     }, 
+    "LabelToDICOMSEGConverter": {
+        "categories": [
+            "Work in Progress.Converters"
+        ], 
+        "contributors": [
+            "Andrey Fedorov (Surgical Planning Lab)"
+        ]
+    }, 
+    "LabelToDICOMSEGConverterSelfTest": {
+        "categories": [
+            "Work in Progress.Informatics.TestCases"
+        ], 
+        "contributors": [
+            "Andrey Fedorov (SPL)"
+        ]
+    }, 
     "LandmarkRegistration": {
         "categories": [
             "CMF Registration"
@@ -1897,6 +1921,14 @@
         ], 
         "contributors": [
             "Nicole Aucoin (SPL, BWH), Xiaodong Tao (GE)"
+        ]
+    }, 
+    "ModelToModelDistance": {
+        "categories": [
+            "Shape Analysis"
+        ], 
+        "contributors": [
+            "Francois Budin, Juliette Pera"
         ]
     }, 
     "Models": {
@@ -2354,6 +2386,16 @@
         ], 
         "contributors": [
             "Applied Chest Imaging Laboratory, Brigham and Women's Hospital"
+        ]
+    }, 
+    "Reporting": {
+        "categories": [
+            "Work in Progress.Informatics"
+        ], 
+        "contributors": [
+            "Andrey Fedorov (SPL, BWH)", 
+            "Nicole Aucoin (SPL, BWH)", 
+            "Steve Pieper (Isomics)"
         ]
     }, 
     "ReportingSelfTest": {
