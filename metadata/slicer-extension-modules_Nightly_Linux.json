@@ -389,7 +389,9 @@
         "scripted": []
     }, 
     "ModelToModelDistance": {
-        "cli": [], 
+        "cli": [
+            "ModelToModelDistance"
+        ], 
         "loadable": [], 
         "scripted": []
     }, 
@@ -504,7 +506,9 @@
     }, 
     "Reporting": {
         "cli": [], 
-        "loadable": [], 
+        "loadable": [
+            "Reporting"
+        ], 
         "scripted": [
             "LabelToDICOMSEGConverter"
         ]
