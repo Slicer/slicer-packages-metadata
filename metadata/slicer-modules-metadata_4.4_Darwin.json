@@ -1458,6 +1458,14 @@
             "Nicole Aucoin (SPL, BWH), Xiaodong Tao (GE)"
         ]
     }, 
+    "ModelToModelDistance": {
+        "categories": [
+            "Shape Analysis"
+        ], 
+        "contributors": [
+            "Francois Budin, Juliette Pera"
+        ]
+    }, 
     "Models": {
         "categories": [
             ""

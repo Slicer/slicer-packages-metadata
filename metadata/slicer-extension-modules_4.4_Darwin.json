@@ -306,7 +306,9 @@
         "scripted": []
     }, 
     "ModelToModelDistance": {
-        "cli": [], 
+        "cli": [
+            "ModelToModelDistance"
+        ], 
         "loadable": [], 
         "scripted": []
     }, 
