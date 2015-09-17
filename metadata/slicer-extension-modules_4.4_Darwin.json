@@ -277,6 +277,18 @@
         "loadable": [], 
         "scripted": []
     }, 
+    "MarginCalculator": {
+        "cli": [], 
+        "loadable": [
+            "DoseMorphology", 
+            "DosePopulationHistogram", 
+            "MotionSimulatorDoubleArray"
+        ], 
+        "scripted": [
+            "MarginCalculator", 
+            "SyntheticRTDose"
+        ]
+    }, 
     "MatlabBridge": {
         "cli": [
             "MatlabCommander"
@@ -418,9 +430,7 @@
     "PyDevRemoteDebug": {
         "cli": [], 
         "loadable": [], 
-        "scripted": [
-            "PyDevRemoteDebug"
-        ]
+        "scripted": []
     }, 
     "Q3DC": {
         "cli": [], 

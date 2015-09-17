@@ -834,6 +834,22 @@
             "Kevin Wang (UHN, Toronto)"
         ]
     }, 
+    "DoseMorphology": {
+        "categories": [
+            "Margin Calculator"
+        ], 
+        "contributors": [
+            "Kevin Wang (PMH, Toronto)"
+        ]
+    }, 
+    "DosePopulationHistogram": {
+        "categories": [
+            "Margin Calculator"
+        ], 
+        "contributors": [
+            "Kevin Wang (PMH, Toronto)"
+        ]
+    }, 
     "DoseVolumeHistogram": {
         "categories": [
             "Radiotherapy"
@@ -1327,6 +1343,14 @@
             "Paul Mercea (University of Heidelberg), Markus Van Tol (University of Iowa) and Andrey Fedorov (SPL)"
         ]
     }, 
+    "MarginCalculator": {
+        "categories": [
+            "Margin Calculator"
+        ], 
+        "contributors": [
+            "Kevin Wang (Princess Margaret Cancer Centre)"
+        ]
+    }, 
     "Markups": {
         "categories": [
             "", 
@@ -1474,6 +1498,14 @@
             "Julien Finet (Kitware)", 
             "Alex Yarmakovich (Isomics)", 
             "Nicole Aucoin (SPL, BWH)"
+        ]
+    }, 
+    "MotionSimulatorDoubleArray": {
+        "categories": [
+            "Margin Calculator"
+        ], 
+        "contributors": [
+            "Kevin Wang (RMP, PMH)"
         ]
     }, 
     "MultiVolumeExplorer": {
@@ -1754,14 +1786,6 @@
         ], 
         "contributors": [
             "Lauren O'Donnell (SPL, BWH)"
-        ]
-    }, 
-    "PyDevRemoteDebug": {
-        "categories": [
-            "Developer Tools"
-        ], 
-        "contributors": [
-            "Andras Lasso (PerkLab at Queen's University)"
         ]
     }, 
     "PythonMetricsCalculator": {
@@ -2112,6 +2136,14 @@
         ], 
         "contributors": [
             "Bill Lorensen (Noware)"
+        ]
+    }, 
+    "SyntheticRTDose": {
+        "categories": [
+            "Margin Calculator"
+        ], 
+        "contributors": [
+            "Kevin Wang (Princess Margaret Cancer Centre)"
         ]
     }, 
     "TCIABrowser": {
