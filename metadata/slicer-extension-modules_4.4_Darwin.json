@@ -237,9 +237,7 @@
         "scripted": []
     }, 
     "IntensitySegmenter": {
-        "cli": [
-            "IntensitySegmenter"
-        ], 
+        "cli": [], 
         "loadable": [], 
         "scripted": []
     }, 
