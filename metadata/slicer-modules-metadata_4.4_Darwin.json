@@ -1219,6 +1219,14 @@
             "Andrey Fedorov"
         ]
     }, 
+    "IntensitySegmenter": {
+        "categories": [
+            "Segmentation"
+        ], 
+        "contributors": [
+            "Pengdong Xiao, Beatriz Paniagua from Department of Orthodontics, the University of North Carolina at Chapel Hill, Francois Budin (UNC)"
+        ]
+    }, 
     "Isodose": {
         "categories": [
             "Radiotherapy"
