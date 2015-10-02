@@ -282,7 +282,8 @@
         "loadable": [
             "DoseMorphology", 
             "DosePopulationHistogram", 
-            "MotionSimulatorDoubleArray"
+            "MotionSimulatorDoubleArray", 
+            "MotionSimulator"
         ], 
         "scripted": [
             "MarginCalculator", 
