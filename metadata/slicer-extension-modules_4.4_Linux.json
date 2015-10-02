@@ -286,6 +286,7 @@
         "cli": [], 
         "loadable": [
             "DoseMorphology", 
+            "MotionSimulator", 
             "DosePopulationHistogram", 
             "MotionSimulatorDoubleArray"
         ], 

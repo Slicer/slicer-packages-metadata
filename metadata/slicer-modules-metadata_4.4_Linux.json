@@ -1524,6 +1524,14 @@
             "Nicole Aucoin (SPL, BWH)"
         ]
     }, 
+    "MotionSimulator": {
+        "categories": [
+            "Margin Calculator"
+        ], 
+        "contributors": [
+            "Kevin Wang (Princess Margaret Cancer Center)"
+        ]
+    }, 
     "MotionSimulatorDoubleArray": {
         "categories": [
             "Margin Calculator"
