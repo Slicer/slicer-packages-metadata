@@ -40,9 +40,7 @@
         ], 
         "loadable": [], 
         "scripted": [
-            "SurfaceRegistration", 
-            "CompareVolumes", 
-            "LandmarkRegistration"
+            "SurfaceRegistration"
         ]
     }, 
     "CardiacAgatstonMeasures": {
