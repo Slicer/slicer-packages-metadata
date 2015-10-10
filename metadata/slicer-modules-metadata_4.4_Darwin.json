@@ -72,7 +72,7 @@
     }, 
     "ApplyMatrix": {
         "categories": [
-            "CMF Registration"
+            "Shape Analysis.CMF Registration"
         ], 
         "contributors": [
             "Vinicius Boen and Mason Winsauer, Neuro Image Resarch and Analysis Laboratory, UNC Medical School, UofM School of Dentistry"
@@ -879,7 +879,7 @@
     }, 
     "Downsize": {
         "categories": [
-            "CMF Registration"
+            "Shape Analysis.CMF Registration"
         ], 
         "contributors": [
             "Vinicius Boen and Mason Winsauer, Neuro Image Resarch and Analysis Laboratory, UNC Medical School, UofM School of Dentistry"
@@ -1134,7 +1134,7 @@
     }, 
     "Growing": {
         "categories": [
-            "CMF Registration.Voxelbase Registration"
+            "Shape Analysis.CMF Registration.Voxelbase Registration"
         ], 
         "contributors": [
             "Vinicius Boen and Mason Winsauer, Neuro Image Resarch and Analysis Laboratory, UNC Medical School, UofM School Of Dentistry"
@@ -1272,7 +1272,7 @@
     }, 
     "LabelAddition": {
         "categories": [
-            "CMF Registration"
+            "Shape Analysis.CMF Registration"
         ], 
         "contributors": [
             "Vinicius Boen and Mason Winsauer, Neuro Image Resarch and Analysis Laboratory, UNC Medical School, UofM School of Dentistry"
@@ -1280,7 +1280,7 @@
     }, 
     "LabelExtraction": {
         "categories": [
-            "CMF Registration"
+            "Shape Analysis.CMF Registration"
         ], 
         "contributors": [
             "Vinicius Boen and Mason Winsauer, Neuro Image Resarch and Analysis Laboratory, UNC Medical School, UofM School of Dentistry"
@@ -1320,7 +1320,7 @@
     }, 
     "LandmarkRegistration": {
         "categories": [
-            "CMF Registration"
+            "Registration"
         ], 
         "contributors": [
             "Steve Pieper (Isomics)"
@@ -1379,7 +1379,7 @@
     }, 
     "MaskCreation": {
         "categories": [
-            "CMF Registration.Voxelbase Registration"
+            "Shape Analysis.CMF Registration.Voxelbase Registration"
         ], 
         "contributors": [
             "Vinicius Boen and Mason Winsauer, Neuro Image Resarch and Analysis Laboratory, UNC Medical School, UofM School of Dentistry"
@@ -1599,7 +1599,7 @@
     }, 
     "NonGrowing": {
         "categories": [
-            "CMF Registration.Voxelbase Registration"
+            "Shape Analysis.CMF Registration.Voxelbase Registration"
         ], 
         "contributors": [
             "Vinicius Boen and Mason Winsauer, Neuro Image Resarch and Analysis Laboratory, UNC Medical School, UofM School of Dentistry"
@@ -2125,10 +2125,11 @@
     }, 
     "SurfaceRegistration": {
         "categories": [
-            "CMF Registration"
+            "Shape Analysis.CMF Registration"
         ], 
         "contributors": [
-            "Vinicius Boen(Univ of Michigan)"
+            "Vinicius Boen(Univ of Michigan)", 
+            "Jean-Baptiste VIMORT (University of Michigan)"
         ]
     }, 
     "SurfaceToolbox": {

@@ -40,8 +40,6 @@
         ], 
         "loadable": [], 
         "scripted": [
-            "CompareVolumes", 
-            "LandmarkRegistration", 
             "SurfaceRegistration"
         ]
     }, 
