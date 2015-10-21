@@ -33,16 +33,7 @@
         ], 
         "loadable": [], 
         "scripted": [
-            "CompareVolumes", 
-            "LandmarkRegistration", 
             "SurfaceRegistration"
-        ]
-    }, 
-    "CardiacAgastonMeasures": {
-        "cli": [], 
-        "loadable": [], 
-        "scripted": [
-            "CardiacAgatstonMeasures"
         ]
     }, 
     "CardiacAgatstonMeasures": {
@@ -163,8 +154,19 @@
             "TransferFieldDataToFromPointData", 
             "TransferRegionAndTypeIndicesToFromPoints"
         ], 
-        "loadable": [], 
-        "scripted": []
+        "loadable": [
+            "AirwayInspector", 
+            "ParticlesDisplay", 
+            "RegionType"
+        ], 
+        "scripted": [
+            "BodyCompositionParameters", 
+            "CIP_BodyComposition", 
+            "CIP_Common", 
+            "CIP_GetImage", 
+            "InteractiveLobeSegmentation", 
+            "PicasaSnap"
+        ]
     }, 
     "CleaverExtension": {
         "cli": [
@@ -212,6 +214,14 @@
         "loadable": [], 
         "scripted": []
     }, 
+    "DebuggingTools": {
+        "cli": [], 
+        "loadable": [], 
+        "scripted": [
+            "NodeModifiedStatistics", 
+            "PyDevRemoteDebug"
+        ]
+    }, 
     "DeveloperToolsForExtensions": {
         "cli": [], 
         "loadable": [], 
@@ -222,7 +232,9 @@
     }, 
     "DiceComputation": {
         "cli": [], 
-        "loadable": [], 
+        "loadable": [
+            "DiceComputation"
+        ], 
         "scripted": []
     }, 
     "EasyClip": {
@@ -277,6 +289,13 @@
         "scripted": [
             "GelDosimetryAnalysis"
         ]
+    }, 
+    "GraphCutSegment": {
+        "cli": [], 
+        "loadable": [
+            "GraphCutInteractiveSegmenter"
+        ], 
+        "scripted": []
     }, 
     "GyroGuide": {
         "cli": [], 
@@ -354,6 +373,19 @@
         "cli": [], 
         "loadable": [], 
         "scripted": []
+    }, 
+    "MarginCalculator": {
+        "cli": [], 
+        "loadable": [
+            "DoseMorphology", 
+            "DosePopulationHistogram", 
+            "MotionSimulatorDoubleArray", 
+            "MotionSimulator"
+        ], 
+        "scripted": [
+            "MarginCalculator", 
+            "SyntheticRTDose"
+        ]
     }, 
     "MatlabBridge": {
         "cli": [
@@ -448,6 +480,8 @@
     "PerkTutor": {
         "cli": [], 
         "loadable": [
+            "PerkEvaluator", 
+            "TransformRecorder", 
             "WorkflowSegmentation"
         ], 
         "scripted": [
@@ -479,13 +513,6 @@
         "cli": [], 
         "loadable": [], 
         "scripted": []
-    }, 
-    "PyDevRemoteDebug": {
-        "cli": [], 
-        "loadable": [], 
-        "scripted": [
-            "PyDevRemoteDebug"
-        ]
     }, 
     "Q3DC": {
         "cli": [], 
@@ -597,6 +624,14 @@
             "VesselnessFiltering"
         ]
     }, 
+    "SlicerHeart": {
+        "cli": [], 
+        "loadable": [], 
+        "scripted": [
+            "Philips4dUsDicomPatcher", 
+            "ValveView"
+        ]
+    }, 
     "SlicerIGT": {
         "cli": [], 
         "loadable": [
@@ -676,12 +711,12 @@
         "loadable": [], 
         "scripted": []
     }, 
-    "T1_Mapping": {
-        "cli": [], 
+    "T1Mapping": {
+        "cli": [
+            "T1Mapping"
+        ], 
         "loadable": [], 
-        "scripted": [
-            "T1_Mapping"
-        ]
+        "scripted": []
     }, 
     "TCIABrowser": {
         "cli": [], 
