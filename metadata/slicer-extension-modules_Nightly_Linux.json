@@ -601,9 +601,7 @@
     }, 
     "Slicer-TrackerStabilizer": {
         "cli": [], 
-        "loadable": [
-            "TrackerStabilizer"
-        ], 
+        "loadable": [], 
         "scripted": []
     }, 
     "Slicer-Wasp": {
@@ -710,9 +708,7 @@
         "scripted": []
     }, 
     "T1Mapping": {
-        "cli": [
-            "T1Mapping"
-        ], 
+        "cli": [], 
         "loadable": [], 
         "scripted": []
     }, 
