@@ -799,6 +799,7 @@
             "ExpertAutomatedRegistration", 
             "ExtractSkeleton", 
             "FiberBundleLabelSelect", 
+            "FiberPostProcess", 
             "FiberTractMeasurements", 
             "FiducialRegistration", 
             "GaussianBlurImageFilter", 
