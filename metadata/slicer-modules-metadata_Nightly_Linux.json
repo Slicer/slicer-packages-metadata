@@ -694,14 +694,6 @@
             "Steve Pieper (Isomics Inc.)"
         ]
     }, 
-    "DTIAtlasFiberAnalyzer": {
-        "categories": [
-            "Diffusion.FiberAnalysis"
-        ], 
-        "contributors": [
-            "Jean-Baptiste Berger, Benjamin Yvernault, Francois Budin"
-        ]
-    }, 
     "DTINotReproducibleIssue3977": {
         "categories": [
             "Testing.TestCases"
@@ -1254,12 +1246,12 @@
             "Steve Pieper (Isomics)"
         ]
     }, 
-    "FiberCompare": {
+    "FiberPostProcess": {
         "categories": [
             "Diffusion.FiberAnalysis"
         ], 
         "contributors": [
-            "Jean-Baptiste Berger"
+            "Jean-Yves Yang"
         ]
     }, 
     "FiberTractMeasurements": {
@@ -1924,14 +1916,6 @@
         ], 
         "contributors": [
             "Applied Chest Imaging Laboratory, Brigham and women's hospital"
-        ]
-    }, 
-    "MergeStatWithFiber": {
-        "categories": [
-            "Diffusion.FiberAnalysis"
-        ], 
-        "contributors": [
-            "Jean-Baptiste Berger"
         ]
     }, 
     "MeshCompression": {
@@ -2909,6 +2893,14 @@
             "Kevin Wang (Princess Margaret Cancer Centre)"
         ]
     }, 
+    "T1Mapping": {
+        "categories": [
+            "Quantification"
+        ], 
+        "contributors": [
+            "Xiao Da (MGH), Yangming Ou (MGH), Andriy Fedorov (BWH), Jayashree Kalpathy-Cramer (MGH)"
+        ]
+    }, 
     "TCIABrowser": {
         "categories": [
             "Informatics"
@@ -2939,6 +2931,14 @@
         ], 
         "contributors": [
             "Steve Pieper (Isomics Inc.)"
+        ]
+    }, 
+    "TrackerStabilizer": {
+        "categories": [
+            "IGT"
+        ], 
+        "contributors": [
+            "Laurent Chauvin (BWH), Jayender Jagadeesan (BWH), Andras Lasso (Queen's University)"
         ]
     }, 
     "TractographyDisplay": {
@@ -3231,14 +3231,6 @@
         ], 
         "contributors": [
             "Martin Bertran, Natalia Martinez, Guillermo Carbajal, Alvaro Gomez"
-        ]
-    }, 
-    "dtitractstat": {
-        "categories": [
-            "Diffusion.FiberAnalysis"
-        ], 
-        "contributors": [
-            "Anuja Sharma, Yundi Shi, Sylvain Gouttard, Francois Budin, Martin Styner, Guido Gerig"
         ]
     }, 
     "fiber_visibility_crash2438": {

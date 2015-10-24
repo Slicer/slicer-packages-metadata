@@ -199,12 +199,7 @@
         "scripted": []
     }, 
     "DTIAtlasFiberAnalyzer": {
-        "cli": [
-            "MergeStatWithFiber", 
-            "DTIAtlasFiberAnalyzer", 
-            "FiberCompare", 
-            "dtitractstat"
-        ], 
+        "cli": [], 
         "loadable": [], 
         "scripted": []
     }, 
@@ -601,7 +596,9 @@
     }, 
     "Slicer-TrackerStabilizer": {
         "cli": [], 
-        "loadable": [], 
+        "loadable": [
+            "TrackerStabilizer"
+        ], 
         "scripted": []
     }, 
     "Slicer-Wasp": {
@@ -708,7 +705,9 @@
         "scripted": []
     }, 
     "T1Mapping": {
-        "cli": [], 
+        "cli": [
+            "T1Mapping"
+        ], 
         "loadable": [], 
         "scripted": []
     }, 
@@ -768,6 +767,7 @@
             "ExpertAutomatedRegistration", 
             "ImageLabelCombine", 
             "DiffusionWeightedVolumeMasking", 
+            "FiberPostProcess", 
             "DTIexport", 
             "BRAINSTransformConvert", 
             "CLIModule4Test", 
