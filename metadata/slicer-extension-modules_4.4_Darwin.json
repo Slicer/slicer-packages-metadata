@@ -509,6 +509,13 @@
             "AirwaySegmentation"
         ]
     }, 
+    "Slicer-Wasp": {
+        "cli": [], 
+        "loadable": [], 
+        "scripted": [
+            "Wasp"
+        ]
+    }, 
     "SlicerExtension-VMTK": {
         "cli": [], 
         "loadable": [], 
