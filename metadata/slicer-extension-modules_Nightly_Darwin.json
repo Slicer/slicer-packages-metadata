@@ -160,7 +160,6 @@
             "RegionType"
         ], 
         "scripted": [
-            "BodyCompositionParameters", 
             "CIP_BodyComposition", 
             "CIP_Common", 
             "CIP_GetImage", 
