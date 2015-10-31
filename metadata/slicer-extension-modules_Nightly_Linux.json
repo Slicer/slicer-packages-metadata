@@ -161,7 +161,6 @@
         "scripted": [
             "CIP_GetImage", 
             "CIP_BodyComposition", 
-            "BodyCompositionParameters", 
             "InteractiveLobeSegmentation", 
             "PicasaSnap", 
             "CIP_Common"
