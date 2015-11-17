@@ -182,14 +182,6 @@
             "Andrey Fedorov (SPL, BWH)"
         ]
     }, 
-    "BatchStructureSetConversion": {
-        "categories": [
-            "Testing.SlicerRT Tests"
-        ], 
-        "contributors": [
-            "Csaba Pinter (Queen's)"
-        ]
-    }, 
     "Beams": {
         "categories": [
             "Radiotherapy"
@@ -830,16 +822,6 @@
             "Laurent Chauvin (BWH), Sonia Pujol (BWH)"
         ]
     }, 
-    "DicomRtImportExport": {
-        "categories": [
-            "Radiotherapy"
-        ], 
-        "contributors": [
-            "Csaba Pinter (Queen's)", 
-            "Andras Lasso (Queen's)", 
-            "Kevin Wang (UHN, Toronto)"
-        ]
-    }, 
     "DicomRtImportExportPlugin": {
         "categories": [
             "Developer Tools.DICOM Plugins"
@@ -918,14 +900,6 @@
             "t", 
             "o", 
             ")"
-        ]
-    }, 
-    "DicomRtImportSelfTest": {
-        "categories": [
-            "Testing.SlicerRT Tests"
-        ], 
-        "contributors": [
-            "Csaba Pinter (Queen's)"
         ]
     }, 
     "DicomSroExport": {
@@ -1251,7 +1225,7 @@
             "Diffusion.Tractography"
         ], 
         "contributors": [
-            "Demian Wassermann, Lauren O'Donnell"
+            "Demian Wassermann, Fan Zhang, Lauren O'Donnell"
         ]
     }, 
     "FiberBundleToLabelMap": {
@@ -1381,14 +1355,6 @@
         ], 
         "contributors": [
             "Julien Jomier (Kitware), Stephen Aylward (Kitware)"
-        ]
-    }, 
-    "GelDosimetryAnalysis": {
-        "categories": [
-            "Slicelets"
-        ], 
-        "contributors": [
-            "Csaba Pinter (Queen's University), Mattea Welch (Queen's University), Jennifer Andrea (Queen's University), Kevin Alexander (Kingston General Hospital)"
         ]
     }, 
     "GelDosimetryAnalysisAlgo": {
@@ -1623,14 +1589,6 @@
             "Bradley Lowekamp"
         ]
     }, 
-    "IGRTWorkflow_SelfTest": {
-        "categories": [
-            "Testing.SlicerRT Tests"
-        ], 
-        "contributors": [
-            "Csaba Pinter (Queen's)"
-        ]
-    }, 
     "ImageLabelCombine": {
         "categories": [
             "Filtering"
@@ -1677,16 +1635,6 @@
         ], 
         "contributors": [
             "Kilian M Pohl (SRI/Stanford)"
-        ]
-    }, 
-    "Isodose": {
-        "categories": [
-            "Radiotherapy"
-        ], 
-        "contributors": [
-            "Kevin Wang (PMH, Toronto)", 
-            "Csaba Pinter (Queen's)", 
-            "Andras Lasso (Queen's)"
         ]
     }, 
     "JRC2013Vis": {
