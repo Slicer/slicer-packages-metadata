@@ -156,6 +156,7 @@
         ], 
         "loadable": [
             "ParticlesDisplay", 
+            "AirwayInspector", 
             "RegionType"
         ], 
         "scripted": [
@@ -881,6 +882,13 @@
         "loadable": [], 
         "scripted": [
             "iGyne"
+        ]
+    }, 
+    "mpReview": {
+        "cli": [], 
+        "loadable": [], 
+        "scripted": [
+            "mpReview"
         ]
     }
 }
