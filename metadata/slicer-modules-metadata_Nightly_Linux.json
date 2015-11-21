@@ -2844,14 +2844,6 @@
             "Csaba Pinter (Queen's)"
         ]
     }, 
-    "SubjectHierarchyCorePluginsSelfTest": {
-        "categories": [
-            "Testing.TestCases"
-        ], 
-        "contributors": [
-            "Csaba Pinter (Queen's)"
-        ]
-    }, 
     "SubjectHierarchyGenericSelfTest": {
         "categories": [
             "Testing.TestCases"
