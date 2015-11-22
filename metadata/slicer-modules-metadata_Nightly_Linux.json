@@ -1110,6 +1110,14 @@
             "Steve Pieper (Isomics)"
         ]
     }, 
+    "EncodeSEG": {
+        "categories": [
+            "Informatics"
+        ], 
+        "contributors": [
+            "Andrey Fedorov, BWH"
+        ]
+    }, 
     "Endoscopy": {
         "categories": [
             "Endoscopy"
@@ -2594,6 +2602,23 @@
             "Yi Gao (gatech), Allen Tannenbaum (gatech), Ron Kikinis (SPL, BWH)"
         ]
     }, 
+    "SEG2NRRD": {
+        "categories": [
+            "Informatics"
+        ], 
+        "contributors": [
+            "Andrey Fedorov, BWH"
+        ]
+    }, 
+    "SEGExporterSelfTest": {
+        "categories": [
+            "Testing", 
+            "TestCases"
+        ], 
+        "contributors": [
+            "Steve Piepper (Isomics, Inc.)"
+        ]
+    }, 
     "SUVFactorCalculator": {
         "categories": [
             "Quantification"
@@ -2839,6 +2864,14 @@
         "categories": [
             "", 
             "Informatics"
+        ], 
+        "contributors": [
+            "Csaba Pinter (Queen's)"
+        ]
+    }, 
+    "SubjectHierarchyCorePluginsSelfTest": {
+        "categories": [
+            "Testing.TestCases"
         ], 
         "contributors": [
             "Csaba Pinter (Queen's)"

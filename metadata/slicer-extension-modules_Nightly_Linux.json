@@ -522,7 +522,10 @@
         "scripted": []
     }, 
     "Reporting": {
-        "cli": [], 
+        "cli": [
+            "EncodeSEG", 
+            "SEG2NRRD"
+        ], 
         "loadable": [
             "Reporting"
         ], 
