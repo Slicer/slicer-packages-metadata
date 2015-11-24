@@ -1785,22 +1785,6 @@
             "Steve Pieper (Isomics)"
         ]
     }, 
-    "LabelToDICOMSEGConverter": {
-        "categories": [
-            "Work in Progress.Converters"
-        ], 
-        "contributors": [
-            "Andrey Fedorov (Surgical Planning Lab)"
-        ]
-    }, 
-    "LabelToDICOMSEGConverterSelfTest": {
-        "categories": [
-            "Work in Progress.Informatics.TestCases"
-        ], 
-        "contributors": [
-            "Andrey Fedorov (SPL)"
-        ]
-    }, 
     "LandmarkRegistration": {
         "categories": [
             "Registration"
@@ -2544,24 +2528,6 @@
         ], 
         "contributors": [
             "Applied Chest Imaging Laboratory, Brigham and Women's Hospital"
-        ]
-    }, 
-    "Reporting": {
-        "categories": [
-            "Work in Progress.Informatics"
-        ], 
-        "contributors": [
-            "Andrey Fedorov (SPL, BWH)", 
-            "Nicole Aucoin (SPL, BWH)", 
-            "Steve Pieper (Isomics)"
-        ]
-    }, 
-    "ReportingSelfTest": {
-        "categories": [
-            "Work in Progress.Informatics.TestCases"
-        ], 
-        "contributors": [
-            "Andrey Fedorov (SPL)"
         ]
     }, 
     "ResampleCT": {

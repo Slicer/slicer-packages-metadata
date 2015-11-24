@@ -530,12 +530,8 @@
             "EncodeSEG", 
             "SEG2NRRD"
         ], 
-        "loadable": [
-            "Reporting"
-        ], 
-        "scripted": [
-            "LabelToDICOMSEGConverter"
-        ]
+        "loadable": [], 
+        "scripted": []
     }, 
     "ResampleDTIlogEuclidean": {
         "cli": [
