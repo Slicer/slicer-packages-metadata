@@ -3286,12 +3286,12 @@
             "Akila Viswanathan"
         ]
     }, 
-    "mpReview": {
+    "mpReviewPreprocessor": {
         "categories": [
             "Informatics"
         ], 
         "contributors": [
-            "Andrey Fedorov (SPL), Robin Weiss (U. of Chicago), Alireza Mehrtash (SPL), Christian Herz (SPL)"
+            "Andrey Fedorov (SPL), Robin Weiss (U. of Chicago), Christian Herz (SPL)"
         ]
     }, 
     "plastimatch_slicer_bspline": {

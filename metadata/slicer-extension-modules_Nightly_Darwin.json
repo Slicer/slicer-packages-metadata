@@ -893,7 +893,8 @@
         "cli": [], 
         "loadable": [], 
         "scripted": [
-            "mpReview"
+            "mpReview", 
+            "mpReviewPreprocessor"
         ]
     }
 }
