@@ -1543,6 +1543,14 @@
             "Bill Lorensen (GE)"
         ]
     }, 
+    "GraphCutSegmentSelfTest": {
+        "categories": [
+            "Testing.TestCases"
+        ], 
+        "contributors": [
+            "Danfeng Chen (Western University)"
+        ]
+    }, 
     "GrayscaleFillHoleImageFilter": {
         "categories": [
             "Filtering.Morphology"
