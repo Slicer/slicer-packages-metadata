@@ -2916,6 +2916,22 @@
             "Alireza Mehrtash (SPL, BWH), Andrey Fedorov (SPL, BWH)"
         ]
     }, 
+    "Tables": {
+        "categories": [
+            "Informatics"
+        ], 
+        "contributors": [
+            "Andras Lasso (PerkLab), Kevin Wang (PMH)"
+        ]
+    }, 
+    "TablesSelfTest": {
+        "categories": [
+            "Testing.TestCases"
+        ], 
+        "contributors": [
+            "Andras Lasso (PerkLab, Queen's)"
+        ]
+    }, 
     "TestGridTransformRegistration": {
         "categories": [
             "Legacy.Registration"

@@ -844,6 +844,7 @@
             "Models", 
             "Transforms", 
             "SceneViews", 
+            "Tables", 
             "TractographyInteractiveSeeding", 
             "Markups", 
             "DoubleArrays", 
