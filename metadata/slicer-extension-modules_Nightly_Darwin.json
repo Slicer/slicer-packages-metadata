@@ -163,8 +163,7 @@
             "CIP_BodyComposition", 
             "CIP_Common", 
             "CIP_GetImage", 
-            "InteractiveLobeSegmentation", 
-            "PicasaSnap"
+            "InteractiveLobeSegmentation"
         ]
     }, 
     "CleaverExtension": {
