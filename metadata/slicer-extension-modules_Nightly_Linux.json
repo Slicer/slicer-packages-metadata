@@ -163,7 +163,6 @@
             "CIP_GetImage", 
             "CIP_BodyComposition", 
             "InteractiveLobeSegmentation", 
-            "PicasaSnap", 
             "CIP_Common"
         ]
     }, 
