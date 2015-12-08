@@ -1262,14 +1262,6 @@
             "Steve Pieper (Isomics)"
         ]
     }, 
-    "FiberPostProcess": {
-        "categories": [
-            "Diffusion.FiberAnalysis"
-        ], 
-        "contributors": [
-            "Jean-Yves Yang"
-        ]
-    }, 
     "FiberTractMeasurements": {
         "categories": [
             "Diffusion.Tractography"

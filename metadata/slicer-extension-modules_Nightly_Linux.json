@@ -765,7 +765,6 @@
             "ExpertAutomatedRegistration", 
             "ImageLabelCombine", 
             "DiffusionWeightedVolumeMasking", 
-            "FiberPostProcess", 
             "DTIexport", 
             "BRAINSTransformConvert", 
             "CLIModule4Test", 
