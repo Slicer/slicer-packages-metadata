@@ -387,7 +387,9 @@
         "cli": [
             "MatlabCommander"
         ], 
-        "loadable": [], 
+        "loadable": [
+            "MatlabModuleGenerator"
+        ], 
         "scripted": []
     }, 
     "MeshStatisticsExtension": {

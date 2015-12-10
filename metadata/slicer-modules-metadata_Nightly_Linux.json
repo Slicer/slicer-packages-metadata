@@ -1886,6 +1886,16 @@
             "Andras Lasso (PerkLab, Queen's University), Jean-Christophe Fillion-Robin (Kitware), Kevin Wang (Radiation Medicine Program, Princess Margaret Hospital, University Health Network Toronto)"
         ]
     }, 
+    "MatlabModuleGenerator": {
+        "categories": [
+            "Developer Tools.Matlab"
+        ], 
+        "contributors": [
+            "Andras Lasso (PerkLab, Queen's University)", 
+            "Jean-Christophe Fillion-Robin (Kitware)", 
+            "Kevin Wang (Radiation Medicine Program, Princess Margaret Hospital, University Health Network Toronto)"
+        ]
+    }, 
     "MedianImageFilter": {
         "categories": [
             "Filtering.Denoising"
@@ -3274,6 +3284,22 @@
             "Antonio Damato", 
             "Tina Kapur", 
             "Akila Viswanathan"
+        ]
+    }, 
+    "mpReview": {
+        "categories": [
+            "Informatics"
+        ], 
+        "contributors": [
+            "Andrey Fedorov (SPL), Robin Weiss (U. of Chicago), Alireza Mehrtash (SPL), Christian Herz (SPL)"
+        ]
+    }, 
+    "mpReviewPreprocessor": {
+        "categories": [
+            "Informatics"
+        ], 
+        "contributors": [
+            "Andrey Fedorov (SPL), Robin Weiss (U. of Chicago), Christian Herz (SPL)"
         ]
     }, 
     "plastimatch_slicer_bspline": {
