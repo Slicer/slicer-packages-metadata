@@ -215,32 +215,22 @@
     "DebuggingTools": {
         "cli": [], 
         "loadable": [], 
-        "scripted": [
-            "NodeModifiedStatistics", 
-            "PyDevRemoteDebug"
-        ]
+        "scripted": []
     }, 
     "DeveloperToolsForExtensions": {
         "cli": [], 
         "loadable": [], 
-        "scripted": [
-            "DeveloperToolsForExtensions", 
-            "ExtensionStats"
-        ]
+        "scripted": []
     }, 
     "DiceComputation": {
         "cli": [], 
-        "loadable": [
-            "DiceComputation"
-        ], 
+        "loadable": [], 
         "scripted": []
     }, 
     "EasyClip": {
         "cli": [], 
         "loadable": [], 
-        "scripted": [
-            "EasyClip"
-        ]
+        "scripted": []
     }, 
     "Eigen": {
         "cli": [], 
@@ -259,12 +249,8 @@
     }, 
     "FastGrowCutEffect": {
         "cli": [], 
-        "loadable": [
-            "FastGrowCut"
-        ], 
-        "scripted": [
-            "FastGrowCutEffect"
-        ]
+        "loadable": [], 
+        "scripted": []
     }, 
     "FiberViewerLight": {
         "cli": [], 
@@ -272,10 +258,7 @@
         "scripted": []
     }, 
     "FinslerTractography": {
-        "cli": [
-            "FinslerBacktracing", 
-            "FinslerTractography"
-        ], 
+        "cli": [], 
         "loadable": [], 
         "scripted": []
     }, 
@@ -290,9 +273,7 @@
     }, 
     "GraphCutSegment": {
         "cli": [], 
-        "loadable": [
-            "GraphCutInteractiveSegmenter"
-        ], 
+        "loadable": [], 
         "scripted": []
     }, 
     "GyroGuide": {
@@ -533,9 +514,7 @@
         "scripted": []
     }, 
     "ResampleDTIlogEuclidean": {
-        "cli": [
-            "ResampleDTIlogEuclidean"
-        ], 
+        "cli": [], 
         "loadable": [], 
         "scripted": []
     }, 
@@ -570,11 +549,7 @@
     }, 
     "Sequences": {
         "cli": [], 
-        "loadable": [
-            "MetafileImporter", 
-            "SequenceBrowser", 
-            "Sequences"
-        ], 
+        "loadable": [], 
         "scripted": []
     }, 
     "ShapePopulationViewer": {
@@ -583,51 +558,34 @@
         "scripted": []
     }, 
     "SkullStripper": {
-        "cli": [
-            "SkullStripper"
-        ], 
+        "cli": [], 
         "loadable": [], 
         "scripted": []
     }, 
     "Slicer-AirwaySegmentation": {
-        "cli": [
-            "AirwaySegmentationCLI"
-        ], 
+        "cli": [], 
         "loadable": [], 
-        "scripted": [
-            "AirwaySegmentation"
-        ]
+        "scripted": []
     }, 
     "Slicer-TrackerStabilizer": {
         "cli": [], 
-        "loadable": [
-            "TrackerStabilizer"
-        ], 
+        "loadable": [], 
         "scripted": []
     }, 
     "Slicer-Wasp": {
         "cli": [], 
         "loadable": [], 
-        "scripted": [
-            "Wasp"
-        ]
+        "scripted": []
     }, 
     "SlicerExtension-VMTK": {
         "cli": [], 
         "loadable": [], 
-        "scripted": [
-            "CenterlineComputation", 
-            "LevelSetSegmentation", 
-            "VesselnessFiltering"
-        ]
+        "scripted": []
     }, 
     "SlicerHeart": {
         "cli": [], 
         "loadable": [], 
-        "scripted": [
-            "Philips4dUsDicomPatcher", 
-            "ValveView"
-        ]
+        "scripted": []
     }, 
     "SlicerIGT": {
         "cli": [], 
@@ -652,15 +610,9 @@
         ]
     }, 
     "SlicerProstate": {
-        "cli": [
-            "DWModeling", 
-            "QuadEdgeSurfaceMesher", 
-            "SegmentationSmoothing"
-        ], 
+        "cli": [], 
         "loadable": [], 
-        "scripted": [
-            "DistanceMapBasedRegistration"
-        ]
+        "scripted": []
     }, 
     "SlicerRT": {
         "cli": [
@@ -692,9 +644,7 @@
     "SlicerToKiwiExporter": {
         "cli": [], 
         "loadable": [], 
-        "scripted": [
-            "SlicerToKiwiExporter"
-        ]
+        "scripted": []
     }, 
     "SobolevSegmenter": {
         "cli": [], 
@@ -702,25 +652,19 @@
         "scripted": []
     }, 
     "SwissSkullStripper": {
-        "cli": [
-            "SwissSkullStripper"
-        ], 
+        "cli": [], 
         "loadable": [], 
         "scripted": []
     }, 
     "T1Mapping": {
-        "cli": [
-            "T1Mapping"
-        ], 
+        "cli": [], 
         "loadable": [], 
         "scripted": []
     }, 
     "TCIABrowser": {
         "cli": [], 
         "loadable": [], 
-        "scripted": [
-            "TCIABrowser"
-        ]
+        "scripted": []
     }, 
     "ThingiverseBrowser": {
         "cli": [], 
@@ -729,8 +673,7 @@
     }, 
     "UKFTractography": {
         "cli": [
-            "ConvertVTK", 
-            "UKFTractography"
+            "ConvertVTK"
         ], 
         "loadable": [], 
         "scripted": []
