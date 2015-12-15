@@ -47,6 +47,22 @@
             "Alex Yarmarkovich (BWH)"
         ]
     }, 
+    "AirwaySegmentation": {
+        "categories": [
+            "Segmentation"
+        ], 
+        "contributors": [
+            "Pietro Nardelli (University College Cork)"
+        ]
+    }, 
+    "AirwaySegmentationCLI": {
+        "categories": [
+            "Segmentation"
+        ], 
+        "contributors": [
+            "Pietro Nardelli (University College Cork)"
+        ]
+    }, 
     "AnglePlanes": {
         "categories": [
             "Shape Analysis"
@@ -388,6 +404,16 @@
         ], 
         "contributors": [
             "Nicole Aucoin (SPL, BWH), Ron Kikinis (SPL, BWH)"
+        ]
+    }, 
+    "CenterlineComputation": {
+        "categories": [
+            "Vascular Modeling Toolkit"
+        ], 
+        "contributors": [
+            "Daniel Haehn (Boston Children's Hospital)", 
+            "Luca Antiga (Orobix)", 
+            "Steve Pieper (Isomics)"
         ]
     }, 
     "ChangeTracker": {
@@ -749,6 +775,14 @@
             "Antonio Tristan Vega (UVa), Santiago Aja Fernandez (UVa)"
         ]
     }, 
+    "DWModeling": {
+        "categories": [
+            "Quantification"
+        ], 
+        "contributors": [
+            "Andriy Fedorov (SPL/BWH)"
+        ]
+    }, 
     "Data": {
         "categories": [
             "", 
@@ -778,6 +812,22 @@
             "Charles Marion (Kitware)", 
             "Jean-Baptiste Berger (Kitware)", 
             "Jean-Christophe Fillion-Robin (Kitware)"
+        ]
+    }, 
+    "DeveloperToolsForExtensions": {
+        "categories": [
+            "Developer Tools"
+        ], 
+        "contributors": [
+            "Francois Budin (UNC)"
+        ]
+    }, 
+    "DiceComputation": {
+        "categories": [
+            "Quantification"
+        ], 
+        "contributors": [
+            "Laurent Chauvin (BWH), Sonia Pujol (BWH)"
         ]
     }, 
     "DicomRtImportExport": {
@@ -902,6 +952,14 @@
             "Kevin Wang (RMP, PMH)"
         ]
     }, 
+    "DicomUltrasoundPlugin": {
+        "categories": [
+            "Developer Tools.DICOM Plugins"
+        ], 
+        "contributors": [
+            "Steve Pieper, Isomics Inc."
+        ]
+    }, 
     "DiffusionTensorScalarMeasurements": {
         "categories": [
             "Diffusion.Diffusion Tensor Images"
@@ -924,6 +982,14 @@
         ], 
         "contributors": [
             "Demian Wassermann (SPL, BWH)"
+        ]
+    }, 
+    "DistanceMapBasedRegistration": {
+        "categories": [
+            "Registration.Label Registration"
+        ], 
+        "contributors": [
+            "Andrey Fedorov (BWH), Andras Lasso (Queen's University)"
         ]
     }, 
     "DoseAccumulation": {
@@ -1034,6 +1100,15 @@
             "Anonymous"
         ]
     }, 
+    "EasyClip": {
+        "categories": [
+            "Shape Analysis"
+        ], 
+        "contributors": [
+            "Julia Lopinto, (University Of Michigan)", 
+            "Jean-Baptiste Vimort, (University Of Michigan)"
+        ]
+    }, 
     "Editor": {
         "categories": [
             "", 
@@ -1107,6 +1182,14 @@
             "Stephen R Aylward (Kitware), Casey B Goodlett (Kitware)"
         ]
     }, 
+    "ExtensionStats": {
+        "categories": [
+            "Developer Tools"
+        ], 
+        "contributors": [
+            "Andras Lasso (PerkLab, Queen's University), Jean-Christophe Fillion-Robin (Kitware)"
+        ]
+    }, 
     "ExtensionWizard": {
         "categories": [
             "Developer Tools"
@@ -1145,6 +1228,22 @@
         ], 
         "contributors": [
             "Pierre Seroul (UNC), Martin Styner (UNC), Guido Gerig (UNC), Stephen Aylward (Kitware)"
+        ]
+    }, 
+    "FastGrowCut": {
+        "categories": [
+            "Examples"
+        ], 
+        "contributors": [
+            "Jean-Christophe Fillion-Robin (Kitware)"
+        ]
+    }, 
+    "FastGrowCutEffect": {
+        "categories": [
+            "Developer Tools.Editor Extensions"
+        ], 
+        "contributors": [
+            "Liangjia Zhu, Ivan Kolesov, Allen Tannenbaum (Stony Brook University), Yi Gao(University of Alabama Birmingham), and Ron Kikinis (BWH)"
         ]
     }, 
     "FastGrowCutSegmenter": {
@@ -1258,6 +1357,22 @@
         ], 
         "contributors": [
             "Applied Chest Imaging Laboratory, Brigham and Women's Hospital"
+        ]
+    }, 
+    "FinslerBacktracing": {
+        "categories": [
+            "Diffusion.Diffusion Weighted Images"
+        ], 
+        "contributors": [
+            "Antonio Tristan Vega, Alex Yarmarkovich, Demian Wassermann, Peter Savadjiev, Carl-Fredrik Westin. The directional iterators were contributed by Luis Ibanez (Kitware)."
+        ]
+    }, 
+    "FinslerTractography": {
+        "categories": [
+            "Diffusion.Diffusion Weighted Images"
+        ], 
+        "contributors": [
+            "Antonio Tristan Vega, Alex Yarmarkovich, Demian Wassermann, Peter Savadjiev, Carl-Fredrik Westin. The directional iterators were contributed by Luis Ibanez (Kitware)."
         ]
     }, 
     "FitLobeSurfaceModelsToParticleData": {
@@ -1434,6 +1549,22 @@
         ], 
         "contributors": [
             "Bill Lorensen (GE)"
+        ]
+    }, 
+    "GraphCutInteractiveSegmenter": {
+        "categories": [
+            "Examples"
+        ], 
+        "contributors": [
+            "John Doe (AnyWare Corp.)"
+        ]
+    }, 
+    "GraphCutSegmentSelfTest": {
+        "categories": [
+            "Testing.TestCases"
+        ], 
+        "contributors": [
+            "Danfeng Chen (Western University)"
         ]
     }, 
     "GrayscaleFillHoleImageFilter": {
@@ -1670,6 +1801,16 @@
             "Steve Pieper (Isomics)"
         ]
     }, 
+    "LevelSetSegmentation": {
+        "categories": [
+            "Vascular Modeling Toolkit"
+        ], 
+        "contributors": [
+            "Daniel Haehn (Boston Children's Hospital)", 
+            "Luca Antiga (Orobix)", 
+            "Steve Pieper (Isomics)"
+        ]
+    }, 
     "LightWeightRobotIGT": {
         "categories": [
             "IGT"
@@ -1835,6 +1976,14 @@
             "Francois Budin, Ipek Oguz"
         ]
     }, 
+    "MetafileImporter": {
+        "categories": [
+            "Sequences"
+        ], 
+        "contributors": [
+            "Andras Lasso (PerkLab, Queen's), Matthew Holden (PerkLab, Queen's)"
+        ]
+    }, 
     "ModelMaker": {
         "categories": [
             "Surface Models"
@@ -1963,6 +2112,14 @@
         ], 
         "contributors": [
             "Nicole Aucoin (BWH)"
+        ]
+    }, 
+    "NodeModifiedStatistics": {
+        "categories": [
+            "Developer Tools"
+        ], 
+        "contributors": [
+            "Mikael Brudfors (Laboratorio de Imagen Medica, Hospital Gregorio Maranon - http://image.hggm.es/), Andras Lasso (PerkLab, Queen's University)"
         ]
     }, 
     "NonGrowing": {
@@ -2109,6 +2266,14 @@
             "Applied Chest Imaging Laboratory, Brigham and women's hospital"
         ]
     }, 
+    "Philips4dUsDicomPatcher": {
+        "categories": [
+            "Cardiac"
+        ], 
+        "contributors": [
+            "Andras Lasso (PerkLab), Steve Pieper (Isomics)"
+        ]
+    }, 
     "PickAndPaint": {
         "categories": [
             "Shape Analysis"
@@ -2173,6 +2338,14 @@
             "Lauren O'Donnell (SPL, BWH)"
         ]
     }, 
+    "PyDevRemoteDebug": {
+        "categories": [
+            "Developer Tools"
+        ], 
+        "contributors": [
+            "Andras Lasso (PerkLab at Queen's University)"
+        ]
+    }, 
     "PythonMetricsCalculator": {
         "categories": [
             "Perk Tutor"
@@ -2187,6 +2360,14 @@
         ], 
         "contributors": [
             "Lucie Macron (University of Michigan)"
+        ]
+    }, 
+    "QuadEdgeSurfaceMesher": {
+        "categories": [
+            "Converters"
+        ], 
+        "contributors": [
+            "Andrey Fedorov (SPL/BWH)"
         ]
     }, 
     "QualityControl": {
@@ -2373,6 +2554,14 @@
             "Francois Budin (UNC)"
         ]
     }, 
+    "ResampleDTIlogEuclidean": {
+        "categories": [
+            "Diffusion.Diffusion Tensor Images"
+        ], 
+        "contributors": [
+            "Francois Budin"
+        ]
+    }, 
     "ResampleLabelMap": {
         "categories": [
             "Chest Imaging Platform.Toolkit.Processing"
@@ -2525,6 +2714,14 @@
             "Andras Lasso (Queen's)"
         ]
     }, 
+    "SegmentationSmoothing": {
+        "categories": [
+            "Filtering"
+        ], 
+        "contributors": [
+            "Andrey Fedorov (BWH)"
+        ]
+    }, 
     "Segmentations": {
         "categories": [
             ""
@@ -2543,6 +2740,22 @@
             "Steve Pieper (Isomics)"
         ]
     }, 
+    "SequenceBrowser": {
+        "categories": [
+            "Sequences"
+        ], 
+        "contributors": [
+            "Andras Lasso (PerkLab, Queen's), Matthew Holden (PerkLab, Queen's), Kevin Wang (PMH)"
+        ]
+    }, 
+    "Sequences": {
+        "categories": [
+            "Sequences"
+        ], 
+        "contributors": [
+            "Andras Lasso (PerkLab, Queen's), Matthew Holden (PerkLab, Queen's), Kevin Wang (PMH)"
+        ]
+    }, 
     "SimpleFilters": {
         "categories": [
             "Filtering"
@@ -2557,6 +2770,14 @@
         ], 
         "contributors": [
             "Jim Miller (GE)"
+        ]
+    }, 
+    "SkullStripper": {
+        "categories": [
+            "Segmentation"
+        ], 
+        "contributors": [
+            "Xiaodong Tao (GE)"
         ]
     }, 
     "SliceLinkLogic": {
@@ -2605,6 +2826,14 @@
         ], 
         "contributors": [
             "Steve Pieper (Isomics Inc.)"
+        ]
+    }, 
+    "SlicerToKiwiExporter": {
+        "categories": [
+            "Exporter"
+        ], 
+        "contributors": [
+            "Jean-Christophe Fillion-Robin (Kitware), Pat Marion (Kitware), Steve Pieper (Isomics), Atsushi Yamada (Shiga University of Medical Science)"
         ]
     }, 
     "SpacingAwareCurvatureDiffusion": {
@@ -2681,12 +2910,36 @@
             "Luca Antiga (Orobix), Ron Kikinis (Brigham and Women's Hospital)"
         ]
     }, 
+    "SwissSkullStripper": {
+        "categories": [
+            "Segmentation"
+        ], 
+        "contributors": [
+            "Bill Lorensen (Noware)"
+        ]
+    }, 
     "SyntheticRTDose": {
         "categories": [
             "Margin Calculator"
         ], 
         "contributors": [
             "Kevin Wang (Princess Margaret Cancer Centre)"
+        ]
+    }, 
+    "T1Mapping": {
+        "categories": [
+            "Quantification"
+        ], 
+        "contributors": [
+            "Xiao Da (MGH), Yangming Ou (MGH), Andriy Fedorov (BWH), Jayashree Kalpathy-Cramer (MGH)"
+        ]
+    }, 
+    "TCIABrowser": {
+        "categories": [
+            "Informatics"
+        ], 
+        "contributors": [
+            "Alireza Mehrtash (SPL, BWH), Andrey Fedorov (SPL, BWH)"
         ]
     }, 
     "Tables": {
@@ -2727,6 +2980,14 @@
         ], 
         "contributors": [
             "Steve Pieper (Isomics Inc.)"
+        ]
+    }, 
+    "TrackerStabilizer": {
+        "categories": [
+            "IGT"
+        ], 
+        "contributors": [
+            "Laurent Chauvin (BWH), Jayender Jagadeesan (BWH), Andras Lasso (Queen's University)"
         ]
     }, 
     "TractographyDisplay": {
@@ -2799,6 +3060,14 @@
             "Franklin King (PerkLab, Queen's)"
         ]
     }, 
+    "UKFTractography": {
+        "categories": [
+            "Diffusion.Tractography"
+        ], 
+        "contributors": [
+            "Yogesh Rathi, Stefan Lienhard, Yinpeng Li, Martin Styner, Ipek Oguz, Yundi Shi, Christian Baumgartner, Kent Williams, Hans Johnson, Peter Savadjiev, Carl-Fredrik Westin, Lauren O'Donnell, Jessica Lee."
+        ]
+    }, 
     "UltrasoundSnapshots": {
         "categories": [
             "IGT"
@@ -2824,11 +3093,29 @@
             "This tool was developed by Hans J. Johnson and Greg Harris."
         ]
     }, 
+    "ValveView": {
+        "categories": [
+            "Cardiac"
+        ], 
+        "contributors": [
+            "Andras Lasso (PerkLab)"
+        ]
+    }, 
     "VectorToScalarVolume": {
         "categories": [
             "Converters"
         ], 
         "contributors": [
+            "Steve Pieper (Isomics)"
+        ]
+    }, 
+    "VesselnessFiltering": {
+        "categories": [
+            "Vascular Modeling Toolkit"
+        ], 
+        "contributors": [
+            "Daniel Haehn (Boston Children's Hospital)", 
+            "Luca Antiga (Orobix)", 
             "Steve Pieper (Isomics)"
         ]
     }, 
@@ -2933,6 +3220,14 @@
         ], 
         "contributors": [
             "Bill Lorensen (GE)"
+        ]
+    }, 
+    "Wasp": {
+        "categories": [
+            "Segmentation"
+        ], 
+        "contributors": [
+            "Thomas Lawson (MRC Harwell, Oxfordshire)"
         ]
     }, 
     "Watchdog": {
