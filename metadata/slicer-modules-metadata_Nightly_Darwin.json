@@ -41,7 +41,7 @@
     }, 
     "AirwayInspector": {
         "categories": [
-            ""
+            "Chest Imaging Platform"
         ], 
         "contributors": [
             "Alex Yarmarkovich (BWH)"
@@ -250,12 +250,71 @@
             "Tamas Ungi (Queen's University) Jaime Garcia-Guevara (Queen's University)"
         ]
     }, 
+    "CIP_BodyComposition": {
+        "categories": [
+            "Chest Imaging Platform.Modules"
+        ], 
+        "contributors": [
+            "Jorge Onieva (jonieva@bwh.harvard.edu)", 
+            "Applied Chest Imaging Laboratory", 
+            "Brigham and Women's Hospital"
+        ]
+    }, 
     "CIP_Common": {
         "categories": [
             "CIP"
         ], 
         "contributors": [
             "Jorge Onieva", 
+            "Applied Chest Imaging Laboratory", 
+            "Brigham and Women's Hospital"
+        ]
+    }, 
+    "CIP_LesionModel": {
+        "categories": [
+            "Chest Imaging Platform.Modules"
+        ], 
+        "contributors": [
+            "Jorge Onieva (jonieva@bwh.harvard.edu)", 
+            "Applied Chest Imaging Laboratory", 
+            "Brigham and Women's Hospital"
+        ]
+    }, 
+    "CIP_MIPViewer": {
+        "categories": [
+            "Chest Imaging Platform.Modules"
+        ], 
+        "contributors": [
+            "Jorge Onieva (jonieva@bwh.harvard.edu)", 
+            "Applied Chest Imaging Laboratory", 
+            "Brigham and Women's Hospital"
+        ]
+    }, 
+    "CIP_PAARatio": {
+        "categories": [
+            "Chest Imaging Platform.Modules"
+        ], 
+        "contributors": [
+            "Jorge Onieva (jonieva@bwh.harvard.edu)", 
+            "Applied Chest Imaging Laboratory", 
+            "Brigham and Women's Hospital"
+        ]
+    }, 
+    "CIP_ParenchymaSubtypeTraining": {
+        "categories": [
+            "Chest Imaging Platform.Modules"
+        ], 
+        "contributors": [
+            "Jorge Onieva (jonieva@bwh.harvard.edu)", 
+            "Applied Chest Imaging Laboratory", 
+            "Brigham and Women's Hospital"
+        ]
+    }, 
+    "CIP_TracheaStentPlanning": {
+        "categories": [
+            "Chest Imaging Platform.Modules"
+        ], 
+        "contributors": [
             "Applied Chest Imaging Laboratory", 
             "Brigham and Women's Hospital"
         ]
@@ -1160,7 +1219,7 @@
     }, 
     "ExecuteSystemCommand": {
         "categories": [
-            "Chest Imaging Platform.Toolkit.General"
+            "Chest Imaging Platform.Toolkit.Utils"
         ], 
         "contributors": [
             "Applied Chest Imaging Laboratory, Brigham and Women's Hospital"
