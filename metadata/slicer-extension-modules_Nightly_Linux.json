@@ -160,8 +160,12 @@
             "RegionType"
         ], 
         "scripted": [
-            "CIP_GetImage", 
+            "CIP_ParenchymaSubtypeTraining", 
+            "CIP_PAARatio", 
+            "CIP_TracheaStentPlanning", 
+            "CIP_LesionModel", 
             "CIP_BodyComposition", 
+            "CIP_MIPViewer", 
             "InteractiveLobeSegmentation", 
             "CIP_Common"
         ]
