@@ -1,6 +1,8 @@
 {
     "ABC": {
-        "cli": [], 
+        "cli": [
+            "ABC"
+        ], 
         "loadable": [], 
         "scripted": []
     }, 
@@ -261,8 +263,12 @@
     }, 
     "FastGrowCutEffect": {
         "cli": [], 
-        "loadable": [], 
-        "scripted": []
+        "loadable": [
+            "FastGrowCut"
+        ], 
+        "scripted": [
+            "FastGrowCutEffect"
+        ]
     }, 
     "FiberViewerLight": {
         "cli": [], 
@@ -270,7 +276,10 @@
         "scripted": []
     }, 
     "FinslerTractography": {
-        "cli": [], 
+        "cli": [
+            "FinslerBacktracing", 
+            "FinslerTractography"
+        ], 
         "loadable": [], 
         "scripted": []
     }, 
@@ -285,21 +294,36 @@
     }, 
     "GraphCutSegment": {
         "cli": [], 
-        "loadable": [], 
+        "loadable": [
+            "GraphCutInteractiveSegmenter"
+        ], 
         "scripted": []
     }, 
     "GyroGuide": {
         "cli": [], 
         "loadable": [], 
-        "scripted": []
+        "scripted": [
+            "GyroGuide"
+        ]
     }, 
     "IASEM": {
-        "cli": [], 
+        "cli": [
+            "BinShrink", 
+            "IASEMImport", 
+            "IASEMImportSeries", 
+            "SpacingAwareCurvatureDiffusion"
+        ], 
         "loadable": [], 
-        "scripted": []
+        "scripted": [
+            "BinaryWatershedEffect", 
+            "DoubleThresholdEffect", 
+            "LabelObjectStatistics"
+        ]
     }, 
     "ImageMaker": {
-        "cli": [], 
+        "cli": [
+            "ImageMaker"
+        ], 
         "loadable": [], 
         "scripted": []
     }, 
@@ -311,7 +335,9 @@
         "scripted": []
     }, 
     "LAScarSegmenter": {
-        "cli": [], 
+        "cli": [
+            "LAScarSegmenter"
+        ], 
         "loadable": [], 
         "scripted": []
     }, 
@@ -322,12 +348,18 @@
     }, 
     "LightWeightRobotIGT": {
         "cli": [], 
-        "loadable": [], 
+        "loadable": [
+            "LightWeightRobotIGT"
+        ], 
         "scripted": []
     }, 
     "LongitudinalPETCT": {
-        "cli": [], 
-        "loadable": [], 
+        "cli": [
+            "PETSUVImageMaker"
+        ], 
+        "loadable": [
+            "LongitudinalPETCT"
+        ], 
         "scripted": []
     }, 
     "LumpNav": {
@@ -603,8 +635,25 @@
     }, 
     "SlicerIGT": {
         "cli": [], 
-        "loadable": [], 
-        "scripted": []
+        "loadable": [
+            "BreachWarning", 
+            "CollectFiducials", 
+            "CreateModels", 
+            "FiducialRegistrationWizard", 
+            "MarkupsToModel", 
+            "OpenIGTLinkRemote", 
+            "PathExplorer", 
+            "PivotCalibration", 
+            "TransformFusion", 
+            "UltrasoundSnapshots", 
+            "VolumeResliceDriver", 
+            "Watchdog"
+        ], 
+        "scripted": [
+            "FiducialsToModelRegistration", 
+            "ModelRegistration", 
+            "PlusRemote"
+        ]
     }, 
     "SlicerProstate": {
         "cli": [
