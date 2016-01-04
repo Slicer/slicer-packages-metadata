@@ -1179,7 +1179,7 @@
     }, 
     "EncodeSEG": {
         "categories": [
-            "Informatics"
+            "Informatics.Converters"
         ], 
         "contributors": [
             "Andrey Fedorov, BWH"
