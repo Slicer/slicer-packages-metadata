@@ -3095,6 +3095,22 @@
             "Franklin King (PerkLab, Queen's)"
         ]
     }, 
+    "TwoCLIsInARowTest": {
+        "categories": [
+            "Testing.TestCases"
+        ], 
+        "contributors": [
+            "Alexis Girault (Kitware), Johan Andruejol (Kitware)"
+        ]
+    }, 
+    "TwoCLIsInParallelTest": {
+        "categories": [
+            "Testing.TestCases"
+        ], 
+        "contributors": [
+            "Johan Andruejol (Kitware)"
+        ]
+    }, 
     "UKFTractography": {
         "categories": [
             "Diffusion.Tractography"
