@@ -667,22 +667,15 @@
         ]
     }, 
     "SlicerRT": {
-        "cli": [
-            "plastimatch_slicer_bspline", 
-            "plastimatch_slicer_landwarp"
-        ], 
+        "cli": [], 
         "loadable": [
             "Beams", 
-            "DicomRtImportExport", 
             "DicomSroImport", 
             "DoseAccumulation", 
-            "DoseComparison", 
             "DoseVolumeHistogram", 
             "Isodose", 
             "PlanarImage", 
-            "PlastimatchPy", 
             "Segmentations", 
-            "SegmentComparison", 
             "SegmentMorphology", 
             "VffFileReader"
         ], 
