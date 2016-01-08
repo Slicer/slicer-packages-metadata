@@ -191,6 +191,13 @@
             "CurveMaker"
         ]
     }, 
+    "DSCMRIAnalysis": {
+        "cli": [
+            "DSCMRIAnalysis"
+        ], 
+        "loadable": [], 
+        "scripted": []
+    }, 
     "DTI-Reg": {
         "cli": [], 
         "loadable": [], 
@@ -667,15 +674,22 @@
         ]
     }, 
     "SlicerRT": {
-        "cli": [], 
+        "cli": [
+            "plastimatch_slicer_bspline", 
+            "plastimatch_slicer_landwarp"
+        ], 
         "loadable": [
             "Beams", 
+            "DicomRtImportExport", 
             "DicomSroImport", 
             "DoseAccumulation", 
+            "DoseComparison", 
             "DoseVolumeHistogram", 
             "Isodose", 
             "PlanarImage", 
+            "PlastimatchPy", 
             "Segmentations", 
+            "SegmentComparison", 
             "SegmentMorphology", 
             "VffFileReader"
         ], 

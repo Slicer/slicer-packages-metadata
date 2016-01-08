@@ -182,6 +182,14 @@
             "Andrey Fedorov (SPL, BWH)"
         ]
     }, 
+    "BatchStructureSetConversion": {
+        "categories": [
+            "Testing.SlicerRT Tests"
+        ], 
+        "contributors": [
+            "Csaba Pinter (Queen's)"
+        ]
+    }, 
     "Beams": {
         "categories": [
             "Radiotherapy"
@@ -761,6 +769,14 @@
             "Steve Pieper (Isomics Inc.)"
         ]
     }, 
+    "DSCMRIAnalysis": {
+        "categories": [
+            "Quantification"
+        ], 
+        "contributors": [
+            "Xiao Da (MGH), Yangming Ou (MGH), Andriy Fedorov (BWH), Steve Pieper (Isomics), Jayashree Kalpathy-Cramer (MGH)"
+        ]
+    }, 
     "DTINotReproducibleIssue3977": {
         "categories": [
             "Testing.TestCases"
@@ -881,6 +897,104 @@
             "Laurent Chauvin (BWH), Sonia Pujol (BWH)"
         ]
     }, 
+    "DicomRtImportExport": {
+        "categories": [
+            "Radiotherapy"
+        ], 
+        "contributors": [
+            "Csaba Pinter (Queen's)", 
+            "Andras Lasso (Queen's)", 
+            "Kevin Wang (UHN, Toronto)"
+        ]
+    }, 
+    "DicomRtImportExportPlugin": {
+        "categories": [
+            "Developer Tools.DICOM Plugins"
+        ], 
+        "contributors": [
+            "C", 
+            "s", 
+            "a", 
+            "b", 
+            "a", 
+            " ", 
+            "P", 
+            "i", 
+            "n", 
+            "t", 
+            "e", 
+            "r", 
+            " ", 
+            "(", 
+            "Q", 
+            "u", 
+            "e", 
+            "e", 
+            "n", 
+            "'", 
+            "s", 
+            ")", 
+            ",", 
+            " ", 
+            "A", 
+            "n", 
+            "d", 
+            "r", 
+            "a", 
+            "s", 
+            " ", 
+            "L", 
+            "a", 
+            "s", 
+            "s", 
+            "o", 
+            " ", 
+            "(", 
+            "Q", 
+            "u", 
+            "e", 
+            "e", 
+            "n", 
+            "'", 
+            "s", 
+            ")", 
+            ",", 
+            " ", 
+            "K", 
+            "e", 
+            "v", 
+            "i", 
+            "n", 
+            " ", 
+            "W", 
+            "a", 
+            "n", 
+            "g", 
+            " ", 
+            "(", 
+            "U", 
+            "H", 
+            "N", 
+            ",", 
+            " ", 
+            "T", 
+            "o", 
+            "r", 
+            "o", 
+            "n", 
+            "t", 
+            "o", 
+            ")"
+        ]
+    }, 
+    "DicomRtImportSelfTest": {
+        "categories": [
+            "Testing.SlicerRT Tests"
+        ], 
+        "contributors": [
+            "Csaba Pinter (Queen's)"
+        ]
+    }, 
     "DicomSroExport": {
         "categories": [
             "Plastimatch"
@@ -946,6 +1060,16 @@
         ]
     }, 
     "DoseAccumulation": {
+        "categories": [
+            "Radiotherapy"
+        ], 
+        "contributors": [
+            "Csaba Pinter (Queen's)", 
+            "Andras Lasso (Queen's)", 
+            "Kevin Wang (UHN, Toronto)"
+        ]
+    }, 
+    "DoseComparison": {
         "categories": [
             "Radiotherapy"
         ], 
@@ -1334,6 +1458,14 @@
             "Julien Jomier (Kitware), Stephen Aylward (Kitware)"
         ]
     }, 
+    "GelDosimetryAnalysis": {
+        "categories": [
+            "Slicelets"
+        ], 
+        "contributors": [
+            "Csaba Pinter (Queen's University), Mattea Welch (Queen's University), Jennifer Andrea (Queen's University), Kevin Alexander (Kingston General Hospital)"
+        ]
+    }, 
     "GelDosimetryAnalysisAlgo": {
         "categories": [
             "Slicelets"
@@ -1572,6 +1704,14 @@
         ], 
         "contributors": [
             "Bradley Lowekamp"
+        ]
+    }, 
+    "IGRTWorkflow_SelfTest": {
+        "categories": [
+            "Testing.SlicerRT Tests"
+        ], 
+        "contributors": [
+            "Csaba Pinter (Queen's)"
         ]
     }, 
     "ImageLabelCombine": {
@@ -2233,6 +2373,14 @@
             "Csaba Pinter (Queen's)"
         ]
     }, 
+    "PlastimatchPy": {
+        "categories": [
+            "Plastimatch.Utilities"
+        ], 
+        "contributors": [
+            "Paolo Zaffino (University 'Magna Graecia' of Catanzaro)"
+        ]
+    }, 
     "PlmRegister": {
         "categories": [
             "Plastimatch"
@@ -2603,6 +2751,16 @@
         ], 
         "contributors": [
             "Vivek Narayan, Jayender Jagadeesan (BWH)"
+        ]
+    }, 
+    "SegmentComparison": {
+        "categories": [
+            "Radiotherapy"
+        ], 
+        "contributors": [
+            "Csaba Pinter (Queen's)", 
+            "Andras Lasso (Queen's)", 
+            "Kevin Wang (UHN, Toronto)"
         ]
     }, 
     "SegmentLungLobes": {
@@ -3249,6 +3407,22 @@
         ], 
         "contributors": [
             "Andrey Fedorov (SPL), Robin Weiss (U. of Chicago), Christian Herz (SPL)"
+        ]
+    }, 
+    "plastimatch_slicer_bspline": {
+        "categories": [
+            "Plastimatch.Registration"
+        ], 
+        "contributors": [
+            "Please direct questions or suggestions to http://groups.google.com/group/plastimatch"
+        ]
+    }, 
+    "plastimatch_slicer_landwarp": {
+        "categories": [
+            "Plastimatch.Registration"
+        ], 
+        "contributors": [
+            "Please direct questions or suggestions to http://groups.google.com/group/plastimatch"
         ]
     }, 
     "sceneImport2428": {
