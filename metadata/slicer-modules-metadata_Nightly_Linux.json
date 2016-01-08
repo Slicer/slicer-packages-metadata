@@ -761,6 +761,14 @@
             "Steve Pieper (Isomics Inc.)"
         ]
     }, 
+    "DSCMRIAnalysis": {
+        "categories": [
+            "Quantification"
+        ], 
+        "contributors": [
+            "Xiao Da (MGH), Yangming Ou (MGH), Andriy Fedorov (BWH), Steve Pieper (Isomics), Jayashree Kalpathy-Cramer (MGH)"
+        ]
+    }, 
     "DTINotReproducibleIssue3977": {
         "categories": [
             "Testing.TestCases"
