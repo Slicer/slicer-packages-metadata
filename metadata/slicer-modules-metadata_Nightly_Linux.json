@@ -78,14 +78,6 @@
             "Wendy Plesniak (SPL, BWH)"
         ]
     }, 
-    "ApplyMatrix": {
-        "categories": [
-            "Shape Analysis.CMF Registration"
-        ], 
-        "contributors": [
-            "Vinicius Boen and Mason Winsauer, Neuro Image Resarch and Analysis Laboratory, UNC Medical School, UofM School of Dentistry"
-        ]
-    }, 
     "AtlasTests": {
         "categories": [
             "Testing.TestCases"
@@ -317,6 +309,14 @@
         ], 
         "contributors": [
             "Jean-Christophe Fillion-Robin"
+        ]
+    }, 
+    "CLIEventTest": {
+        "categories": [
+            "Testing.TestCases"
+        ], 
+        "contributors": [
+            "Johan Andruejol (Kitware)"
         ]
     }, 
     "CLIROITest": {
@@ -778,22 +778,6 @@
             "Jean-Christophe Fillion-Robin (Kitware)"
         ]
     }, 
-    "DTIexport": {
-        "categories": [
-            "Legacy.Diffusion.Diffusion Data Conversion"
-        ], 
-        "contributors": [
-            "Sonia Pujol (SPL, BWH)"
-        ]
-    }, 
-    "DTIimport": {
-        "categories": [
-            "Legacy.Diffusion.Diffusion Data Conversion"
-        ], 
-        "contributors": [
-            "Sonia Pujol (SPL, BWH)"
-        ]
-    }, 
     "DWIConvert": {
         "categories": [
             "Diffusion.Diffusion Data Conversion"
@@ -802,36 +786,12 @@
             "Vince Magnotta (UIowa), Hans Johnson (UIowa), Joy Matsui (UIowa), Kent Williams (UIowa), Mark Scully (Uiowa), Xiaodong Tao (GE)"
         ]
     }, 
-    "DWIJointRicianLMMSEFilter": {
-        "categories": [
-            "Diffusion.Diffusion Weighted Images"
-        ], 
-        "contributors": [
-            "Antonio Tristan Vega (UVa), Santiago Aja Fernandez (UVa)"
-        ]
-    }, 
-    "DWIRicianLMMSEFilter": {
-        "categories": [
-            "Diffusion.Diffusion Weighted Images"
-        ], 
-        "contributors": [
-            "Antonio Tristan Vega (UVa), Santiago Aja Fernandez (UVa), Marc Niethammer (UNC)"
-        ]
-    }, 
     "DWIToDTIEstimation": {
         "categories": [
             "Diffusion.Diffusion Weighted Images"
         ], 
         "contributors": [
             "Raul San Jose (SPL, BWH)"
-        ]
-    }, 
-    "DWIUnbiasedNonLocalMeansFilter": {
-        "categories": [
-            "Legacy.Diffusion.Denoising"
-        ], 
-        "contributors": [
-            "Antonio Tristan Vega (UVa), Santiago Aja Fernandez (UVa)"
         ]
     }, 
     "DWModeling": {
@@ -1634,14 +1594,6 @@
             "Nicole Aucoin (SPL, BWH), Bill Lorensen (GE)"
         ]
     }, 
-    "Growing": {
-        "categories": [
-            "Shape Analysis.CMF Registration.Voxelbase Registration"
-        ], 
-        "contributors": [
-            "Vinicius Boen and Mason Winsauer, Neuro Image Resarch and Analysis Laboratory, UNC Medical School, UofM School Of Dentistry"
-        ]
-    }, 
     "GyroGuide": {
         "categories": [
             "IGT"
@@ -1780,14 +1732,6 @@
             "Salma Bengali (CARMA), Alan Morris (CARMA), Josh Cates (CARMA), Rob MacLeod (CARMA)"
         ]
     }, 
-    "LabelAddition": {
-        "categories": [
-            "Shape Analysis.CMF Registration"
-        ], 
-        "contributors": [
-            "Vinicius Boen and Mason Winsauer, Neuro Image Resarch and Analysis Laboratory, UNC Medical School, UofM School of Dentistry"
-        ]
-    }, 
     "LabelExtraction": {
         "categories": [
             "Shape Analysis.CMF Registration"
@@ -1919,14 +1863,6 @@
         "contributors": [
             "Jaime Garcia Guevara (Queen's University)", 
             "Andras Lasso (Queen's University)"
-        ]
-    }, 
-    "MaskCreation": {
-        "categories": [
-            "Shape Analysis.CMF Registration.Voxelbase Registration"
-        ], 
-        "contributors": [
-            "Vinicius Boen and Mason Winsauer, Neuro Image Resarch and Analysis Laboratory, UNC Medical School, UofM School of Dentistry"
         ]
     }, 
     "MaskOutLabelMapStructures": {
@@ -2165,14 +2101,6 @@
             "Mikael Brudfors (Laboratorio de Imagen Medica, Hospital Gregorio Maranon - http://image.hggm.es/), Andras Lasso (PerkLab, Queen's University)"
         ]
     }, 
-    "NonGrowing": {
-        "categories": [
-            "Shape Analysis.CMF Registration.Voxelbase Registration"
-        ], 
-        "contributors": [
-            "Vinicius Boen and Mason Winsauer, Neuro Image Resarch and Analysis Laboratory, UNC Medical School, UofM School of Dentistry"
-        ]
-    }, 
     "OpenIGTLinkIF": {
         "categories": [
             "IGT"
@@ -2250,14 +2178,6 @@
         ], 
         "contributors": [
             "Christian Bauer (University of Iowa), Markus van Tol (University of Iowa), Steve Pieper (Isomics)"
-        ]
-    }, 
-    "ParticlesDisplay": {
-        "categories": [
-            "Converters"
-        ], 
-        "contributors": [
-            "Pietro Nardelli (UCC)"
         ]
     }, 
     "PathExplorer": {

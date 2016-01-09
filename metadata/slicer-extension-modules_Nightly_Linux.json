@@ -23,13 +23,8 @@
     }, 
     "CMFreg": {
         "cli": [
-            "LabelAddition", 
-            "NonGrowing", 
-            "ApplyMatrix", 
             "Downsize", 
-            "Growing", 
-            "LabelExtraction", 
-            "MaskCreation"
+            "LabelExtraction"
         ], 
         "loadable": [], 
         "scripted": [
@@ -155,7 +150,6 @@
             "LabelParticlesByChestRegionChestType"
         ], 
         "loadable": [
-            "ParticlesDisplay", 
             "AirwayInspector", 
             "RegionType"
         ], 
@@ -778,7 +772,6 @@
             "ExpertAutomatedRegistration", 
             "ImageLabelCombine", 
             "DiffusionWeightedVolumeMasking", 
-            "DTIexport", 
             "BRAINSTransformConvert", 
             "CLIModule4Test", 
             "ACPCTransform", 
@@ -788,7 +781,6 @@
             "BRAINSResample", 
             "ResampleScalarVolume", 
             "CheckerBoardFilter", 
-            "DTIimport", 
             "ModelToLabelMap", 
             "TractographyLabelMapSeeding", 
             "OtsuThresholdImageFilter", 
@@ -821,17 +813,14 @@
             "BRAINSLabelStats", 
             "GrayscaleFillHoleImageFilter", 
             "IslandRemoval", 
-            "DWIJointRicianLMMSEFilter", 
             "CurvatureAnisotropicDiffusion", 
             "N4ITKBiasFieldCorrection", 
             "EMSegmentTransformToNewFormat", 
-            "DWIUnbiasedNonLocalMeansFilter", 
             "OrientScalarVolume", 
             "ResampleDTIVolume", 
             "CreateDICOMSeries", 
             "BSplineToDeformationField", 
             "FiberBundleLabelSelect", 
-            "DWIRicianLMMSEFilter", 
             "FiberTractMeasurements", 
             "GrayscaleGrindPeakImageFilter", 
             "MedianImageFilter", 
