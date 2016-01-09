@@ -23,13 +23,8 @@
     }, 
     "CMFreg": {
         "cli": [
-            "ApplyMatrix", 
             "Downsize", 
-            "Growing", 
-            "LabelAddition", 
-            "LabelExtraction", 
-            "MaskCreation", 
-            "NonGrowing"
+            "LabelExtraction"
         ], 
         "loadable": [], 
         "scripted": [
@@ -88,7 +83,6 @@
             "ClassifyFissureParticles", 
             "ComputeCrossSectionalArea", 
             "ComputeDistanceMap", 
-            "ComputeFeatureStrength", 
             "ComputeFissureFeatureVectors", 
             "ComputeIntensityStatistics", 
             "ConvertChestRegionChestTypeToLabelMapValue", 
@@ -156,7 +150,6 @@
         ], 
         "loadable": [
             "AirwayInspector", 
-            "ParticlesDisplay", 
             "RegionType"
         ], 
         "scripted": [
@@ -794,13 +787,8 @@
             "DiffusionTensorScalarMeasurements", 
             "DiffusionTensorTest", 
             "DiffusionWeightedVolumeMasking", 
-            "DTIexport", 
-            "DTIimport", 
             "DWIConvert", 
-            "DWIJointRicianLMMSEFilter", 
-            "DWIRicianLMMSEFilter", 
             "DWIToDTIEstimation", 
-            "DWIUnbiasedNonLocalMeansFilter", 
             "EMSegmentCommandLine", 
             "EMSegmentTransformToNewFormat", 
             "ExecutionModelTour", 
