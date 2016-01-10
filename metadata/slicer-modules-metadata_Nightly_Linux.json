@@ -218,14 +218,6 @@
             "Mikael Brudfors (UCL)"
         ]
     }, 
-    "BreachWarningLight": {
-        "categories": [
-            "IGT"
-        ], 
-        "contributors": [
-            "Kaci Carter (Queen's University, PERK Lab)"
-        ]
-    }, 
     "BreachWarningSelfTest": {
         "categories": [
             "Testing.IGT Tests"
@@ -1815,14 +1807,6 @@
             "Paul Mercea (University of Heidelberg), Markus Van Tol (University of Iowa) and Andrey Fedorov (SPL)"
         ]
     }, 
-    "LumpNav": {
-        "categories": [
-            "IGT"
-        ], 
-        "contributors": [
-            "Tamas Ungi (Perk Lab)"
-        ]
-    }, 
     "MarginCalculator": {
         "categories": [
             "Margin Calculator"
@@ -1937,14 +1921,6 @@
         ], 
         "contributors": [
             "Fotis Drakopoulos (CRTC), Yixun Liu (CRTC), Andrey Fedorov (CRTC), Nikos Chrisochoides (CRTC)"
-        ]
-    }, 
-    "MeshStatistics": {
-        "categories": [
-            "Shape Analysis"
-        ], 
-        "contributors": [
-            "Lucie Macron"
         ]
     }, 
     "MeshToLabelMap": {
@@ -3125,17 +3101,6 @@
         ], 
         "contributors": [
             "Jim Miller (GE)"
-        ]
-    }, 
-    "Viewpoint": {
-        "categories": [
-            "IGT"
-        ], 
-        "contributors": [
-            "Thomas Vaughan (Queen's)", 
-            "Andras Lasso (Queen's)", 
-            "Tamas Ungi (Queen's)", 
-            "Gabor Fichtinger (Queen's)"
         ]
     }, 
     "VolumeClipWithModel": {

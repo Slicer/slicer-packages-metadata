@@ -364,11 +364,7 @@
     "LumpNav": {
         "cli": [], 
         "loadable": [], 
-        "scripted": [
-            "LumpNav", 
-            "BreachWarningLight", 
-            "Viewpoint"
-        ]
+        "scripted": []
     }, 
     "MABMIS": {
         "cli": [], 
@@ -400,9 +396,7 @@
     "MeshStatisticsExtension": {
         "cli": [], 
         "loadable": [], 
-        "scripted": [
-            "MeshStatistics"
-        ]
+        "scripted": []
     }, 
     "MeshToLabelMap": {
         "cli": [
