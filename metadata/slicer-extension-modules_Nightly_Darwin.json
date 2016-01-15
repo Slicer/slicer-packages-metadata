@@ -528,6 +528,14 @@
         "loadable": [], 
         "scripted": []
     }, 
+    "Reporting": {
+        "cli": [
+            "EncodeSEG", 
+            "SEG2NRRD"
+        ], 
+        "loadable": [], 
+        "scripted": []
+    }, 
     "ResampleDTIlogEuclidean": {
         "cli": [
             "ResampleDTIlogEuclidean"

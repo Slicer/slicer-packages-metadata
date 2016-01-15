@@ -745,6 +745,14 @@
             "Steve Pieper (Isomics Inc.), Csaba Pinter (Queen's)"
         ]
     }, 
+    "DICOMSegmentationPlugin": {
+        "categories": [
+            "Developer Tools.DICOM Plugins"
+        ], 
+        "contributors": [
+            "Andrey Fedorov, BWH"
+        ]
+    }, 
     "DICOMSlicerDataBundlePlugin": {
         "categories": [
             "Developer Tools.DICOM Plugins"
@@ -1127,6 +1135,14 @@
         ], 
         "contributors": [
             "Steve Pieper (Isomics)"
+        ]
+    }, 
+    "EncodeSEG": {
+        "categories": [
+            "Informatics.Converters"
+        ], 
+        "contributors": [
+            "Andrey Fedorov, BWH"
         ]
     }, 
     "Endoscopy": {
@@ -2563,6 +2579,23 @@
         ], 
         "contributors": [
             "Yi Gao (gatech), Allen Tannenbaum (gatech), Ron Kikinis (SPL, BWH)"
+        ]
+    }, 
+    "SEG2NRRD": {
+        "categories": [
+            "Informatics"
+        ], 
+        "contributors": [
+            "Andrey Fedorov, BWH"
+        ]
+    }, 
+    "SEGExporterSelfTest": {
+        "categories": [
+            "Testing", 
+            "TestCases"
+        ], 
+        "contributors": [
+            "Steve Piepper (Isomics, Inc.)"
         ]
     }, 
     "SUVFactorCalculator": {
