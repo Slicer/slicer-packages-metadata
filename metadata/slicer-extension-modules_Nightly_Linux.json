@@ -364,7 +364,11 @@
     "LumpNav": {
         "cli": [], 
         "loadable": [], 
-        "scripted": []
+        "scripted": [
+            "LumpNav", 
+            "BreachWarningLight", 
+            "Viewpoint"
+        ]
     }, 
     "MABMIS": {
         "cli": [], 
@@ -396,7 +400,9 @@
     "MeshStatisticsExtension": {
         "cli": [], 
         "loadable": [], 
-        "scripted": []
+        "scripted": [
+            "MeshStatistics"
+        ]
     }, 
     "MeshToLabelMap": {
         "cli": [
@@ -666,14 +672,9 @@
             "VffFileReader", 
             "Isodose", 
             "PlastimatchPy", 
-            "Segmentations", 
             "DoseAccumulation", 
-            "SegmentComparison", 
-            "SegmentMorphology", 
             "PlanarImage", 
-            "DoseVolumeHistogram", 
             "Beams", 
-            "DoseComparison", 
             "DicomSroImport", 
             "DicomRtImportExport"
         ], 
