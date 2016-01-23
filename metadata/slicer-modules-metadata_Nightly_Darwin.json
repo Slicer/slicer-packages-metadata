@@ -567,6 +567,14 @@
             "Applied Chest Imaging Laboratory, Brigham and women's hospital"
         ]
     }, 
+    "ComputeFeatureStrength": {
+        "categories": [
+            "Chest Imaging Platform.Toolkit.Processing"
+        ], 
+        "contributors": [
+            "Applied Chest Imaging Laboratory, Brigham and Women's Hospital"
+        ]
+    }, 
     "ComputeFissureFeatureVectors": {
         "categories": [
             "Chest Imaging Platform.Toolkit.Processing"
