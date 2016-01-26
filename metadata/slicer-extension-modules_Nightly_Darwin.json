@@ -677,9 +677,13 @@
             "DicomRtImportExport", 
             "DicomSroImport", 
             "DoseAccumulation", 
+            "DoseComparison", 
+            "DoseVolumeHistogram", 
             "Isodose", 
             "PlanarImage", 
             "PlastimatchPy", 
+            "SegmentComparison", 
+            "SegmentMorphology", 
             "VffFileReader"
         ], 
         "scripted": [
