@@ -174,6 +174,14 @@
             "Andrey Fedorov (SPL, BWH)"
         ]
     }, 
+    "BatchStructureSetConversion": {
+        "categories": [
+            "Testing.SlicerRT Tests"
+        ], 
+        "contributors": [
+            "Csaba Pinter (Queen's)"
+        ]
+    }, 
     "Beams": {
         "categories": [
             "Radiotherapy"
@@ -940,6 +948,14 @@
             ")"
         ]
     }, 
+    "DicomRtImportSelfTest": {
+        "categories": [
+            "Testing.SlicerRT Tests"
+        ], 
+        "contributors": [
+            "Csaba Pinter (Queen's)"
+        ]
+    }, 
     "DicomSroExport": {
         "categories": [
             "Plastimatch"
@@ -1643,6 +1659,14 @@
             "Bradley Lowekamp"
         ]
     }, 
+    "IGRTWorkflow_SelfTest": {
+        "categories": [
+            "Testing.SlicerRT Tests"
+        ], 
+        "contributors": [
+            "Csaba Pinter (Queen's)"
+        ]
+    }, 
     "ImageLabelCombine": {
         "categories": [
             "Filtering"
@@ -1806,14 +1830,6 @@
         "contributors": [
             "Junichi Tokuda", 
             "Sebastian Tauscher"
-        ]
-    }, 
-    "LongitudinalPETCT": {
-        "categories": [
-            "Work in Progress"
-        ], 
-        "contributors": [
-            "Paul Mercea (University of Heidelberg), Markus Van Tol (University of Iowa) and Andrey Fedorov (SPL)"
         ]
     }, 
     "LumpNav": {
@@ -2182,6 +2198,14 @@
             "Christian Bauer (University of Iowa), Markus van Tol (University of Iowa), Steve Pieper (Isomics)"
         ]
     }, 
+    "ParticlesDisplay": {
+        "categories": [
+            "Converters"
+        ], 
+        "contributors": [
+            "Pietro Nardelli (UCC)"
+        ]
+    }, 
     "PathExplorer": {
         "categories": [
             "IGT"
@@ -2212,15 +2236,6 @@
         ], 
         "contributors": [
             "Steve Pieper (Isomics)"
-        ]
-    }, 
-    "PerkEvaluator": {
-        "categories": [
-            "Perk Tutor"
-        ], 
-        "contributors": [
-            "Tamas Ungi (Queen's University)", 
-            "Matthew S. Holden (Queen's University)"
         ]
     }, 
     "PerturbParticles": {
@@ -2309,14 +2324,6 @@
         ], 
         "contributors": [
             "Andras Lasso (PerkLab at Queen's University)"
-        ]
-    }, 
-    "PythonMetricsCalculator": {
-        "categories": [
-            "Perk Tutor"
-        ], 
-        "contributors": [
-            "Matthew Holden (Queen's University), Tamas Ungi (Queen's University)"
         ]
     }, 
     "Q3DC": {
@@ -2687,6 +2694,16 @@
             "Andrey Fedorov (BWH)"
         ]
     }, 
+    "Segmentations": {
+        "categories": [
+            ""
+        ], 
+        "contributors": [
+            "Csaba Pinter (Queen's)", 
+            "Adam Rankin (Robarts)", 
+            "Andras Lasso (Queen's)"
+        ]
+    }, 
     "SelfTests": {
         "categories": [
             "Testing"
@@ -2993,15 +3010,6 @@
             "Franklin King (Queen's University), Tamas Ungi (Queen's University)"
         ]
     }, 
-    "TransformRecorder": {
-        "categories": [
-            "Perk Tutor"
-        ], 
-        "contributors": [
-            "Tamas Ungi (Queen's University)", 
-            "Matthew S. Holden (Queen's University)"
-        ]
-    }, 
     "Transforms": {
         "categories": [
             "", 
@@ -3234,15 +3242,6 @@
         ], 
         "contributors": [
             "Andrey Fedorov (BWH)"
-        ]
-    }, 
-    "WorkflowSegmentation": {
-        "categories": [
-            "Perk Tutor"
-        ], 
-        "contributors": [
-            "Tamas Ungi (Queen's University)", 
-            "Matthew S. Holden (Queen's University)"
         ]
     }, 
     "dPetBrainQuantification": {

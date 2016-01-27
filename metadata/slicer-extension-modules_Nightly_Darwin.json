@@ -151,6 +151,7 @@
         ], 
         "loadable": [
             "AirwayInspector", 
+            "ParticlesDisplay", 
             "RegionType"
         ], 
         "scripted": [
@@ -358,9 +359,7 @@
         "cli": [
             "PETSUVImageMaker"
         ], 
-        "loadable": [
-            "LongitudinalPETCT"
-        ], 
+        "loadable": [], 
         "scripted": []
     }, 
     "LumpNav": {
@@ -482,11 +481,7 @@
     }, 
     "PerkTutor": {
         "cli": [], 
-        "loadable": [
-            "PerkEvaluator", 
-            "TransformRecorder", 
-            "WorkflowSegmentation"
-        ], 
+        "loadable": [], 
         "scripted": [
             "PythonMetricsCalculator"
         ]
@@ -682,6 +677,7 @@
             "Isodose", 
             "PlanarImage", 
             "PlastimatchPy", 
+            "Segmentations", 
             "SegmentComparison", 
             "SegmentMorphology", 
             "VffFileReader"
