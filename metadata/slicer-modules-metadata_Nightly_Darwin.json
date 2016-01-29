@@ -118,6 +118,14 @@
             "Hans J. Johnson (hans-johnson -at- uiowa.edu, http://www.psychiatry.uiowa.edu), Ali Ghayoor"
         ]
     }, 
+    "BRAINSFitRigidRegistrationCrashIssue4139": {
+        "categories": [
+            "Testing.TestCases"
+        ], 
+        "contributors": [
+            "Jean-Christophe Fillion-Robin (Kitware)"
+        ]
+    }, 
     "BRAINSLabelStats": {
         "categories": [
             "Quantification"
