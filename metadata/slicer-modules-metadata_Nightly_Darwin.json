@@ -182,14 +182,6 @@
             "Andrey Fedorov (SPL, BWH)"
         ]
     }, 
-    "BatchStructureSetConversion": {
-        "categories": [
-            "Testing.SlicerRT Tests"
-        ], 
-        "contributors": [
-            "Csaba Pinter (Queen's)"
-        ]
-    }, 
     "Beams": {
         "categories": [
             "Radiotherapy"
@@ -251,71 +243,12 @@
             "Tamas Ungi (Queen's University) Jaime Garcia-Guevara (Queen's University)"
         ]
     }, 
-    "CIP_BodyComposition": {
-        "categories": [
-            "Chest Imaging Platform.Modules"
-        ], 
-        "contributors": [
-            "Jorge Onieva (jonieva@bwh.harvard.edu)", 
-            "Applied Chest Imaging Laboratory", 
-            "Brigham and Women's Hospital"
-        ]
-    }, 
     "CIP_Common": {
         "categories": [
             "CIP"
         ], 
         "contributors": [
             "Jorge Onieva", 
-            "Applied Chest Imaging Laboratory", 
-            "Brigham and Women's Hospital"
-        ]
-    }, 
-    "CIP_LesionModel": {
-        "categories": [
-            "Chest Imaging Platform.Modules"
-        ], 
-        "contributors": [
-            "Jorge Onieva (jonieva@bwh.harvard.edu)", 
-            "Applied Chest Imaging Laboratory", 
-            "Brigham and Women's Hospital"
-        ]
-    }, 
-    "CIP_MIPViewer": {
-        "categories": [
-            "Chest Imaging Platform.Modules"
-        ], 
-        "contributors": [
-            "Jorge Onieva (jonieva@bwh.harvard.edu)", 
-            "Applied Chest Imaging Laboratory", 
-            "Brigham and Women's Hospital"
-        ]
-    }, 
-    "CIP_PAARatio": {
-        "categories": [
-            "Chest Imaging Platform.Modules"
-        ], 
-        "contributors": [
-            "Jorge Onieva (jonieva@bwh.harvard.edu)", 
-            "Applied Chest Imaging Laboratory", 
-            "Brigham and Women's Hospital"
-        ]
-    }, 
-    "CIP_ParenchymaSubtypeTraining": {
-        "categories": [
-            "Chest Imaging Platform.Modules"
-        ], 
-        "contributors": [
-            "Jorge Onieva (jonieva@bwh.harvard.edu)", 
-            "Applied Chest Imaging Laboratory", 
-            "Brigham and Women's Hospital"
-        ]
-    }, 
-    "CIP_TracheaStentPlanning": {
-        "categories": [
-            "Chest Imaging Platform.Modules"
-        ], 
-        "contributors": [
             "Applied Chest Imaging Laboratory", 
             "Brigham and Women's Hospital"
         ]
@@ -439,15 +372,6 @@
         "contributors": [
             "Julien Finet (Kitware)", 
             "Sebastien Barr&eacute; (Kitware)"
-        ]
-    }, 
-    "CardiacAgatstonMeasures": {
-        "categories": [
-            "Testing.TestCases"
-        ], 
-        "contributors": [
-            "Jessica Forbes (SINAPSE)", 
-            "Hans Johnson (SINAPSE)"
         ]
     }, 
     "CarreraSlice": {
@@ -956,14 +880,6 @@
             ")"
         ]
     }, 
-    "DicomRtImportSelfTest": {
-        "categories": [
-            "Testing.SlicerRT Tests"
-        ], 
-        "contributors": [
-            "Csaba Pinter (Queen's)"
-        ]
-    }, 
     "DicomSroExport": {
         "categories": [
             "Plastimatch"
@@ -1020,25 +936,7 @@
             "Demian Wassermann (SPL, BWH)"
         ]
     }, 
-    "DistanceMapBasedRegistration": {
-        "categories": [
-            "Registration.Label Registration"
-        ], 
-        "contributors": [
-            "Andrey Fedorov (BWH), Andras Lasso (Queen's University)"
-        ]
-    }, 
     "DoseAccumulation": {
-        "categories": [
-            "Radiotherapy"
-        ], 
-        "contributors": [
-            "Csaba Pinter (Queen's)", 
-            "Andras Lasso (Queen's)", 
-            "Kevin Wang (UHN, Toronto)"
-        ]
-    }, 
-    "DoseComparison": {
         "categories": [
             "Radiotherapy"
         ], 
@@ -1064,30 +962,12 @@
             "Kevin Wang (PMH, Toronto)"
         ]
     }, 
-    "DoseVolumeHistogram": {
-        "categories": [
-            "Radiotherapy"
-        ], 
-        "contributors": [
-            "Csaba Pinter (Queen's)", 
-            "Andras Lasso (Queen's)", 
-            "Kevin Wang (UHN, Toronto)"
-        ]
-    }, 
     "DoubleArrays": {
         "categories": [
             "Developer Tools"
         ], 
         "contributors": [
             "Julien Finet (Kitware)"
-        ]
-    }, 
-    "DoubleThresholdEffect": {
-        "categories": [
-            "Developer Tools.Editor Extensions"
-        ], 
-        "contributors": [
-            "Bradley Lowekamp"
         ]
     }, 
     "Downsize": {
@@ -1134,15 +1014,6 @@
         ], 
         "contributors": [
             "Anonymous"
-        ]
-    }, 
-    "EasyClip": {
-        "categories": [
-            "Shape Analysis"
-        ], 
-        "contributors": [
-            "Julia Lopinto, (University Of Michigan)", 
-            "Jean-Baptiste Vimort, (University Of Michigan)"
         ]
     }, 
     "Editor": {
@@ -1427,14 +1298,6 @@
             "Julien Jomier (Kitware), Stephen Aylward (Kitware)"
         ]
     }, 
-    "GelDosimetryAnalysis": {
-        "categories": [
-            "Slicelets"
-        ], 
-        "contributors": [
-            "Csaba Pinter (Queen's University), Mattea Welch (Queen's University), Jennifer Andrea (Queen's University), Kevin Alexander (Kingston General Hospital)"
-        ]
-    }, 
     "GelDosimetryAnalysisAlgo": {
         "categories": [
             "Slicelets"
@@ -1667,14 +1530,6 @@
             "Bradley Lowekamp"
         ]
     }, 
-    "IGRTWorkflow_SelfTest": {
-        "categories": [
-            "Testing.SlicerRT Tests"
-        ], 
-        "contributors": [
-            "Csaba Pinter (Queen's)"
-        ]
-    }, 
     "ImageLabelCombine": {
         "categories": [
             "Filtering"
@@ -1789,14 +1644,6 @@
             "Dirk Padfield (GE), Josh Cates (Utah), Ross Whitaker (Utah)"
         ]
     }, 
-    "LabelObjectStatistics": {
-        "categories": [
-            "Microscopy"
-        ], 
-        "contributors": [
-            "Bradley Lowekamp (MSC/NLM)"
-        ]
-    }, 
     "LabelParticlesByChestRegionChestType": {
         "categories": [
             "Chest Imaging Platform.Toolkit.Quantification"
@@ -1829,15 +1676,6 @@
             "Daniel Haehn (Boston Children's Hospital)", 
             "Luca Antiga (Orobix)", 
             "Steve Pieper (Isomics)"
-        ]
-    }, 
-    "LightWeightRobotIGT": {
-        "categories": [
-            "IGT"
-        ], 
-        "contributors": [
-            "Junichi Tokuda", 
-            "Sebastian Tauscher"
         ]
     }, 
     "LumpNav": {
@@ -2093,22 +1931,6 @@
         ], 
         "contributors": [
             "Nick Tustison (UPenn), Andrey Fedorov (SPL, BWH), Ron Kikinis (SPL, BWH)"
-        ]
-    }, 
-    "NeedleFinder": {
-        "categories": [
-            "IGT"
-        ], 
-        "contributors": [
-            "Guillaume Pernelle", 
-            "Alireza Mehrtash", 
-            "Lauren Barber", 
-            "Nabgha Fahrat", 
-            "Sandy Wells", 
-            "Yi Gao", 
-            "Antonio Damato", 
-            "Tina Kapur", 
-            "Akila Viswanathan"
         ]
     }, 
     "NeurosurgicalPlanningTutorialMarkupsSelfTest": {
@@ -2666,16 +2488,6 @@
             "Vivek Narayan, Jayender Jagadeesan (BWH)"
         ]
     }, 
-    "SegmentComparison": {
-        "categories": [
-            "Radiotherapy"
-        ], 
-        "contributors": [
-            "Csaba Pinter (Queen's)", 
-            "Andras Lasso (Queen's)", 
-            "Kevin Wang (UHN, Toronto)"
-        ]
-    }, 
     "SegmentLungLobes": {
         "categories": [
             "Chest Imaging Platform.Toolkit.Segmentation"
@@ -2684,32 +2496,12 @@
             "Applied Chest Imaging Laboratory, Brigham and Women's Hospital"
         ]
     }, 
-    "SegmentMorphology": {
-        "categories": [
-            "Radiotherapy"
-        ], 
-        "contributors": [
-            "Kevin Wang (UHN, Toronto)", 
-            "Csaba Pinter (Queen's)", 
-            "Andras Lasso (Queen's)"
-        ]
-    }, 
     "SegmentationSmoothing": {
         "categories": [
             "Filtering"
         ], 
         "contributors": [
             "Andrey Fedorov (BWH)"
-        ]
-    }, 
-    "Segmentations": {
-        "categories": [
-            ""
-        ], 
-        "contributors": [
-            "Csaba Pinter (Queen's)", 
-            "Adam Rankin (Robarts)", 
-            "Andras Lasso (Queen's)"
         ]
     }, 
     "SelfTests": {
@@ -2734,14 +2526,6 @@
         ], 
         "contributors": [
             "Andras Lasso (PerkLab, Queen's), Matthew Holden (PerkLab, Queen's), Kevin Wang (PMH)"
-        ]
-    }, 
-    "SimpleFilters": {
-        "categories": [
-            "Filtering"
-        ], 
-        "contributors": [
-            "Bradley Lowekamp (MSC/NLM), Steve Pieper (Isomics), Jean-Christophe Fillion-Robin (Kitware)"
         ]
     }, 
     "SimpleRegionGrowingSegmentation": {
@@ -3209,14 +2993,6 @@
             "Bill Lorensen (GE)"
         ]
     }, 
-    "Wasp": {
-        "categories": [
-            "Segmentation"
-        ], 
-        "contributors": [
-            "Thomas Lawson (MRC Harwell, Oxfordshire)"
-        ]
-    }, 
     "Watchdog": {
         "categories": [
             "IGT"
@@ -3252,14 +3028,6 @@
             "Andrey Fedorov (BWH)"
         ]
     }, 
-    "dPetBrainQuantification": {
-        "categories": [
-            "Quantification"
-        ], 
-        "contributors": [
-            "Martin Bertran, Natalia Martinez, Guillermo Carbajal, Alvaro Gomez"
-        ]
-    }, 
     "fiber_visibility_crash2438": {
         "categories": [
             "Testing.TestCases"
@@ -3286,14 +3054,6 @@
             "Antonio Damato", 
             "Tina Kapur", 
             "Akila Viswanathan"
-        ]
-    }, 
-    "mpReview": {
-        "categories": [
-            "Informatics"
-        ], 
-        "contributors": [
-            "Andrey Fedorov (SPL), Robin Weiss (U. of Chicago), Alireza Mehrtash (SPL), Christian Herz (SPL)"
         ]
     }, 
     "mpReviewPreprocessor": {
