@@ -243,12 +243,71 @@
             "Tamas Ungi (Queen's University) Jaime Garcia-Guevara (Queen's University)"
         ]
     }, 
+    "CIP_BodyComposition": {
+        "categories": [
+            "Chest Imaging Platform.Modules"
+        ], 
+        "contributors": [
+            "Jorge Onieva (jonieva@bwh.harvard.edu)", 
+            "Applied Chest Imaging Laboratory", 
+            "Brigham and Women's Hospital"
+        ]
+    }, 
     "CIP_Common": {
         "categories": [
             "CIP"
         ], 
         "contributors": [
             "Jorge Onieva", 
+            "Applied Chest Imaging Laboratory", 
+            "Brigham and Women's Hospital"
+        ]
+    }, 
+    "CIP_LesionModel": {
+        "categories": [
+            "Chest Imaging Platform.Modules"
+        ], 
+        "contributors": [
+            "Jorge Onieva (jonieva@bwh.harvard.edu)", 
+            "Applied Chest Imaging Laboratory", 
+            "Brigham and Women's Hospital"
+        ]
+    }, 
+    "CIP_MIPViewer": {
+        "categories": [
+            "Chest Imaging Platform.Modules"
+        ], 
+        "contributors": [
+            "Jorge Onieva (jonieva@bwh.harvard.edu)", 
+            "Applied Chest Imaging Laboratory", 
+            "Brigham and Women's Hospital"
+        ]
+    }, 
+    "CIP_PAARatio": {
+        "categories": [
+            "Chest Imaging Platform.Modules"
+        ], 
+        "contributors": [
+            "Jorge Onieva (jonieva@bwh.harvard.edu)", 
+            "Applied Chest Imaging Laboratory", 
+            "Brigham and Women's Hospital"
+        ]
+    }, 
+    "CIP_ParenchymaSubtypeTraining": {
+        "categories": [
+            "Chest Imaging Platform.Modules"
+        ], 
+        "contributors": [
+            "Jorge Onieva (jonieva@bwh.harvard.edu)", 
+            "Applied Chest Imaging Laboratory", 
+            "Brigham and Women's Hospital"
+        ]
+    }, 
+    "CIP_TracheaStentPlanning": {
+        "categories": [
+            "Chest Imaging Platform.Modules"
+        ], 
+        "contributors": [
             "Applied Chest Imaging Laboratory", 
             "Brigham and Women's Hospital"
         ]
@@ -372,6 +431,15 @@
         "contributors": [
             "Julien Finet (Kitware)", 
             "Sebastien Barr&eacute; (Kitware)"
+        ]
+    }, 
+    "CardiacAgatstonMeasures": {
+        "categories": [
+            "Testing.TestCases"
+        ], 
+        "contributors": [
+            "Jessica Forbes (SINAPSE)", 
+            "Hans Johnson (SINAPSE)"
         ]
     }, 
     "CarreraSlice": {
@@ -936,6 +1004,14 @@
             "Demian Wassermann (SPL, BWH)"
         ]
     }, 
+    "DistanceMapBasedRegistration": {
+        "categories": [
+            "Registration.Label Registration"
+        ], 
+        "contributors": [
+            "Andrey Fedorov (BWH), Andras Lasso (Queen's University)"
+        ]
+    }, 
     "DoseAccumulation": {
         "categories": [
             "Radiotherapy"
@@ -968,6 +1044,14 @@
         ], 
         "contributors": [
             "Julien Finet (Kitware)"
+        ]
+    }, 
+    "DoubleThresholdEffect": {
+        "categories": [
+            "Developer Tools.Editor Extensions"
+        ], 
+        "contributors": [
+            "Bradley Lowekamp"
         ]
     }, 
     "Downsize": {
@@ -1014,6 +1098,15 @@
         ], 
         "contributors": [
             "Anonymous"
+        ]
+    }, 
+    "EasyClip": {
+        "categories": [
+            "Shape Analysis"
+        ], 
+        "contributors": [
+            "Julia Lopinto, (University Of Michigan)", 
+            "Jean-Baptiste Vimort, (University Of Michigan)"
         ]
     }, 
     "Editor": {
@@ -1644,6 +1737,14 @@
             "Dirk Padfield (GE), Josh Cates (Utah), Ross Whitaker (Utah)"
         ]
     }, 
+    "LabelObjectStatistics": {
+        "categories": [
+            "Microscopy"
+        ], 
+        "contributors": [
+            "Bradley Lowekamp (MSC/NLM)"
+        ]
+    }, 
     "LabelParticlesByChestRegionChestType": {
         "categories": [
             "Chest Imaging Platform.Toolkit.Quantification"
@@ -1931,6 +2032,22 @@
         ], 
         "contributors": [
             "Nick Tustison (UPenn), Andrey Fedorov (SPL, BWH), Ron Kikinis (SPL, BWH)"
+        ]
+    }, 
+    "NeedleFinder": {
+        "categories": [
+            "IGT"
+        ], 
+        "contributors": [
+            "Guillaume Pernelle", 
+            "Alireza Mehrtash", 
+            "Lauren Barber", 
+            "Nabgha Fahrat", 
+            "Sandy Wells", 
+            "Yi Gao", 
+            "Antonio Damato", 
+            "Tina Kapur", 
+            "Akila Viswanathan"
         ]
     }, 
     "NeurosurgicalPlanningTutorialMarkupsSelfTest": {
@@ -2528,6 +2645,14 @@
             "Andras Lasso (PerkLab, Queen's), Matthew Holden (PerkLab, Queen's), Kevin Wang (PMH)"
         ]
     }, 
+    "SimpleFilters": {
+        "categories": [
+            "Filtering"
+        ], 
+        "contributors": [
+            "Bradley Lowekamp (MSC/NLM), Steve Pieper (Isomics), Jean-Christophe Fillion-Robin (Kitware)"
+        ]
+    }, 
     "SimpleRegionGrowingSegmentation": {
         "categories": [
             "Segmentation"
@@ -2993,6 +3118,14 @@
             "Bill Lorensen (GE)"
         ]
     }, 
+    "Wasp": {
+        "categories": [
+            "Segmentation"
+        ], 
+        "contributors": [
+            "Thomas Lawson (MRC Harwell, Oxfordshire)"
+        ]
+    }, 
     "Watchdog": {
         "categories": [
             "IGT"
@@ -3028,6 +3161,14 @@
             "Andrey Fedorov (BWH)"
         ]
     }, 
+    "dPetBrainQuantification": {
+        "categories": [
+            "Quantification"
+        ], 
+        "contributors": [
+            "Martin Bertran, Natalia Martinez, Guillermo Carbajal, Alvaro Gomez"
+        ]
+    }, 
     "fiber_visibility_crash2438": {
         "categories": [
             "Testing.TestCases"
@@ -3054,6 +3195,14 @@
             "Antonio Damato", 
             "Tina Kapur", 
             "Akila Viswanathan"
+        ]
+    }, 
+    "mpReview": {
+        "categories": [
+            "Informatics"
+        ], 
+        "contributors": [
+            "Andrey Fedorov (SPL), Robin Weiss (U. of Chicago), Alireza Mehrtash (SPL), Christian Herz (SPL)"
         ]
     }, 
     "mpReviewPreprocessor": {
