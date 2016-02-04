@@ -65,12 +65,13 @@
     }, 
     "AnglePlanes": {
         "categories": [
-            "Shape Analysis"
+            "Quantification"
         ], 
         "contributors": [
             "Julia Lopinto", 
             "Juan Carlos Prieto", 
-            "Francois Budin"
+            "Francois Budin", 
+            "Jean-Baptiste Vimort"
         ]
     }, 
     "Annotations": {
@@ -1092,7 +1093,7 @@
     }, 
     "Downsize": {
         "categories": [
-            "Shape Analysis.CMF Registration"
+            "Registration.CMF Registration"
         ], 
         "contributors": [
             "Vinicius Boen and Mason Winsauer, Neuro Image Resarch and Analysis Laboratory, UNC Medical School, UofM School of Dentistry"
@@ -1138,7 +1139,7 @@
     }, 
     "EasyClip": {
         "categories": [
-            "Shape Analysis"
+            "Surface Models"
         ], 
         "contributors": [
             "Julia Lopinto, (University Of Michigan)", 
@@ -1767,7 +1768,7 @@
     }, 
     "LabelExtraction": {
         "categories": [
-            "Shape Analysis.CMF Registration"
+            "Registration.CMF Registration"
         ], 
         "contributors": [
             "Vinicius Boen and Mason Winsauer, Neuro Image Resarch and Analysis Laboratory, UNC Medical School, UofM School of Dentistry"
@@ -2255,7 +2256,7 @@
     }, 
     "PickAndPaint": {
         "categories": [
-            "Shape Analysis"
+            "Quantification"
         ], 
         "contributors": [
             "Lucie Macron (University of Michigan), Jean-Baptiste Vimort (University of Michigan)"
@@ -2323,14 +2324,6 @@
         ], 
         "contributors": [
             "Andras Lasso (PerkLab at Queen's University)"
-        ]
-    }, 
-    "Q3DC": {
-        "categories": [
-            "Shape Analysis"
-        ], 
-        "contributors": [
-            "Lucie Macron (University of Michigan)"
         ]
     }, 
     "QuadEdgeSurfaceMesher": {
@@ -2866,7 +2859,7 @@
     }, 
     "SurfaceRegistration": {
         "categories": [
-            "Shape Analysis.CMF Registration"
+            "Registration.CMF Registration"
         ], 
         "contributors": [
             "Jean-Baptiste VIMORT (University of Michigan)", 

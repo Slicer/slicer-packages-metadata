@@ -513,9 +513,7 @@
     "Q3DC": {
         "cli": [], 
         "loadable": [], 
-        "scripted": [
-            "Q3DC"
-        ]
+        "scripted": []
     }, 
     "RSSExtension": {
         "cli": [], 
