@@ -513,7 +513,9 @@
     "Q3DC": {
         "cli": [], 
         "loadable": [], 
-        "scripted": []
+        "scripted": [
+            "Q3DC"
+        ]
     }, 
     "RSSExtension": {
         "cli": [], 
@@ -682,7 +684,8 @@
             "BatchStructureSetConversion", 
             "DicomSroExport", 
             "DvhComparison", 
-            "PlmRegister"
+            "PlmRegister", 
+            "SegmentEditor"
         ]
     }, 
     "SlicerToKiwiExporter": {

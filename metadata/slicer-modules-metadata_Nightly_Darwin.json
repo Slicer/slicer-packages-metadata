@@ -2326,6 +2326,15 @@
             "Andras Lasso (PerkLab at Queen's University)"
         ]
     }, 
+    "Q3DC": {
+        "categories": [
+            "Quantification"
+        ], 
+        "contributors": [
+            "Lucie Macron (University of Michigan)", 
+            "Jean-Baptiste VIMORT (University of Michigan)"
+        ]
+    }, 
     "QuadEdgeSurfaceMesher": {
         "categories": [
             "Converters"
@@ -2658,6 +2667,14 @@
             "Csaba Pinter (Queen's)", 
             "Andras Lasso (Queen's)", 
             "Kevin Wang (UHN, Toronto)"
+        ]
+    }, 
+    "SegmentEditor": {
+        "categories": [
+            "Segmentation"
+        ], 
+        "contributors": [
+            "Csaba Pinter (Queen's University)"
         ]
     }, 
     "SegmentLungLobes": {
