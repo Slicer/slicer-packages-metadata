@@ -2643,14 +2643,6 @@
             "Franklin King (Queen's University), Tamas Ungi (Queen's University)"
         ]
     }, 
-    "ScourParticleData": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Particles"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and women's hospital"
-        ]
-    }, 
     "SegmentCAD": {
         "categories": [
             "Segmentation"
@@ -2993,14 +2985,6 @@
         ], 
         "contributors": [
             "Raul San Jose (SPL, BWH), Demian Wassermann (SPL, BWH)"
-        ]
-    }, 
-    "TransferFieldDataToFromPointData": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Particles"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and Women's Hospital"
         ]
     }, 
     "TransferRegionAndTypeIndicesToFromPoints": {

@@ -143,10 +143,8 @@
             "ResampleCT", 
             "ResampleLabelMap", 
             "RescaleLabelMap", 
-            "ScourParticleData", 
             "SegmentLungLobes", 
             "SplitLeftLungRightLung", 
-            "TransferFieldDataToFromPointData", 
             "TransferRegionAndTypeIndicesToFromPoints"
         ], 
         "loadable": [
