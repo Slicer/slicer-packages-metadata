@@ -87,6 +87,14 @@
             "Wendy Plesniak (SPL, BWH)"
         ]
     }, 
+    "ApplyMatrix": {
+        "categories": [
+            "Registration.CMF Registration"
+        ], 
+        "contributors": [
+            "Vinicius Boen and Mason Winsauer, Neuro Image Resarch and Analysis Laboratory, UNC Medical School, UofM School of Dentistry"
+        ]
+    }, 
     "AtlasTests": {
         "categories": [
             "Testing.TestCases"
@@ -1628,6 +1636,14 @@
             "Nicole Aucoin (SPL, BWH), Bill Lorensen (GE)"
         ]
     }, 
+    "Growing": {
+        "categories": [
+            "Registration.CMF Registration.Voxelbase Registration"
+        ], 
+        "contributors": [
+            "Vinicius Boen and Mason Winsauer, Neuro Image Resarch and Analysis Laboratory, UNC Medical School, UofM School Of Dentistry"
+        ]
+    }, 
     "GyroGuide": {
         "categories": [
             "IGT"
@@ -1766,6 +1782,14 @@
             "Salma Bengali (CARMA), Alan Morris (CARMA), Josh Cates (CARMA), Rob MacLeod (CARMA)"
         ]
     }, 
+    "LabelAddition": {
+        "categories": [
+            "Registration.CMF Registration"
+        ], 
+        "contributors": [
+            "Vinicius Boen and Mason Winsauer, Neuro Image Resarch and Analysis Laboratory, UNC Medical School, UofM School of Dentistry"
+        ]
+    }, 
     "LabelExtraction": {
         "categories": [
             "Registration.CMF Registration"
@@ -1881,6 +1905,14 @@
             "Jaime Garcia Guevara (Queen's University)", 
             "Andras Lasso (Queen's University)", 
             "Adam Rankin (Robarts Research Center, Western University"
+        ]
+    }, 
+    "MaskCreation": {
+        "categories": [
+            "Registration.CMF Registration.Voxelbase Registration"
+        ], 
+        "contributors": [
+            "Vinicius Boen and Mason Winsauer, Neuro Image Resarch and Analysis Laboratory, UNC Medical School, UofM School of Dentistry"
         ]
     }, 
     "MaskOutLabelMapStructures": {
@@ -2117,6 +2149,14 @@
         ], 
         "contributors": [
             "Mikael Brudfors (Laboratorio de Imagen Medica, Hospital Gregorio Maranon - http://image.hggm.es/), Andras Lasso (PerkLab, Queen's University)"
+        ]
+    }, 
+    "NonGrowing": {
+        "categories": [
+            "Registration.CMF Registration.Voxelbase Registration"
+        ], 
+        "contributors": [
+            "Vinicius Boen and Mason Winsauer, Neuro Image Resarch and Analysis Laboratory, UNC Medical School, UofM School of Dentistry"
         ]
     }, 
     "OpenIGTLinkIF": {

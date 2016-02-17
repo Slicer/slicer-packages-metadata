@@ -23,8 +23,13 @@
     }, 
     "CMFreg": {
         "cli": [
+            "ApplyMatrix", 
             "Downsize", 
-            "LabelExtraction"
+            "Growing", 
+            "LabelAddition", 
+            "LabelExtraction", 
+            "MaskCreation", 
+            "NonGrowing"
         ], 
         "loadable": [], 
         "scripted": [
