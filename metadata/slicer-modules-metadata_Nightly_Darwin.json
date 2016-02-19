@@ -1907,6 +1907,14 @@
             "Adam Rankin (Robarts Research Center, Western University"
         ]
     }, 
+    "MarkupsWidgetsSelfTest": {
+        "categories": [
+            "Testing.TestCases"
+        ], 
+        "contributors": [
+            "Andras Lasso (PerkLab, Queen's)"
+        ]
+    }, 
     "MaskCreation": {
         "categories": [
             "Registration.CMF Registration.Voxelbase Registration"
@@ -1987,14 +1995,6 @@
         ], 
         "contributors": [
             "Fotis Drakopoulos (CRTC), Yixun Liu (CRTC), Andrey Fedorov (CRTC), Nikos Chrisochoides (CRTC)"
-        ]
-    }, 
-    "MeshStatistics": {
-        "categories": [
-            "Quantification"
-        ], 
-        "contributors": [
-            "Lucie Macron"
         ]
     }, 
     "MeshToLabelMap": {
