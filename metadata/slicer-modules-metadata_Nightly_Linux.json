@@ -57,12 +57,13 @@
     }, 
     "AnglePlanes": {
         "categories": [
-            "Shape Analysis"
+            "Quantification"
         ], 
         "contributors": [
             "Julia Lopinto", 
             "Juan Carlos Prieto", 
-            "Francois Budin"
+            "Francois Budin", 
+            "Jean-Baptiste Vimort"
         ]
     }, 
     "Annotations": {
@@ -76,6 +77,14 @@
             "Kilian Pohl (UPenn)", 
             "Yong Zhang (IBM)", 
             "Wendy Plesniak (SPL, BWH)"
+        ]
+    }, 
+    "ApplyMatrix": {
+        "categories": [
+            "Registration.CMF Registration"
+        ], 
+        "contributors": [
+            "Vinicius Boen and Mason Winsauer, Neuro Image Resarch and Analysis Laboratory, UNC Medical School, UofM School of Dentistry"
         ]
     }, 
     "AtlasTests": {
@@ -108,6 +117,14 @@
         ], 
         "contributors": [
             "Hans J. Johnson (hans-johnson -at- uiowa.edu, http://www.psychiatry.uiowa.edu), Ali Ghayoor"
+        ]
+    }, 
+    "BRAINSFitRigidRegistrationCrashIssue4139": {
+        "categories": [
+            "Testing.TestCases"
+        ], 
+        "contributors": [
+            "Jean-Christophe Fillion-Robin (Kitware)"
         ]
     }, 
     "BRAINSLabelStats": {
@@ -232,7 +249,7 @@
             "Testing.IGT Tests"
         ], 
         "contributors": [
-            "Tamas Ungi (Queen's University) Jaime Garcia-Guevara (Queen's University)"
+            "Tamas Ungi, Jaime Garcia-Guevara, Andras Lasso (Queen's University)"
         ]
     }, 
     "CIP_BodyComposition": {
@@ -1076,7 +1093,7 @@
     }, 
     "Downsize": {
         "categories": [
-            "Shape Analysis.CMF Registration"
+            "Registration.CMF Registration"
         ], 
         "contributors": [
             "Vinicius Boen and Mason Winsauer, Neuro Image Resarch and Analysis Laboratory, UNC Medical School, UofM School of Dentistry"
@@ -1122,7 +1139,7 @@
     }, 
     "EasyClip": {
         "categories": [
-            "Shape Analysis"
+            "Surface Models"
         ], 
         "contributors": [
             "Julia Lopinto, (University Of Michigan)", 
@@ -1595,6 +1612,14 @@
             "Nicole Aucoin (SPL, BWH), Bill Lorensen (GE)"
         ]
     }, 
+    "Growing": {
+        "categories": [
+            "Registration.CMF Registration.Voxelbase Registration"
+        ], 
+        "contributors": [
+            "Vinicius Boen and Mason Winsauer, Neuro Image Resarch and Analysis Laboratory, UNC Medical School, UofM School Of Dentistry"
+        ]
+    }, 
     "GyroGuide": {
         "categories": [
             "IGT"
@@ -1733,9 +1758,17 @@
             "Salma Bengali (CARMA), Alan Morris (CARMA), Josh Cates (CARMA), Rob MacLeod (CARMA)"
         ]
     }, 
+    "LabelAddition": {
+        "categories": [
+            "Registration.CMF Registration"
+        ], 
+        "contributors": [
+            "Vinicius Boen and Mason Winsauer, Neuro Image Resarch and Analysis Laboratory, UNC Medical School, UofM School of Dentistry"
+        ]
+    }, 
     "LabelExtraction": {
         "categories": [
-            "Shape Analysis.CMF Registration"
+            "Registration.CMF Registration"
         ], 
         "contributors": [
             "Vinicius Boen and Mason Winsauer, Neuro Image Resarch and Analysis Laboratory, UNC Medical School, UofM School of Dentistry"
@@ -1799,23 +1832,6 @@
             "Steve Pieper (Isomics)"
         ]
     }, 
-    "LightWeightRobotIGT": {
-        "categories": [
-            "IGT"
-        ], 
-        "contributors": [
-            "Junichi Tokuda", 
-            "Sebastian Tauscher"
-        ]
-    }, 
-    "LongitudinalPETCT": {
-        "categories": [
-            "Work in Progress"
-        ], 
-        "contributors": [
-            "Paul Mercea (University of Heidelberg), Markus Van Tol (University of Iowa) and Andrey Fedorov (SPL)"
-        ]
-    }, 
     "LumpNav": {
         "categories": [
             "IGT"
@@ -1865,6 +1881,22 @@
             "Jaime Garcia Guevara (Queen's University)", 
             "Andras Lasso (Queen's University)", 
             "Adam Rankin (Robarts Research Center, Western University"
+        ]
+    }, 
+    "MarkupsWidgetsSelfTest": {
+        "categories": [
+            "Testing.TestCases"
+        ], 
+        "contributors": [
+            "Andras Lasso (PerkLab, Queen's)"
+        ]
+    }, 
+    "MaskCreation": {
+        "categories": [
+            "Registration.CMF Registration.Voxelbase Registration"
+        ], 
+        "contributors": [
+            "Vinicius Boen and Mason Winsauer, Neuro Image Resarch and Analysis Laboratory, UNC Medical School, UofM School of Dentistry"
         ]
     }, 
     "MaskOutLabelMapStructures": {
@@ -1941,17 +1973,9 @@
             "Fotis Drakopoulos (CRTC), Yixun Liu (CRTC), Andrey Fedorov (CRTC), Nikos Chrisochoides (CRTC)"
         ]
     }, 
-    "MeshStatistics": {
-        "categories": [
-            "Shape Analysis"
-        ], 
-        "contributors": [
-            "Lucie Macron"
-        ]
-    }, 
     "MeshToLabelMap": {
         "categories": [
-            "Shape Analysis"
+            "Surface Models"
         ], 
         "contributors": [
             "Francois Budin, Ipek Oguz"
@@ -2103,6 +2127,14 @@
             "Mikael Brudfors (Laboratorio de Imagen Medica, Hospital Gregorio Maranon - http://image.hggm.es/), Andras Lasso (PerkLab, Queen's University)"
         ]
     }, 
+    "NonGrowing": {
+        "categories": [
+            "Registration.CMF Registration.Voxelbase Registration"
+        ], 
+        "contributors": [
+            "Vinicius Boen and Mason Winsauer, Neuro Image Resarch and Analysis Laboratory, UNC Medical School, UofM School of Dentistry"
+        ]
+    }, 
     "OpenIGTLinkIF": {
         "categories": [
             "IGT"
@@ -2182,6 +2214,14 @@
             "Christian Bauer (University of Iowa), Markus van Tol (University of Iowa), Steve Pieper (Isomics)"
         ]
     }, 
+    "ParticlesDisplay": {
+        "categories": [
+            "Converters"
+        ], 
+        "contributors": [
+            "Pietro Nardelli (UCC)"
+        ]
+    }, 
     "PathExplorer": {
         "categories": [
             "IGT"
@@ -2214,15 +2254,6 @@
             "Steve Pieper (Isomics)"
         ]
     }, 
-    "PerkEvaluator": {
-        "categories": [
-            "Perk Tutor"
-        ], 
-        "contributors": [
-            "Tamas Ungi (Queen's University)", 
-            "Matthew S. Holden (Queen's University)"
-        ]
-    }, 
     "PerturbParticles": {
         "categories": [
             "Chest Imaging Platform.Toolkit.Particles"
@@ -2241,7 +2272,7 @@
     }, 
     "PickAndPaint": {
         "categories": [
-            "Shape Analysis"
+            "Quantification"
         ], 
         "contributors": [
             "Lucie Macron (University of Michigan), Jean-Baptiste Vimort (University of Michigan)"
@@ -2311,20 +2342,13 @@
             "Andras Lasso (PerkLab at Queen's University)"
         ]
     }, 
-    "PythonMetricsCalculator": {
-        "categories": [
-            "Perk Tutor"
-        ], 
-        "contributors": [
-            "Matthew Holden (Queen's University), Tamas Ungi (Queen's University)"
-        ]
-    }, 
     "Q3DC": {
         "categories": [
-            "Shape Analysis"
+            "Quantification"
         ], 
         "contributors": [
-            "Lucie Macron (University of Michigan)"
+            "Lucie Macron (University of Michigan)", 
+            "Jean-Baptiste VIMORT (University of Michigan)"
         ]
     }, 
     "QuadEdgeSurfaceMesher": {
@@ -2635,14 +2659,6 @@
             "Franklin King (Queen's University), Tamas Ungi (Queen's University)"
         ]
     }, 
-    "ScourParticleData": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Particles"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and women's hospital"
-        ]
-    }, 
     "SegmentCAD": {
         "categories": [
             "Segmentation"
@@ -2659,6 +2675,14 @@
             "Csaba Pinter (Queen's)", 
             "Andras Lasso (Queen's)", 
             "Kevin Wang (UHN, Toronto)"
+        ]
+    }, 
+    "SegmentEditor": {
+        "categories": [
+            "Segmentation"
+        ], 
+        "contributors": [
+            "Csaba Pinter (Queen's University)"
         ]
     }, 
     "SegmentLungLobes": {
@@ -2860,7 +2884,7 @@
     }, 
     "SurfaceRegistration": {
         "categories": [
-            "Shape Analysis.CMF Registration"
+            "Registration.CMF Registration"
         ], 
         "contributors": [
             "Jean-Baptiste VIMORT (University of Michigan)", 
@@ -2979,14 +3003,6 @@
             "Raul San Jose (SPL, BWH), Demian Wassermann (SPL, BWH)"
         ]
     }, 
-    "TransferFieldDataToFromPointData": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Particles"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and Women's Hospital"
-        ]
-    }, 
     "TransferRegionAndTypeIndicesToFromPoints": {
         "categories": [
             "Chest Imaging Platform.Toolkit.Utils"
@@ -3001,15 +3017,6 @@
         ], 
         "contributors": [
             "Franklin King (Queen's University), Tamas Ungi (Queen's University)"
-        ]
-    }, 
-    "TransformRecorder": {
-        "categories": [
-            "Perk Tutor"
-        ], 
-        "contributors": [
-            "Tamas Ungi (Queen's University)", 
-            "Matthew S. Holden (Queen's University)"
         ]
     }, 
     "Transforms": {
@@ -3226,7 +3233,7 @@
             "Testing.IGT Tests"
         ], 
         "contributors": [
-            "Tamas Ungi (Queen's University) Jaime Garcia-Guevara (Queen's University)"
+            "Andras Lasso, Tamas Ungi, Jaime Garcia-Guevara (Queen's University)"
         ]
     }, 
     "Welcome": {
@@ -3244,15 +3251,6 @@
         ], 
         "contributors": [
             "Andrey Fedorov (BWH)"
-        ]
-    }, 
-    "WorkflowSegmentation": {
-        "categories": [
-            "Perk Tutor"
-        ], 
-        "contributors": [
-            "Tamas Ungi (Queen's University)", 
-            "Matthew S. Holden (Queen's University)"
         ]
     }, 
     "dPetBrainQuantification": {

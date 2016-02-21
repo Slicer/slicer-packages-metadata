@@ -23,8 +23,13 @@
     }, 
     "CMFreg": {
         "cli": [
+            "LabelAddition", 
+            "NonGrowing", 
+            "ApplyMatrix", 
             "Downsize", 
-            "LabelExtraction"
+            "Growing", 
+            "LabelExtraction", 
+            "MaskCreation"
         ], 
         "loadable": [], 
         "scripted": [
@@ -122,8 +127,6 @@
             "RescaleLabelMap", 
             "GeneratePartialLungLabelMap", 
             "GetTransformationKappa", 
-            "ScourParticleData", 
-            "TransferFieldDataToFromPointData", 
             "SplitLeftLungRightLung", 
             "ReadNRRDsWriteVTK", 
             "ResampleCT", 
@@ -150,6 +153,7 @@
             "LabelParticlesByChestRegionChestType"
         ], 
         "loadable": [
+            "ParticlesDisplay", 
             "AirwayInspector", 
             "RegionType"
         ], 
@@ -347,18 +351,14 @@
     }, 
     "LightWeightRobotIGT": {
         "cli": [], 
-        "loadable": [
-            "LightWeightRobotIGT"
-        ], 
+        "loadable": [], 
         "scripted": []
     }, 
     "LongitudinalPETCT": {
         "cli": [
             "PETSUVImageMaker"
         ], 
-        "loadable": [
-            "LongitudinalPETCT"
-        ], 
+        "loadable": [], 
         "scripted": []
     }, 
     "LumpNav": {
@@ -400,9 +400,7 @@
     "MeshStatisticsExtension": {
         "cli": [], 
         "loadable": [], 
-        "scripted": [
-            "MeshStatistics"
-        ]
+        "scripted": []
     }, 
     "MeshToLabelMap": {
         "cli": [
@@ -480,11 +478,7 @@
     }, 
     "PerkTutor": {
         "cli": [], 
-        "loadable": [
-            "TransformRecorder", 
-            "WorkflowSegmentation", 
-            "PerkEvaluator"
-        ], 
+        "loadable": [], 
         "scripted": [
             "PythonMetricsCalculator"
         ]
@@ -687,7 +681,8 @@
             "DvhComparison", 
             "PlmRegister", 
             "BatchStructureSetConversion", 
-            "DicomSroExport"
+            "DicomSroExport", 
+            "SegmentEditor"
         ]
     }, 
     "SlicerToKiwiExporter": {
