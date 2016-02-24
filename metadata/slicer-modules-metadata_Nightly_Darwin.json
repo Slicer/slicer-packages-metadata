@@ -1328,7 +1328,7 @@
             "Diffusion.Tractography"
         ], 
         "contributors": [
-            "Alex Yarmarkovich (SPL, BWH)"
+            "Alex Yarmarkovich, Fan Zhang, Lauren O'Donnell"
         ]
     }, 
     "FiducialLayoutSwitchBug1914": {
@@ -2039,7 +2039,7 @@
     }, 
     "ModelToModelDistance": {
         "categories": [
-            "Shape Analysis"
+            "Quantification"
         ], 
         "contributors": [
             "Francois Budin, Juliette Pera"
