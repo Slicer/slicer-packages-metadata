@@ -480,7 +480,11 @@
     }, 
     "PerkTutor": {
         "cli": [], 
-        "loadable": [], 
+        "loadable": [
+            "PerkEvaluator", 
+            "TransformRecorder", 
+            "WorkflowSegmentation"
+        ], 
         "scripted": [
             "PythonMetricsCalculator"
         ]

@@ -2278,6 +2278,15 @@
             "Steve Pieper (Isomics)"
         ]
     }, 
+    "PerkEvaluator": {
+        "categories": [
+            "Perk Tutor"
+        ], 
+        "contributors": [
+            "Tamas Ungi (Queen's University)", 
+            "Matthew S. Holden (Queen's University)"
+        ]
+    }, 
     "PerturbParticles": {
         "categories": [
             "Chest Imaging Platform.Toolkit.Particles"
@@ -2364,6 +2373,14 @@
         ], 
         "contributors": [
             "Andras Lasso (PerkLab at Queen's University)"
+        ]
+    }, 
+    "PythonMetricsCalculator": {
+        "categories": [
+            "Perk Tutor"
+        ], 
+        "contributors": [
+            "Matthew Holden (Queen's University), Tamas Ungi (Queen's University)"
         ]
     }, 
     "Q3DC": {
@@ -3043,6 +3060,15 @@
             "Franklin King (Queen's University), Tamas Ungi (Queen's University)"
         ]
     }, 
+    "TransformRecorder": {
+        "categories": [
+            "Perk Tutor"
+        ], 
+        "contributors": [
+            "Tamas Ungi (Queen's University)", 
+            "Matthew S. Holden (Queen's University)"
+        ]
+    }, 
     "Transforms": {
         "categories": [
             "", 
@@ -3275,6 +3301,15 @@
         ], 
         "contributors": [
             "Andrey Fedorov (BWH)"
+        ]
+    }, 
+    "WorkflowSegmentation": {
+        "categories": [
+            "Perk Tutor"
+        ], 
+        "contributors": [
+            "Tamas Ungi (Queen's University)", 
+            "Matthew S. Holden (Queen's University)"
         ]
     }, 
     "XnatSlicer": {
