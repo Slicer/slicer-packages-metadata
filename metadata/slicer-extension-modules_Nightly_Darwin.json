@@ -402,7 +402,9 @@
     "MeshStatisticsExtension": {
         "cli": [], 
         "loadable": [], 
-        "scripted": []
+        "scripted": [
+            "MeshStatistics"
+        ]
     }, 
     "MeshToLabelMap": {
         "cli": [
