@@ -1,66 +1,196 @@
 {
     "ABC": {
-        "cli": [], 
+        "cli": [
+            "ABC"
+        ], 
         "loadable": [], 
         "scripted": []
     }, 
     "AnglePlanesExtension": {
         "cli": [], 
         "loadable": [], 
-        "scripted": []
+        "scripted": [
+            "AnglePlanes"
+        ]
     }, 
     "CBC_3D_I2MConversion": {
-        "cli": [], 
+        "cli": [
+            "BodyCentricCubicMesh"
+        ], 
         "loadable": [], 
         "scripted": []
     }, 
     "CMFreg": {
-        "cli": [], 
+        "cli": [
+            "LabelAddition", 
+            "NonGrowing", 
+            "ApplyMatrix", 
+            "Downsize", 
+            "Growing", 
+            "LabelExtraction", 
+            "MaskCreation"
+        ], 
         "loadable": [], 
-        "scripted": []
+        "scripted": [
+            "SurfaceRegistration"
+        ]
     }, 
     "CardiacAgatstonMeasures": {
         "cli": [], 
         "loadable": [], 
-        "scripted": []
+        "scripted": [
+            "CardiacAgatstonMeasures"
+        ]
     }, 
     "Cardiac_MRI_Toolkit": {
-        "cli": [], 
+        "cli": [
+            "CMRToolkitIsolatedConnectedFilter", 
+            "CMRToolkitBooleanREMOVEFilter", 
+            "CMRToolkitInhomogeneityCorrection", 
+            "CMRToolkitConnectedThresholdFilter", 
+            "CMRToolkitPVAntrumCut", 
+            "CMRToolkitLASegmentationGraphCuts", 
+            "CMRToolkitAxialDilate", 
+            "CMRToolkitAutomaticLeftAtrialScar"
+        ], 
         "loadable": [], 
-        "scripted": []
+        "scripted": [
+            "CMRToolkitWizard", 
+            "CMRToolkitRegistrationBRAINSFit", 
+            "LASegmentationWorkflow", 
+            "ScarVisualization", 
+            "CMRToolkitRegistration"
+        ]
     }, 
     "CarreraSlice": {
         "cli": [], 
-        "loadable": [], 
-        "scripted": []
+        "loadable": [
+            "CarreraSlice", 
+            "FastGrowCutSegmenter"
+        ], 
+        "scripted": [
+            "KUtil", 
+            "CarreraSliceEffect"
+        ]
     }, 
     "ChangeTracker": {
-        "cli": [], 
+        "cli": [
+            "IntensityDifferenceMetric"
+        ], 
         "loadable": [], 
-        "scripted": []
+        "scripted": [
+            "ChangeTracker"
+        ]
     }, 
     "Chest_Imaging_Platform": {
-        "cli": [], 
-        "loadable": [], 
-        "scripted": []
+        "cli": [
+            "ReadVTKWriteNRRDs", 
+            "GenerateAtlasConvexHull", 
+            "ComputeIntensityStatistics", 
+            "MergeChestLabelMaps", 
+            "RegisterLungAtlas", 
+            "GenerateNLMFilteredImage", 
+            "QualityControl", 
+            "ExecuteSystemCommand", 
+            "SegmentLungLobes", 
+            "RemapLabelMap", 
+            "GenerateStenciledLabelMapFromParticles", 
+            "GenerateMedianFilteredImage", 
+            "GenerateLobeSurfaceModels", 
+            "ClassifyFissureParticles", 
+            "RemoveParticlesFromParticlesDataSet", 
+            "ConvertChestRegionChestTypeToLabelMapValue", 
+            "ResampleLabelMap", 
+            "MaskOutLabelMapStructures", 
+            "ExtractFissureBoundaryFromLobeMap", 
+            "RegionTypeLocationsToROIVolume", 
+            "MergeParticleDataSets", 
+            "GetTransformationSimilarityMetric", 
+            "FitLobeSurfaceModelsToParticleData", 
+            "GenerateImageSubVolumes", 
+            "FilterFissureParticleData", 
+            "ComputeFissureFeatureVectors", 
+            "EvaluateLungLobeSegmentationResults", 
+            "GenerateOtsuLungCast", 
+            "ExtractParticlesFromChestRegionChestType", 
+            "CropLung", 
+            "ConvertLabelMapValueToChestRegionChestType", 
+            "FilterConnectedComponents", 
+            "GetStructuresInLabelMap", 
+            "ReadDicomWriteTags", 
+            "ComputeFeatureStrength", 
+            "TransferRegionAndTypeIndicesToFromPoints", 
+            "ReadWriteImageData", 
+            "ComputeDistanceMap", 
+            "RescaleLabelMap", 
+            "GeneratePartialLungLabelMap", 
+            "GetTransformationKappa", 
+            "SplitLeftLungRightLung", 
+            "ReadNRRDsWriteVTK", 
+            "ResampleCT", 
+            "GenerateDistanceMapFromLabelMap", 
+            "ExtractChestLabelMap", 
+            "ConvertDicom", 
+            "RegisterCT", 
+            "ReadWriteRegionAndTypePoints", 
+            "LabelMapFromRegionAndTypePoints", 
+            "GetTransformationKappa2D", 
+            "FindPatchMatch", 
+            "GenerateOverlayImages", 
+            "PerformMorphological", 
+            "GenerateLesionSegmentation", 
+            "GenerateBinaryThinning3D", 
+            "FilterVesselParticleData", 
+            "RegisterLabelMaps", 
+            "ReadVidaWriteCIP", 
+            "PerturbParticles", 
+            "ComputeCrossSectionalArea", 
+            "FilterAirwayParticleData", 
+            "EnhanceFissuresInImage", 
+            "RemoveChestTypeFromLabelMapUsingParticles", 
+            "LabelParticlesByChestRegionChestType"
+        ], 
+        "loadable": [
+            "ParticlesDisplay", 
+            "AirwayInspector", 
+            "RegionType"
+        ], 
+        "scripted": [
+            "CIP_ParenchymaSubtypeTraining", 
+            "CIP_PAARatio", 
+            "CIP_TracheaStentPlanning", 
+            "CIP_LesionModel", 
+            "CIP_BodyComposition", 
+            "CIP_MIPViewer", 
+            "InteractiveLobeSegmentation", 
+            "CIP_Common"
+        ]
     }, 
     "CleaverExtension": {
-        "cli": [], 
+        "cli": [
+            "CleaverCLI"
+        ], 
         "loadable": [], 
         "scripted": []
     }, 
     "CornerAnnotation": {
         "cli": [], 
         "loadable": [], 
-        "scripted": []
+        "scripted": [
+            "CornerAnnotation"
+        ]
     }, 
     "CurveMaker": {
         "cli": [], 
         "loadable": [], 
-        "scripted": []
+        "scripted": [
+            "CurveMaker"
+        ]
     }, 
     "DSCMRIAnalysis": {
-        "cli": [], 
+        "cli": [
+            "DSCMRIAnalysis"
+        ], 
         "loadable": [], 
         "scripted": []
     }, 
@@ -92,22 +222,33 @@
     "DebuggingTools": {
         "cli": [], 
         "loadable": [], 
-        "scripted": []
+        "scripted": [
+            "NodeInfo", 
+            "NodeModifiedStatistics", 
+            "PyDevRemoteDebug"
+        ]
     }, 
     "DeveloperToolsForExtensions": {
         "cli": [], 
         "loadable": [], 
-        "scripted": []
+        "scripted": [
+            "DeveloperToolsForExtensions", 
+            "ExtensionStats"
+        ]
     }, 
     "DiceComputation": {
         "cli": [], 
-        "loadable": [], 
+        "loadable": [
+            "DiceComputation"
+        ], 
         "scripted": []
     }, 
     "EasyClip": {
         "cli": [], 
         "loadable": [], 
-        "scripted": []
+        "scripted": [
+            "EasyClip"
+        ]
     }, 
     "Eigen": {
         "cli": [], 
@@ -126,8 +267,12 @@
     }, 
     "FastGrowCutEffect": {
         "cli": [], 
-        "loadable": [], 
-        "scripted": []
+        "loadable": [
+            "FastGrowCut"
+        ], 
+        "scripted": [
+            "FastGrowCutEffect"
+        ]
     }, 
     "FiberViewerLight": {
         "cli": [], 
@@ -135,14 +280,21 @@
         "scripted": []
     }, 
     "FinslerTractography": {
-        "cli": [], 
+        "cli": [
+            "FinslerBacktracing", 
+            "FinslerTractography"
+        ], 
         "loadable": [], 
         "scripted": []
     }, 
     "GelDosimetryAnalysis": {
         "cli": [], 
-        "loadable": [], 
-        "scripted": []
+        "loadable": [
+            "GelDosimetryAnalysisAlgo"
+        ], 
+        "scripted": [
+            "GelDosimetryAnalysis"
+        ]
     }, 
     "GraphCutSegment": {
         "cli": [], 
@@ -152,25 +304,42 @@
     "GyroGuide": {
         "cli": [], 
         "loadable": [], 
-        "scripted": []
+        "scripted": [
+            "GyroGuide"
+        ]
     }, 
     "IASEM": {
-        "cli": [], 
+        "cli": [
+            "BinShrink", 
+            "SpacingAwareCurvatureDiffusion", 
+            "IASEMImport", 
+            "IASEMImportSeries"
+        ], 
         "loadable": [], 
-        "scripted": []
+        "scripted": [
+            "DoubleThresholdEffect", 
+            "LabelObjectStatistics", 
+            "BinaryWatershedEffect"
+        ]
     }, 
     "ImageMaker": {
-        "cli": [], 
+        "cli": [
+            "ImageMaker"
+        ], 
         "loadable": [], 
         "scripted": []
     }, 
     "IntensitySegmenter": {
-        "cli": [], 
+        "cli": [
+            "IntensitySegmenter"
+        ], 
         "loadable": [], 
         "scripted": []
     }, 
     "LAScarSegmenter": {
-        "cli": [], 
+        "cli": [
+            "LAScarSegmenter"
+        ], 
         "loadable": [], 
         "scripted": []
     }, 
@@ -185,12 +354,9 @@
         "scripted": []
     }, 
     "LongitudinalPETCT": {
-        "cli": [], 
-        "loadable": [], 
-        "scripted": []
-    }, 
-    "LumpNav": {
-        "cli": [], 
+        "cli": [
+            "PETSUVImageMaker"
+        ], 
         "loadable": [], 
         "scripted": []
     }, 
@@ -201,21 +367,37 @@
     }, 
     "MarginCalculator": {
         "cli": [], 
-        "loadable": [], 
-        "scripted": []
+        "loadable": [
+            "DoseMorphology", 
+            "MotionSimulator", 
+            "DosePopulationHistogram", 
+            "MotionSimulatorDoubleArray"
+        ], 
+        "scripted": [
+            "SyntheticRTDose", 
+            "MarginCalculator"
+        ]
     }, 
     "MatlabBridge": {
-        "cli": [], 
-        "loadable": [], 
+        "cli": [
+            "MatlabCommander"
+        ], 
+        "loadable": [
+            "MatlabModuleGenerator"
+        ], 
         "scripted": []
     }, 
     "MeshStatisticsExtension": {
         "cli": [], 
         "loadable": [], 
-        "scripted": []
+        "scripted": [
+            "MeshStatistics"
+        ]
     }, 
     "MeshToLabelMap": {
-        "cli": [], 
+        "cli": [
+            "MeshToLabelMap"
+        ], 
         "loadable": [], 
         "scripted": []
     }, 
@@ -225,62 +407,103 @@
         "scripted": []
     }, 
     "ModelToModelDistance": {
-        "cli": [], 
+        "cli": [
+            "ModelToModelDistance"
+        ], 
         "loadable": [], 
         "scripted": []
     }, 
     "NeedleFinder": {
         "cli": [], 
         "loadable": [], 
-        "scripted": []
+        "scripted": [
+            "NeedleFinder"
+        ]
     }, 
     "OpenCAD": {
         "cli": [], 
         "loadable": [], 
+        "scripted": [
+            "HeterogeneityCAD", 
+            "SegmentCAD"
+        ]
+    }, 
+    "OpenCVExample": {
+        "cli": [
+            "BlendVectorVolumes"
+        ], 
+        "loadable": [], 
         "scripted": []
     }, 
     "PBNRR": {
-        "cli": [], 
+        "cli": [
+            "PBNRR"
+        ], 
         "loadable": [], 
         "scripted": []
     }, 
     "PET-IndiC": {
-        "cli": [], 
+        "cli": [
+            "QuantitativeIndicesCLI"
+        ], 
         "loadable": [], 
-        "scripted": []
+        "scripted": [
+            "PETIndiC", 
+            "QuantitativeIndicesTool"
+        ]
     }, 
     "PETDICOMExtension": {
-        "cli": [], 
+        "cli": [
+            "SUVFactorCalculator"
+        ], 
         "loadable": [], 
         "scripted": []
     }, 
     "PETTumorSegmentation": {
         "cli": [], 
-        "loadable": [], 
-        "scripted": []
+        "loadable": [
+            "PETTumorSegmentation"
+        ], 
+        "scripted": [
+            "PETTumorSegmentationEffect"
+        ]
     }, 
     "PercutaneousApproachAnalysis": {
         "cli": [], 
         "loadable": [], 
-        "scripted": []
+        "scripted": [
+            "PercutaneousApproachAnalysis"
+        ]
     }, 
     "PerkTutor": {
         "cli": [], 
-        "loadable": [], 
-        "scripted": []
+        "loadable": [
+            "TransformRecorder", 
+            "WorkflowSegmentation", 
+            "PerkEvaluator"
+        ], 
+        "scripted": [
+            "PythonMetricsCalculator"
+        ]
     }, 
     "PetSpectAnalysis": {
         "cli": [], 
         "loadable": [], 
-        "scripted": []
+        "scripted": [
+            "dPetBrainQuantification"
+        ]
     }, 
     "PickAndPaintExtension": {
         "cli": [], 
         "loadable": [], 
-        "scripted": []
+        "scripted": [
+            "PickAndPaint"
+        ]
     }, 
     "PkModeling": {
-        "cli": [], 
+        "cli": [
+            "PkModeling"
+        ], 
         "loadable": [], 
         "scripted": []
     }, 
@@ -292,7 +515,9 @@
     "Q3DC": {
         "cli": [], 
         "loadable": [], 
-        "scripted": []
+        "scripted": [
+            "Q3DC"
+        ]
     }, 
     "RSSExtension": {
         "cli": [], 
@@ -300,12 +525,17 @@
         "scripted": []
     }, 
     "Reporting": {
-        "cli": [], 
+        "cli": [
+            "EncodeSEG", 
+            "SEG2NRRD"
+        ], 
         "loadable": [], 
         "scripted": []
     }, 
     "ResampleDTIlogEuclidean": {
-        "cli": [], 
+        "cli": [
+            "ResampleDTIlogEuclidean"
+        ], 
         "loadable": [], 
         "scripted": []
     }, 
@@ -324,7 +554,14 @@
     "Scoliosis": {
         "cli": [], 
         "loadable": [], 
-        "scripted": []
+        "scripted": [
+            "VolumesViewer", 
+            "VolumeRenderingPropertiesMenu", 
+            "ToolsViewer", 
+            "ScoliosisMonitoring", 
+            "VolumeRenderingViewer", 
+            "SpinalCurvatureMeasurement"
+        ]
     }, 
     "SegmentationAidedRegistration": {
         "cli": [], 
@@ -333,7 +570,11 @@
     }, 
     "Sequences": {
         "cli": [], 
-        "loadable": [], 
+        "loadable": [
+            "SequenceBrowser", 
+            "MetafileImporter", 
+            "Sequences"
+        ], 
         "scripted": []
     }, 
     "ShapePopulationViewer": {
@@ -342,59 +583,127 @@
         "scripted": []
     }, 
     "SkullStripper": {
-        "cli": [], 
+        "cli": [
+            "SkullStripper"
+        ], 
         "loadable": [], 
         "scripted": []
     }, 
     "Slicer-AirwaySegmentation": {
         "cli": [], 
         "loadable": [], 
-        "scripted": []
+        "scripted": [
+            "AirwaySegmentation"
+        ]
     }, 
     "Slicer-TrackerStabilizer": {
         "cli": [], 
-        "loadable": [], 
+        "loadable": [
+            "TrackerStabilizer"
+        ], 
         "scripted": []
     }, 
     "Slicer-Wasp": {
         "cli": [], 
         "loadable": [], 
-        "scripted": []
+        "scripted": [
+            "Wasp"
+        ]
     }, 
     "SlicerExtension-VMTK": {
         "cli": [], 
         "loadable": [], 
-        "scripted": []
+        "scripted": [
+            "VesselnessFiltering", 
+            "CenterlineComputation", 
+            "LevelSetSegmentation"
+        ]
     }, 
     "SlicerHeart": {
         "cli": [], 
         "loadable": [], 
-        "scripted": []
+        "scripted": [
+            "ValveView", 
+            "Philips4dUsDicomPatcher"
+        ]
     }, 
     "SlicerIGT": {
         "cli": [], 
-        "loadable": [], 
-        "scripted": []
+        "loadable": [
+            "MarkupsToModel", 
+            "UltrasoundSnapshots", 
+            "FiducialRegistrationWizard", 
+            "PivotCalibration", 
+            "OpenIGTLinkRemote", 
+            "CollectFiducials", 
+            "CreateModels", 
+            "PathExplorer", 
+            "BreachWarning", 
+            "Watchdog", 
+            "TransformFusion", 
+            "VolumeResliceDriver"
+        ], 
+        "scripted": [
+            "ScreenCapture", 
+            "ModelRegistration", 
+            "FiducialsToModelRegistration", 
+            "PlusRemote"
+        ]
     }, 
     "SlicerOpenCV": {
         "cli": [], 
-        "loadable": [], 
+        "loadable": [
+            "OpenCV"
+        ], 
         "scripted": []
+    }, 
+    "SlicerPathology": {
+        "cli": [], 
+        "loadable": [
+            "ShortCutCore", 
+            "QuickTCGA"
+        ], 
+        "scripted": [
+            "SlicerPathology", 
+            "QuickTCGAEffect", 
+            "ShortCutEffect"
+        ]
     }, 
     "SlicerProstate": {
-        "cli": [], 
+        "cli": [
+            "DWModeling", 
+            "SegmentationSmoothing", 
+            "QuadEdgeSurfaceMesher"
+        ], 
         "loadable": [], 
-        "scripted": []
+        "scripted": [
+            "DistanceMapBasedRegistration", 
+            "SlicerProstate"
+        ]
     }, 
     "SlicerRT": {
-        "cli": [], 
-        "loadable": [], 
-        "scripted": []
+        "cli": [
+            "plastimatch_slicer_landwarp", 
+            "plastimatch_slicer_bspline"
+        ], 
+        "loadable": [
+            "VffFileReader", 
+            "DicomSroImport"
+        ], 
+        "scripted": [
+            "DvhComparison", 
+            "PlmRegister", 
+            "BatchStructureSetConversion", 
+            "DicomSroExport", 
+            "SegmentEditor"
+        ]
     }, 
     "SlicerToKiwiExporter": {
         "cli": [], 
         "loadable": [], 
-        "scripted": []
+        "scripted": [
+            "SlicerToKiwiExporter"
+        ]
     }, 
     "SobolevSegmenter": {
         "cli": [], 
@@ -402,19 +711,25 @@
         "scripted": []
     }, 
     "SwissSkullStripper": {
-        "cli": [], 
+        "cli": [
+            "SwissSkullStripper"
+        ], 
         "loadable": [], 
         "scripted": []
     }, 
     "T1Mapping": {
-        "cli": [], 
+        "cli": [
+            "T1Mapping"
+        ], 
         "loadable": [], 
         "scripted": []
     }, 
     "TCIABrowser": {
         "cli": [], 
         "loadable": [], 
-        "scripted": []
+        "scripted": [
+            "TCIABrowser"
+        ]
     }, 
     "ThingiverseBrowser": {
         "cli": [], 
@@ -422,14 +737,20 @@
         "scripted": []
     }, 
     "UKFTractography": {
-        "cli": [], 
+        "cli": [
+            "UKFTractography", 
+            "ConvertVTK"
+        ], 
         "loadable": [], 
         "scripted": []
     }, 
     "VolumeClip": {
         "cli": [], 
         "loadable": [], 
-        "scripted": []
+        "scripted": [
+            "VolumeClipWithRoi", 
+            "VolumeClipWithModel"
+        ]
     }, 
     "WindowLevelEffect": {
         "cli": [], 
@@ -441,7 +762,9 @@
     "XNATSlicer": {
         "cli": [], 
         "loadable": [], 
-        "scripted": []
+        "scripted": [
+            "XnatSlicer"
+        ]
     }, 
     "boost": {
         "cli": [], 
@@ -567,11 +890,16 @@
     "iGyne": {
         "cli": [], 
         "loadable": [], 
-        "scripted": []
+        "scripted": [
+            "iGyne"
+        ]
     }, 
     "mpReview": {
         "cli": [], 
         "loadable": [], 
-        "scripted": []
+        "scripted": [
+            "mpReview", 
+            "mpReviewPreprocessor"
+        ]
     }
 }
