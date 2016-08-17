@@ -39,15 +39,15 @@
             "Nicole Aucoin (BWH)"
         ]
     }, 
-    "AirwayInspector": {
+    "AirwaySegmentation": {
         "categories": [
-            "Chest Imaging Platform"
+            "Segmentation"
         ], 
         "contributors": [
-            "Alex Yarmarkovich (BWH)"
+            "Pietro Nardelli (University College Cork)"
         ]
     }, 
-    "AirwaySegmentation": {
+    "AirwaySegmentationCLI": {
         "categories": [
             "Segmentation"
         ], 
@@ -254,7 +254,7 @@
     }, 
     "CIP_BodyComposition": {
         "categories": [
-            "Chest Imaging Platform.Modules"
+            "Chest Imaging Platform"
         ], 
         "contributors": [
             "Jorge Onieva (jonieva@bwh.harvard.edu)", 
@@ -272,9 +272,17 @@
             "Brigham and Women's Hospital"
         ]
     }, 
+    "CIP_InteractiveLobeSegmentation": {
+        "categories": [
+            "Chest Imaging Platform"
+        ], 
+        "contributors": [
+            "Pietro Nardelli (UCC/SPL) and Applied Chest Imaging Laboratory, Brigham and Women's Hopsital"
+        ]
+    }, 
     "CIP_LesionModel": {
         "categories": [
-            "Chest Imaging Platform.Modules"
+            "Chest Imaging Platform"
         ], 
         "contributors": [
             "Jorge Onieva (jonieva@bwh.harvard.edu)", 
@@ -284,7 +292,7 @@
     }, 
     "CIP_MIPViewer": {
         "categories": [
-            "Chest Imaging Platform.Modules"
+            "Chest Imaging Platform"
         ], 
         "contributors": [
             "Jorge Onieva (jonieva@bwh.harvard.edu)", 
@@ -294,7 +302,7 @@
     }, 
     "CIP_PAARatio": {
         "categories": [
-            "Chest Imaging Platform.Modules"
+            "Chest Imaging Platform"
         ], 
         "contributors": [
             "Jorge Onieva (jonieva@bwh.harvard.edu)", 
@@ -302,9 +310,27 @@
             "Brigham and Women's Hospital"
         ]
     }, 
+    "CIP_ParenchymaAnalysis": {
+        "categories": [
+            "Chest Imaging Platform"
+        ], 
+        "contributors": [
+            "Applied Chest Imaging Laboratory"
+        ]
+    }, 
     "CIP_ParenchymaSubtypeTraining": {
         "categories": [
-            "Chest Imaging Platform.Modules"
+            "Chest Imaging Platform"
+        ], 
+        "contributors": [
+            "Jorge Onieva (jonieva@bwh.harvard.edu)", 
+            "Applied Chest Imaging Laboratory", 
+            "Brigham and Women's Hospital"
+        ]
+    }, 
+    "CIP_PointsLabelling": {
+        "categories": [
+            "Chest Imaging Platform"
         ], 
         "contributors": [
             "Jorge Onieva (jonieva@bwh.harvard.edu)", 
@@ -314,7 +340,7 @@
     }, 
     "CIP_TracheaStentPlanning": {
         "categories": [
-            "Chest Imaging Platform.Modules"
+            "Chest Imaging Platform"
         ], 
         "contributors": [
             "Applied Chest Imaging Laboratory", 
@@ -520,14 +546,6 @@
             "Bill Lorensen (GE)"
         ]
     }, 
-    "ClassifyFissureParticles": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Particles"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and Women's Hospital"
-        ]
-    }, 
     "CleaverCLI": {
         "categories": [
             "Mesh Generation"
@@ -569,70 +587,6 @@
             "Steve Pieper (Isomics)"
         ]
     }, 
-    "ComputeCrossSectionalArea": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Quantification"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and women's hospital"
-        ]
-    }, 
-    "ComputeDistanceMap": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Processing"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and women's hospital"
-        ]
-    }, 
-    "ComputeFeatureStrength": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Processing"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and Women's Hospital"
-        ]
-    }, 
-    "ComputeFissureFeatureVectors": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Processing"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and Women's Hospital"
-        ]
-    }, 
-    "ComputeIntensityStatistics": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Quantification"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and women's hospital"
-        ]
-    }, 
-    "ConvertChestRegionChestTypeToLabelMapValue": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Utils"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and Women's hospital"
-        ]
-    }, 
-    "ConvertDicom": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Utils"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and Women's Hospital"
-        ]
-    }, 
-    "ConvertLabelMapValueToChestRegionChestType": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Utils"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and women's hospital"
-        ]
-    }, 
     "ConvertVTK": {
         "categories": [
             "Converters"
@@ -663,14 +617,6 @@
         ], 
         "contributors": [
             "Tamas Ungi (Queen's University)"
-        ]
-    }, 
-    "CropLung": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Processing"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and women's hospital"
         ]
     }, 
     "CropVolume": {
@@ -717,7 +663,7 @@
     }, 
     "DICOM2FullBrainTractography": {
         "categories": [
-            "Diffusion"
+            "Diffusion.Utilities"
         ], 
         "contributors": [
             "Demian Wassermann (SPL)"
@@ -801,15 +747,15 @@
             "Diffusion.Diffusion Data Conversion"
         ], 
         "contributors": [
-            "Vince Magnotta (UIowa), Hans Johnson (UIowa), Joy Matsui (UIowa), Kent Williams (UIowa), Mark Scully (Uiowa), Xiaodong Tao (GE)"
+            "Hans Johnson (UIowa), Vince Magnotta (UIowa) Joy Matsui (UIowa), Kent Williams (UIowa), Mark Scully (Uiowa), Xiaodong Tao (GE)"
         ]
     }, 
     "DWIToDTIEstimation": {
         "categories": [
-            "Diffusion.Diffusion Weighted Images"
+            "Diffusion.Process"
         ], 
         "contributors": [
-            "Raul San Jose (SPL, BWH)"
+            "Raul San Jose, Lauren O'Donnell, Demian Wassermann, Isaiah Norton, Alex Yarmarkovich (SPL, LMI, BWH, SlicerDMRI)"
         ]
     }, 
     "DWModeling": {
@@ -957,14 +903,6 @@
             ")"
         ]
     }, 
-    "DicomRtImportSelfTest": {
-        "categories": [
-            "Testing.SlicerRT Tests"
-        ], 
-        "contributors": [
-            "Csaba Pinter (Queen's)"
-        ]
-    }, 
     "DicomSroExport": {
         "categories": [
             "Plastimatch"
@@ -999,10 +937,10 @@
     }, 
     "DiffusionTensorScalarMeasurements": {
         "categories": [
-            "Diffusion.Diffusion Tensor Images"
+            "Diffusion.Quantify"
         ], 
         "contributors": [
-            "Raul San Jose (SPL, BWH)"
+            "Raul San Jose, Lauren O'Donnell, Demian Wassermann, Isaiah Norton, Alex Yarmarkovich (SPL, LMI, BWH, SlicerDMRI)"
         ]
     }, 
     "DiffusionTensorTest": {
@@ -1015,10 +953,10 @@
     }, 
     "DiffusionWeightedVolumeMasking": {
         "categories": [
-            "Diffusion.Diffusion Weighted Images"
+            "Diffusion.Process"
         ], 
         "contributors": [
-            "Demian Wassermann (SPL, BWH)"
+            "Demian Wassermann, Isaiah Norton, Lauren O'Donnell (SPL, LMI, BWH, SlicerDMRI)"
         ]
     }, 
     "DistanceMapBasedRegistration": {
@@ -1050,14 +988,6 @@
         ]
     }, 
     "DoseMorphology": {
-        "categories": [
-            "Margin Calculator"
-        ], 
-        "contributors": [
-            "Kevin Wang (PMH, Toronto)"
-        ]
-    }, 
-    "DosePopulationHistogram": {
         "categories": [
             "Margin Calculator"
         ], 
@@ -1097,6 +1027,14 @@
         ], 
         "contributors": [
             "Vinicius Boen and Mason Winsauer, Neuro Image Resarch and Analysis Laboratory, UNC Medical School, UofM School of Dentistry"
+        ]
+    }, 
+    "DumpSEGFrame": {
+        "categories": [
+            "Informatics"
+        ], 
+        "contributors": [
+            "Andrey Fedorov, BWH"
         ]
     }, 
     "DvhComparison": {
@@ -1171,36 +1109,12 @@
             "Steve Pieper (Isomics)"
         ]
     }, 
-    "EnhanceFissuresInImage": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Processing"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and Women's Hospital"
-        ]
-    }, 
-    "EvaluateLungLobeSegmentationResults": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Quantification"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and women's hospital"
-        ]
-    }, 
     "EventBroker": {
         "categories": [
             "Developer Tools"
         ], 
         "contributors": [
             "Julien Finet (Kitware)"
-        ]
-    }, 
-    "ExecuteSystemCommand": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Utils"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and Women's Hospital"
         ]
     }, 
     "ExecutionModelTour": {
@@ -1235,28 +1149,15 @@
             "Matthew Woehlke (Kitware)"
         ]
     }, 
-    "ExtractChestLabelMap": {
+    "ExternalBeamPlanning": {
         "categories": [
-            "Chest Imaging Platform.Toolkit.Processing"
+            "Radiotherapy"
         ], 
         "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and women's hospital"
-        ]
-    }, 
-    "ExtractFissureBoundaryFromLobeMap": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Processing"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and Women's hospital"
-        ]
-    }, 
-    "ExtractParticlesFromChestRegionChestType": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Particles"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and women's hospital"
+            "Greg Sharp (MGH)", 
+            "Csaba Pinter (Queen's)", 
+            "Kevin Wang (Princess Margaret Cancer Centre)", 
+            "Maxime Desplanques (CNAO, Italy)"
         ]
     }, 
     "ExtractSkeleton": {
@@ -1293,15 +1194,15 @@
     }, 
     "FiberBundleLabelSelect": {
         "categories": [
-            "Diffusion.Tractography"
+            "Diffusion.Tractography.Region-based"
         ], 
         "contributors": [
-            "Demian Wassermann, Fan Zhang, Lauren O'Donnell"
+            "Demian Wassermann, Fan Zhang, Lauren O'Donnell (SPL, LMI, BWH, SlicerDMRI)"
         ]
     }, 
     "FiberBundleToLabelMap": {
         "categories": [
-            "Diffusion.Tractography"
+            "Diffusion.Utilities"
         ], 
         "contributors": [
             "Steve Pieper (Isomics)"
@@ -1309,10 +1210,10 @@
     }, 
     "FiberTractMeasurements": {
         "categories": [
-            "Diffusion.Tractography"
+            "Diffusion.Quantify"
         ], 
         "contributors": [
-            "Alex Yarmarkovich, Fan Zhang, Lauren O'Donnell"
+            "Alex Yarmarkovich, Fan Zhang, Lauren O'Donnell (SPL, LMI, BWH, SlicerDMRI)"
         ]
     }, 
     "FiducialLayoutSwitchBug1914": {
@@ -1348,68 +1249,12 @@
             "Tamas Ungi (Queen's University"
         ]
     }, 
-    "FilterAirwayParticleData": {
+    "FilmDosimetryAnalysis": {
         "categories": [
-            "Chest Imaging Platform.Toolkit.Particles"
+            "Slicelets"
         ], 
         "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and Women's Hospital"
-        ]
-    }, 
-    "FilterConnectedComponents": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Processing"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and women's hospital"
-        ]
-    }, 
-    "FilterFissureParticleData": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Particles"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and Women's Hospital"
-        ]
-    }, 
-    "FilterVesselParticleData": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Particles"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and Women's Hospital"
-        ]
-    }, 
-    "FindPatchMatch": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Utils"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and Women's Hospital"
-        ]
-    }, 
-    "FinslerBacktracing": {
-        "categories": [
-            "Diffusion.Diffusion Weighted Images"
-        ], 
-        "contributors": [
-            "Antonio Tristan Vega, Alex Yarmarkovich, Demian Wassermann, Peter Savadjiev, Carl-Fredrik Westin. The directional iterators were contributed by Luis Ibanez (Kitware)."
-        ]
-    }, 
-    "FinslerTractography": {
-        "categories": [
-            "Diffusion.Diffusion Weighted Images"
-        ], 
-        "contributors": [
-            "Antonio Tristan Vega, Alex Yarmarkovich, Demian Wassermann, Peter Savadjiev, Carl-Fredrik Westin. The directional iterators were contributed by Luis Ibanez (Kitware)."
-        ]
-    }, 
-    "FitLobeSurfaceModelsToParticleData": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Particles"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and women's hospital"
+            "Csaba Pinter (Queen's University), Kevin Alexander (KGH, Queen's University), Alec Robinson (Queen's University)"
         ]
     }, 
     "GaussianBlurImageFilter": {
@@ -1434,134 +1279,6 @@
         ], 
         "contributors": [
             "Csaba Pinter (Queen's)"
-        ]
-    }, 
-    "GenerateAtlasConvexHull": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Processing"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and women's hospital"
-        ]
-    }, 
-    "GenerateBinaryThinning3D": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Segmentation"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and Women's hospital"
-        ]
-    }, 
-    "GenerateDistanceMapFromLabelMap": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Processing"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and women's hospital"
-        ]
-    }, 
-    "GenerateImageSubVolumes": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Processing"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and women's hospital"
-        ]
-    }, 
-    "GenerateLesionSegmentation": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Segmentation"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and Women's Hospital"
-        ]
-    }, 
-    "GenerateLobeSurfaceModels": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Processing"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and women's hospital"
-        ]
-    }, 
-    "GenerateMedianFilteredImage": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Processing"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and women's hospital"
-        ]
-    }, 
-    "GenerateNLMFilteredImage": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Processing"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and Women's hospital"
-        ]
-    }, 
-    "GenerateOtsuLungCast": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Segmentation"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and women's hospital"
-        ]
-    }, 
-    "GenerateOverlayImages": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Utils"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and Women's hospital"
-        ]
-    }, 
-    "GeneratePartialLungLabelMap": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Segmentation"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and Women's Hospital"
-        ]
-    }, 
-    "GenerateStenciledLabelMapFromParticles": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Particles"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and Women's Hospital"
-        ]
-    }, 
-    "GetStructuresInLabelMap": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Utils"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and women's hospital"
-        ]
-    }, 
-    "GetTransformationKappa": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Quantification"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and women's hospital"
-        ]
-    }, 
-    "GetTransformationKappa2D": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Quantification"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and women's hospital"
-        ]
-    }, 
-    "GetTransformationSimilarityMetric": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Quantification"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and women's hospital"
         ]
     }, 
     "GradientAnisotropicDiffusion": {
@@ -1692,14 +1409,6 @@
             "Pengdong Xiao, Beatriz Paniagua from Department of Orthodontics, the University of North Carolina at Chapel Hill, Francois Budin (UNC)"
         ]
     }, 
-    "InteractiveLobeSegmentation": {
-        "categories": [
-            "Chest Imaging Platform"
-        ], 
-        "contributors": [
-            "Pietro Nardelli (UCC/SPL) and Applied Chest Imaging Laboratory, Brigham and Women's Hopsital"
-        ]
-    }, 
     "IslandRemoval": {
         "categories": [
             "Filter"
@@ -1766,14 +1475,6 @@
             "Vinicius Boen and Mason Winsauer, Neuro Image Resarch and Analysis Laboratory, UNC Medical School, UofM School of Dentistry"
         ]
     }, 
-    "LabelMapFromRegionAndTypePoints": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Processing"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and women's hospital"
-        ]
-    }, 
     "LabelMapSmoothing": {
         "categories": [
             "Surface Models"
@@ -1788,14 +1489,6 @@
         ], 
         "contributors": [
             "Bradley Lowekamp (MSC/NLM)"
-        ]
-    }, 
-    "LabelParticlesByChestRegionChestType": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Quantification"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and women's hospital"
         ]
     }, 
     "LabelStatistics": {
@@ -1864,7 +1557,9 @@
         "contributors": [
             "Jaime Garcia Guevara (Queen's University)", 
             "Andras Lasso (Queen's University)", 
-            "Adam Rankin (Robarts Research Center, Western University"
+            "Adam Rankin (Robarts Research Center, Western University", 
+            "Thomas Vaughan (Queen's University)", 
+            "Aniqah Mair (Queen's University)"
         ]
     }, 
     "MarkupsWidgetsSelfTest": {
@@ -1881,14 +1576,6 @@
         ], 
         "contributors": [
             "Vinicius Boen and Mason Winsauer, Neuro Image Resarch and Analysis Laboratory, UNC Medical School, UofM School of Dentistry"
-        ]
-    }, 
-    "MaskOutLabelMapStructures": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Utils"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and women's hospital"
         ]
     }, 
     "MaskScalarVolume": {
@@ -1925,28 +1612,12 @@
             "Bill Lorensen (GE)"
         ]
     }, 
-    "MergeChestLabelMaps": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Utils"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and women's hospital"
-        ]
-    }, 
     "MergeModels": {
         "categories": [
             "Surface Models"
         ], 
         "contributors": [
             "Nicole Aucoin (SPL, BWH), Ron Kikinis (SPL, BWH), Daniel Haehn (SPL, BWH, UPenn)"
-        ]
-    }, 
-    "MergeParticleDataSets": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Particles"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and women's hospital"
         ]
     }, 
     "MeshStatistics": {
@@ -2013,22 +1684,6 @@
             "Julien Finet (Kitware)", 
             "Alex Yarmakovich (Isomics)", 
             "Nicole Aucoin (SPL, BWH)"
-        ]
-    }, 
-    "MotionSimulator": {
-        "categories": [
-            "Margin Calculator"
-        ], 
-        "contributors": [
-            "Kevin Wang (Princess Margaret Cancer Center)"
-        ]
-    }, 
-    "MotionSimulatorDoubleArray": {
-        "categories": [
-            "Margin Calculator"
-        ], 
-        "contributors": [
-            "Kevin Wang (RMP, PMH)"
         ]
     }, 
     "MultiVolumeExplorer": {
@@ -2183,6 +1838,14 @@
             "Ethan Ulrich (Univ. of Iowa), Christian Bauer (Univ. of Iowa), Markus van Tol (Univ. of Iowa), Reinhard R. Beichel (Univ. of Iowa), John Buatti (Univ. of Iowa)"
         ]
     }, 
+    "PETLiverUptakeMeasurement": {
+        "categories": [
+            "Quantification"
+        ], 
+        "contributors": [
+            "Christian Bauer (University of Iowa), Markus van Tol (University of Iowa)"
+        ]
+    }, 
     "PETSUVImageMaker": {
         "categories": [
             "Quantification"
@@ -2216,14 +1879,6 @@
             "Christian Bauer (University of Iowa), Markus van Tol (University of Iowa), Steve Pieper (Isomics)"
         ]
     }, 
-    "ParticlesDisplay": {
-        "categories": [
-            "Converters"
-        ], 
-        "contributors": [
-            "Pietro Nardelli (UCC)"
-        ]
-    }, 
     "PathExplorer": {
         "categories": [
             "IGT"
@@ -2238,14 +1893,6 @@
         ], 
         "contributors": [
             "Ali Ghayoor"
-        ]
-    }, 
-    "PerformMorphological": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Processing"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and women's hospital"
         ]
     }, 
     "PerformanceTests": {
@@ -2263,14 +1910,6 @@
         "contributors": [
             "Tamas Ungi (Queen's University)", 
             "Matthew S. Holden (Queen's University)"
-        ]
-    }, 
-    "PerturbParticles": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Particles"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and women's hospital"
         ]
     }, 
     "Philips4dUsDicomPatcher": {
@@ -2329,6 +1968,14 @@
             "Gregory Sharp (MGH)"
         ]
     }, 
+    "PlusModelCatalogBrowser": {
+        "categories": [
+            "IGT"
+        ], 
+        "contributors": [
+            "Andras Lasso (PerkLab)"
+        ]
+    }, 
     "PlusRemote": {
         "categories": [
             "IGT"
@@ -2376,14 +2023,6 @@
         ], 
         "contributors": [
             "Andrey Fedorov (SPL/BWH)"
-        ]
-    }, 
-    "QualityControl": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Processing"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and Women's hospital"
         ]
     }, 
     "QuantitativeIndicesCLI": {
@@ -2442,54 +2081,6 @@
             "Steve Pieper (Isomics)"
         ]
     }, 
-    "ReadDicomWriteTags": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Utils"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and women's hospital"
-        ]
-    }, 
-    "ReadNRRDsWriteVTK": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Utils"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and Women's Hospital"
-        ]
-    }, 
-    "ReadVTKWriteNRRDs": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Utils"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and women's hospital"
-        ]
-    }, 
-    "ReadVidaWriteCIP": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Utils"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and Women's Hospital"
-        ]
-    }, 
-    "ReadWriteImageData": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Quantification"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and women's hospital"
-        ]
-    }, 
-    "ReadWriteRegionAndTypePoints": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Utils"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and Women's Hospital"
-        ]
-    }, 
     "Reformat": {
         "categories": [
             "Registration.Specialized"
@@ -2498,81 +2089,9 @@
             "Michael Jeulin-Lagarrigue (Kitware)"
         ]
     }, 
-    "RegionType": {
-        "categories": [
-            "Converters"
-        ], 
-        "contributors": [
-            "Pietro Nardelli (UCC)"
-        ]
-    }, 
-    "RegionTypeLocationsToROIVolume": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Utils"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and Women's Hospital"
-        ]
-    }, 
-    "RegisterCT": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Registration"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and women's hospital"
-        ]
-    }, 
-    "RegisterLabelMaps": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Registration"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and women's hospital"
-        ]
-    }, 
-    "RegisterLungAtlas": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Registration"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and women's hospital"
-        ]
-    }, 
-    "RemapLabelMap": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Processing"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and women's hospital"
-        ]
-    }, 
-    "RemoveChestTypeFromLabelMapUsingParticles": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Processing"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and Women's Hospital"
-        ]
-    }, 
-    "RemoveParticlesFromParticlesDataSet": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Particles"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and Women's Hospital"
-        ]
-    }, 
-    "ResampleCT": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Processing"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and women's hospital"
-        ]
-    }, 
     "ResampleDTIVolume": {
         "categories": [
-            "Diffusion.Diffusion Tensor Images"
+            "Diffusion.Utilities"
         ], 
         "contributors": [
             "Francois Budin (UNC)"
@@ -2586,17 +2105,9 @@
             "Francois Budin"
         ]
     }, 
-    "ResampleLabelMap": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Processing"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and women's hospital"
-        ]
-    }, 
     "ResampleScalarVectorDWIVolume": {
         "categories": [
-            "Diffusion.Diffusion Weighted Images"
+            "Diffusion.Utilities"
         ], 
         "contributors": [
             "Francois Budin (UNC)"
@@ -2608,14 +2119,6 @@
         ], 
         "contributors": [
             "Bill Lorensen (GE)"
-        ]
-    }, 
-    "RescaleLabelMap": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Processing"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and women's hospital"
         ]
     }, 
     "RobustStatisticsSegmenter": {
@@ -2641,14 +2144,6 @@
         ], 
         "contributors": [
             "Steve Piepper (Isomics, Inc.)"
-        ]
-    }, 
-    "SUVFactorCalculator": {
-        "categories": [
-            "Quantification"
-        ], 
-        "contributors": [
-            "Andrey Fedorov (SPL), Ethan Ulrich (University of Iowa), Markus van Tol (University of Iowa), Christian Bauer (University of Iowa), Reinhard Beichel (University of Iowa), John Buatti (University of Iowa), Hans Johnson (University of Iowa), Wendy Plesniak (SPL, BWH), Nicole Aucoin (SPL, BWH), Ron Kikinis (SPL, BWH)"
         ]
     }, 
     "SampleData": {
@@ -2699,7 +2194,7 @@
             "Utilities"
         ], 
         "contributors": [
-            "Andras Lasso (PerkLab, Queen's)"
+            "Andras Lasso (PerkLab Queen's University)"
         ]
     }, 
     "SegmentCAD": {
@@ -2726,14 +2221,6 @@
         ], 
         "contributors": [
             "Csaba Pinter (Queen's University)"
-        ]
-    }, 
-    "SegmentLungLobes": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Segmentation"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and Women's Hospital"
         ]
     }, 
     "SegmentMorphology": {
@@ -2788,6 +2275,18 @@
             "Andras Lasso (PerkLab, Queen's), Matthew Holden (PerkLab, Queen's), Kevin Wang (PMH)"
         ]
     }, 
+    "ShapeQuantifier": {
+        "categories": [
+            "Quantification"
+        ], 
+        "contributors": [
+            "Jean-Baptiste Vimort"
+        ]
+    }, 
+    "ShapeQuantifierCore": {
+        "categories": [], 
+        "contributors": []
+    }, 
     "ShortCutCore": {
         "categories": [
             "Examples"
@@ -2836,6 +2335,30 @@
             "Jim Miller (GE)"
         ]
     }, 
+    "SliceTracker": {
+        "categories": [
+            "Radiology"
+        ], 
+        "contributors": [
+            "Christian Herz (SPL), Peter Behringer (SPL), Andriy Fedorov (SPL)"
+        ]
+    }, 
+    "SliceTrackerRegistration": {
+        "categories": [
+            "Radiology"
+        ], 
+        "contributors": [
+            "Peter Behringer (SPL), Christian Herz (SPL), Andriy Fedorov (SPL)"
+        ]
+    }, 
+    "SliceTrackerZFrameRegistration": {
+        "categories": [
+            "Radiology"
+        ], 
+        "contributors": [
+            "Christian Herz (SPL), Andriy Fedorov (SPL)"
+        ]
+    }, 
     "Slicer4Minute": {
         "categories": [
             "Testing.TestCases"
@@ -2876,6 +2399,15 @@
             "Steve Pieper (Isomics Inc.)"
         ]
     }, 
+    "SlicerOrientationSelectorTest": {
+        "categories": [
+            "Testing.TestCases"
+        ], 
+        "contributors": [
+            "Jean-Christophe Fillion-Robin (Kitware)", 
+            "Davide Punzo (Kapteyn astronomical institute)"
+        ]
+    }, 
     "SlicerPathology": {
         "categories": [
             "Pathology"
@@ -2914,14 +2446,6 @@
         ], 
         "contributors": [
             "Franklin King (Queen's University), Tamas Ungi (Queen's University)"
-        ]
-    }, 
-    "SplitLeftLungRightLung": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Segmentation"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and women's hospital"
         ]
     }, 
     "SubjectHierarchy": {
@@ -3056,7 +2580,7 @@
     }, 
     "TractographyDisplay": {
         "categories": [
-            "Diffusion"
+            "Diffusion.Tractography"
         ], 
         "contributors": [
             "Julien Finet (Kitware)"
@@ -3064,7 +2588,7 @@
     }, 
     "TractographyInteractiveSeeding": {
         "categories": [
-            "Diffusion.Diffusion Tensor Images"
+            "Diffusion.Tractography"
         ], 
         "contributors": [
             "Alex Yarmakovich (Isomics)"
@@ -3072,18 +2596,10 @@
     }, 
     "TractographyLabelMapSeeding": {
         "categories": [
-            "Diffusion.Diffusion Tensor Images"
+            "Diffusion.Tractography.Region-based"
         ], 
         "contributors": [
-            "Raul San Jose (SPL, BWH), Demian Wassermann (SPL, BWH)"
-        ]
-    }, 
-    "TransferRegionAndTypeIndicesToFromPoints": {
-        "categories": [
-            "Chest Imaging Platform.Toolkit.Utils"
-        ], 
-        "contributors": [
-            "Applied Chest Imaging Laboratory, Brigham and Women's Hospital"
+            "Raul San Jose, Demian Wassermann, Lauren O'Donnell (SPL, LMI, BWH, SlicerDMRI)"
         ]
     }, 
     "TransformFusion": {
@@ -3341,6 +2857,14 @@
         ], 
         "contributors": [
             "Sunil Kumar (Moka Creative, LLC, kumar.sunil.p@gmail.com), Dan Marcus (WashU-St. Louis, dmarcus@wustl.edu), Steve Pieper (Isomics, pieper@isomics.com)"
+        ]
+    }, 
+    "ZFrameCalibration": {
+        "categories": [
+            "SlicerProstate"
+        ], 
+        "contributors": [
+            "Christian Herz (SPL), Andriy Fedorov (SPL)"
         ]
     }, 
     "dPetBrainQuantification": {

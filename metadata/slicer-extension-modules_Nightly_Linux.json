@@ -83,86 +83,18 @@
         ]
     }, 
     "Chest_Imaging_Platform": {
-        "cli": [
-            "ReadVTKWriteNRRDs", 
-            "GenerateAtlasConvexHull", 
-            "ComputeIntensityStatistics", 
-            "MergeChestLabelMaps", 
-            "RegisterLungAtlas", 
-            "GenerateNLMFilteredImage", 
-            "QualityControl", 
-            "ExecuteSystemCommand", 
-            "SegmentLungLobes", 
-            "RemapLabelMap", 
-            "GenerateStenciledLabelMapFromParticles", 
-            "GenerateMedianFilteredImage", 
-            "GenerateLobeSurfaceModels", 
-            "ClassifyFissureParticles", 
-            "RemoveParticlesFromParticlesDataSet", 
-            "ConvertChestRegionChestTypeToLabelMapValue", 
-            "ResampleLabelMap", 
-            "MaskOutLabelMapStructures", 
-            "ExtractFissureBoundaryFromLobeMap", 
-            "RegionTypeLocationsToROIVolume", 
-            "MergeParticleDataSets", 
-            "GetTransformationSimilarityMetric", 
-            "FitLobeSurfaceModelsToParticleData", 
-            "GenerateImageSubVolumes", 
-            "FilterFissureParticleData", 
-            "ComputeFissureFeatureVectors", 
-            "EvaluateLungLobeSegmentationResults", 
-            "GenerateOtsuLungCast", 
-            "ExtractParticlesFromChestRegionChestType", 
-            "CropLung", 
-            "ConvertLabelMapValueToChestRegionChestType", 
-            "FilterConnectedComponents", 
-            "GetStructuresInLabelMap", 
-            "ReadDicomWriteTags", 
-            "ComputeFeatureStrength", 
-            "TransferRegionAndTypeIndicesToFromPoints", 
-            "ReadWriteImageData", 
-            "ComputeDistanceMap", 
-            "RescaleLabelMap", 
-            "GeneratePartialLungLabelMap", 
-            "GetTransformationKappa", 
-            "SplitLeftLungRightLung", 
-            "ReadNRRDsWriteVTK", 
-            "ResampleCT", 
-            "GenerateDistanceMapFromLabelMap", 
-            "ExtractChestLabelMap", 
-            "ConvertDicom", 
-            "RegisterCT", 
-            "ReadWriteRegionAndTypePoints", 
-            "LabelMapFromRegionAndTypePoints", 
-            "GetTransformationKappa2D", 
-            "FindPatchMatch", 
-            "GenerateOverlayImages", 
-            "PerformMorphological", 
-            "GenerateLesionSegmentation", 
-            "GenerateBinaryThinning3D", 
-            "FilterVesselParticleData", 
-            "RegisterLabelMaps", 
-            "ReadVidaWriteCIP", 
-            "PerturbParticles", 
-            "ComputeCrossSectionalArea", 
-            "FilterAirwayParticleData", 
-            "EnhanceFissuresInImage", 
-            "RemoveChestTypeFromLabelMapUsingParticles", 
-            "LabelParticlesByChestRegionChestType"
-        ], 
-        "loadable": [
-            "ParticlesDisplay", 
-            "AirwayInspector", 
-            "RegionType"
-        ], 
+        "cli": [], 
+        "loadable": [], 
         "scripted": [
             "CIP_ParenchymaSubtypeTraining", 
             "CIP_PAARatio", 
+            "CIP_PointsLabelling", 
             "CIP_TracheaStentPlanning", 
             "CIP_LesionModel", 
             "CIP_BodyComposition", 
+            "CIP_ParenchymaAnalysis", 
             "CIP_MIPViewer", 
-            "InteractiveLobeSegmentation", 
+            "CIP_InteractiveLobeSegmentation", 
             "CIP_Common"
         ]
     }, 
@@ -279,11 +211,15 @@
         "loadable": [], 
         "scripted": []
     }, 
+    "FilmDosimetryAnalysis": {
+        "cli": [], 
+        "loadable": [], 
+        "scripted": [
+            "FilmDosimetryAnalysis"
+        ]
+    }, 
     "FinslerTractography": {
-        "cli": [
-            "FinslerBacktracing", 
-            "FinslerTractography"
-        ], 
+        "cli": [], 
         "loadable": [], 
         "scripted": []
     }, 
@@ -368,10 +304,7 @@
     "MarginCalculator": {
         "cli": [], 
         "loadable": [
-            "DoseMorphology", 
-            "MotionSimulator", 
-            "DosePopulationHistogram", 
-            "MotionSimulatorDoubleArray"
+            "DoseMorphology"
         ], 
         "scripted": [
             "SyntheticRTDose", 
@@ -453,8 +386,13 @@
         ]
     }, 
     "PETDICOMExtension": {
+        "cli": [], 
+        "loadable": [], 
+        "scripted": []
+    }, 
+    "PETLiverUptakeMeasurement": {
         "cli": [
-            "SUVFactorCalculator"
+            "PETLiverUptakeMeasurement"
         ], 
         "loadable": [], 
         "scripted": []
@@ -526,6 +464,7 @@
     }, 
     "Reporting": {
         "cli": [
+            "DumpSEGFrame", 
             "EncodeSEG", 
             "SEG2NRRD"
         ], 
@@ -582,6 +521,19 @@
         "loadable": [], 
         "scripted": []
     }, 
+    "ShapeQuantifier": {
+        "cli": [], 
+        "loadable": [], 
+        "scripted": [
+            "ShapeQuantifier", 
+            "EasyClip", 
+            "MeshStatistics", 
+            "AnglePlanes", 
+            "PickAndPaint", 
+            "Q3DC", 
+            "ShapeQuantifierCore"
+        ]
+    }, 
     "SkullStripper": {
         "cli": [
             "SkullStripper"
@@ -589,8 +541,21 @@
         "loadable": [], 
         "scripted": []
     }, 
+    "SliceTracker": {
+        "cli": [
+            "ZFrameCalibration"
+        ], 
+        "loadable": [], 
+        "scripted": [
+            "SliceTracker", 
+            "SliceTrackerZFrameRegistration", 
+            "SliceTrackerRegistration"
+        ]
+    }, 
     "Slicer-AirwaySegmentation": {
-        "cli": [], 
+        "cli": [
+            "AirwaySegmentationCLI"
+        ], 
         "loadable": [], 
         "scripted": [
             "AirwaySegmentation"
@@ -644,9 +609,9 @@
             "VolumeResliceDriver"
         ], 
         "scripted": [
-            "ScreenCapture", 
             "ModelRegistration", 
             "FiducialsToModelRegistration", 
+            "PlusModelCatalogBrowser", 
             "PlusRemote"
         ]
     }, 
@@ -690,7 +655,7 @@
             "VffFileReader", 
             "Isodose", 
             "PlastimatchPy", 
-            "Segmentations", 
+            "ExternalBeamPlanning", 
             "DoseAccumulation", 
             "SegmentComparison", 
             "SegmentMorphology", 
@@ -705,8 +670,7 @@
             "DvhComparison", 
             "PlmRegister", 
             "BatchStructureSetConversion", 
-            "DicomSroExport", 
-            "SegmentEditor"
+            "DicomSroExport"
         ]
     }, 
     "SlicerToKiwiExporter": {
@@ -741,11 +705,6 @@
         "scripted": [
             "TCIABrowser"
         ]
-    }, 
-    "ThingiverseBrowser": {
-        "cli": [], 
-        "loadable": [], 
-        "scripted": []
     }, 
     "UKFTractography": {
         "cli": [
@@ -850,6 +809,7 @@
         ], 
         "loadable": [
             "ViewControllers", 
+            "Segmentations", 
             "Data", 
             "Volumes", 
             "Welcome", 
@@ -876,6 +836,7 @@
             "EMSegment"
         ], 
         "scripted": [
+            "ScreenCapture", 
             "MultiVolumeImporter", 
             "DICOM", 
             "Editor", 
@@ -895,7 +856,8 @@
             "Endoscopy", 
             "Charting", 
             "ScenePerformance", 
-            "SampleData"
+            "SampleData", 
+            "SegmentEditor"
         ]
     }, 
     "iGyne": {
