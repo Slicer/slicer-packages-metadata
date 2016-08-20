@@ -615,9 +615,15 @@
         "scripted": []
     }, 
     "SliceTracker": {
-        "cli": [], 
+        "cli": [
+            "ZFrameCalibration"
+        ], 
         "loadable": [], 
-        "scripted": []
+        "scripted": [
+            "SliceTracker", 
+            "SliceTrackerZFrameRegistration", 
+            "SliceTrackerRegistration"
+        ]
     }, 
     "Slicer-AirwaySegmentation": {
         "cli": [

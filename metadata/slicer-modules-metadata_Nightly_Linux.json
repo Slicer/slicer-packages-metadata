@@ -2887,6 +2887,30 @@
             "Jim Miller (GE)"
         ]
     }, 
+    "SliceTracker": {
+        "categories": [
+            "Radiology"
+        ], 
+        "contributors": [
+            "Christian Herz (SPL), Peter Behringer (SPL), Andriy Fedorov (SPL)"
+        ]
+    }, 
+    "SliceTrackerRegistration": {
+        "categories": [
+            "Radiology"
+        ], 
+        "contributors": [
+            "Peter Behringer (SPL), Christian Herz (SPL), Andriy Fedorov (SPL)"
+        ]
+    }, 
+    "SliceTrackerZFrameRegistration": {
+        "categories": [
+            "Radiology"
+        ], 
+        "contributors": [
+            "Christian Herz (SPL), Andriy Fedorov (SPL)"
+        ]
+    }, 
     "Slicer4Minute": {
         "categories": [
             "Testing.TestCases"
@@ -3401,6 +3425,14 @@
         ], 
         "contributors": [
             "Sunil Kumar (Moka Creative, LLC, kumar.sunil.p@gmail.com), Dan Marcus (WashU-St. Louis, dmarcus@wustl.edu), Steve Pieper (Isomics, pieper@isomics.com)"
+        ]
+    }, 
+    "ZFrameCalibration": {
+        "categories": [
+            "SlicerProstate"
+        ], 
+        "contributors": [
+            "Christian Herz (SPL), Andriy Fedorov (SPL)"
         ]
     }, 
     "dPetBrainQuantification": {
