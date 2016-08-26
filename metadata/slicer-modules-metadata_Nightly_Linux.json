@@ -773,22 +773,6 @@
             "Steve Pieper (Isomics Inc.)"
         ]
     }, 
-    "DICOMPETSUVPlugin": {
-        "categories": [
-            "Developer Tools.DICOM Plugins"
-        ], 
-        "contributors": [
-            "Ethan Ulrich (Univ. of Iowa)"
-        ]
-    }, 
-    "DICOMRWVMPlugin": {
-        "categories": [
-            "Developer Tools.DICOM Plugins"
-        ], 
-        "contributors": [
-            "Ethan Ulrich (Univ. of Iowa), Andrey Fedorov (BWH)"
-        ]
-    }, 
     "DICOMScalarVolumePlugin": {
         "categories": [
             "Developer Tools.DICOM Plugins"
@@ -1013,14 +997,6 @@
         ], 
         "contributors": [
             "Kevin Wang (RMP, PMH)"
-        ]
-    }, 
-    "DicomUltrasoundPlugin": {
-        "categories": [
-            "Developer Tools.DICOM Plugins"
-        ], 
-        "contributors": [
-            "Steve Pieper, Isomics Inc."
         ]
     }, 
     "DiffusionTensorScalarMeasurements": {
@@ -3080,14 +3056,6 @@
         ], 
         "contributors": [
             "Xiao Da (MGH), Yangming Ou (MGH), Andriy Fedorov (BWH), Jayashree Kalpathy-Cramer (MGH)"
-        ]
-    }, 
-    "TCIABrowser": {
-        "categories": [
-            "Informatics"
-        ], 
-        "contributors": [
-            "Alireza Mehrtash (SPL, BWH), Andrey Fedorov (SPL, BWH)"
         ]
     }, 
     "Tables": {

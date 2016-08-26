@@ -648,6 +648,11 @@
             "Wasp"
         ]
     }, 
+    "SlicerAstro": {
+        "cli": [], 
+        "loadable": [], 
+        "scripted": []
+    }, 
     "SlicerExtension-VMTK": {
         "cli": [], 
         "loadable": [], 
