@@ -731,18 +731,7 @@
         ], 
         "loadable": [
             "VffFileReader", 
-            "Isodose", 
-            "PlastimatchPy", 
-            "ExternalBeamPlanning", 
-            "DoseAccumulation", 
-            "SegmentComparison", 
-            "SegmentMorphology", 
-            "PlanarImage", 
-            "DoseVolumeHistogram", 
-            "Beams", 
-            "DoseComparison", 
-            "DicomSroImport", 
-            "DicomRtImportExport"
+            "DicomSroImport"
         ], 
         "scripted": [
             "DvhComparison", 
