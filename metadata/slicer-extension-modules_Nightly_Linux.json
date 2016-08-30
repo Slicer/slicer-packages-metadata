@@ -650,8 +650,13 @@
     }, 
     "SlicerAstro": {
         "cli": [], 
-        "loadable": [], 
-        "scripted": []
+        "loadable": [
+            "AstroWelcome"
+        ], 
+        "scripted": [
+            "SlicerAstroDataProbe", 
+            "AstroSampleData"
+        ]
     }, 
     "SlicerExtension-VMTK": {
         "cli": [], 

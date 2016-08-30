@@ -95,6 +95,26 @@
             "Vinicius Boen and Mason Winsauer, Neuro Image Resarch and Analysis Laboratory, UNC Medical School, UofM School of Dentistry"
         ]
     }, 
+    "AstroSampleData": {
+        "categories": [
+            "Astronomy"
+        ], 
+        "contributors": [
+            "\n    Davide Punzo (Kapteyn Astronomical Institute),\n    Thijs van der Hulst (Kapteyn Astronomical Institute) and\n    Jos Roerdink (Johann Bernoulli Institute)."
+        ]
+    }, 
+    "AstroWelcome": {
+        "categories": [
+            "Astronomy", 
+            ""
+        ], 
+        "contributors": [
+            "Davide Punzo (Kapteyn Astronomical Institute)", 
+            "Thijs van der Hulst (Kapteyn Astronomical Institute)", 
+            "Jos Roerdink (Johann Bernoulli Institute)", 
+            "Jean-Christophe Fillion-Robin (Kitware)."
+        ]
+    }, 
     "AtlasTests": {
         "categories": [
             "Testing.TestCases"
@@ -2917,6 +2937,15 @@
         ], 
         "contributors": [
             "Jim Miller (GE)"
+        ]
+    }, 
+    "SlicerAstroDataProbe": {
+        "categories": [
+            "Quantification", 
+            "Astronomy"
+        ], 
+        "contributors": [
+            "\n    Davide Punzo (Kapteyn Astronomical Institute),\n    Thijs van der Hulst (Kapteyn Astronomical Institute) and\n    Jos Roerdink (Johann Bernoulli Institute)."
         ]
     }, 
     "SlicerMRBMultipleSaveRestoreLoopTest": {
