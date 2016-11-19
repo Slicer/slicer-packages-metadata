@@ -13,10 +13,14 @@
             "AnglePlanes"
         ]
     }, 
+    "AnomalousFiltersExtension": {
+        "cli": [], 
+        "loadable": [], 
+        "scripted": []
+    }, 
     "CBC_3D_I2MConversion": {
         "cli": [
-            "BodyCentricCubicMesh", 
-            "MeshCompression"
+            "BodyCentricCubicMesh"
         ], 
         "loadable": [], 
         "scripted": []
@@ -85,6 +89,7 @@
     }, 
     "Chest_Imaging_Platform": {
         "cli": [
+            "AVGraphCut", 
             "ClassifyFissureParticles", 
             "ComputeCrossSectionalArea", 
             "ComputeDistanceMap", 
@@ -114,11 +119,13 @@
             "GenerateLesionSegmentation", 
             "GenerateLobeSurfaceModels", 
             "GenerateMedianFilteredImage", 
+            "GenerateModel", 
             "GenerateNLMFilteredImage", 
             "GenerateOtsuLungCast", 
             "GenerateOverlayImages", 
+            "GenerateParenchymaPhenotypes", 
             "GeneratePartialLungLabelMap", 
-            "GenerateRegionHistogramsAndParenchymaPhenotypes", 
+            "GenerateSimpleLungMask", 
             "GenerateStenciledLabelMapFromParticles", 
             "GetStructuresInLabelMap", 
             "GetTransformationKappa", 
@@ -159,13 +166,16 @@
         ], 
         "scripted": [
             "CIP_BodyComposition", 
+            "CIP_CalciumScoring", 
             "CIP_Common", 
+            "CIP_InteractiveLobeSegmentation", 
             "CIP_LesionModel", 
             "CIP_MIPViewer", 
             "CIP_PAARatio", 
+            "CIP_ParenchymaAnalysis", 
             "CIP_ParenchymaSubtypeTraining", 
-            "CIP_TracheaStentPlanning", 
-            "InteractiveLobeSegmentation"
+            "CIP_PointsLabelling", 
+            "CIP_TracheaStentPlanning"
         ]
     }, 
     "CleaverExtension": {
@@ -188,6 +198,18 @@
         "scripted": [
             "CurveMaker"
         ]
+    }, 
+    "DCMQI": {
+        "cli": [
+            "itkimage2paramap", 
+            "itkimage2segimage", 
+            "paramap2itkimage", 
+            "segimage2itkimage", 
+            "tid1500reader", 
+            "tid1500writer"
+        ], 
+        "loadable": [], 
+        "scripted": []
     }, 
     "DSCMRIAnalysis": {
         "cli": [
@@ -225,6 +247,7 @@
         "cli": [], 
         "loadable": [], 
         "scripted": [
+            "NodeInfo", 
             "NodeModifiedStatistics", 
             "PyDevRemoteDebug"
         ]
@@ -280,22 +303,20 @@
         "loadable": [], 
         "scripted": []
     }, 
+    "FilmDosimetryAnalysis": {
+        "cli": [], 
+        "loadable": [], 
+        "scripted": []
+    }, 
     "FinslerTractography": {
-        "cli": [
-            "FinslerBacktracing", 
-            "FinslerTractography"
-        ], 
+        "cli": [], 
         "loadable": [], 
         "scripted": []
     }, 
     "GelDosimetryAnalysis": {
         "cli": [], 
-        "loadable": [
-            "GelDosimetryAnalysisAlgo"
-        ], 
-        "scripted": [
-            "GelDosimetryAnalysis"
-        ]
+        "loadable": [], 
+        "scripted": []
     }, 
     "GraphCutSegment": {
         "cli": [], 
@@ -315,7 +336,6 @@
         "cli": [
             "BinShrink", 
             "IASEMImport", 
-            "IASEMImportSeries", 
             "SpacingAwareCurvatureDiffusion"
         ], 
         "loadable": [], 
@@ -357,20 +377,9 @@
         "scripted": []
     }, 
     "LongitudinalPETCT": {
-        "cli": [
-            "PETSUVImageMaker"
-        ], 
-        "loadable": [], 
-        "scripted": []
-    }, 
-    "LumpNav": {
         "cli": [], 
         "loadable": [], 
-        "scripted": [
-            "BreachWarningLight", 
-            "LumpNav", 
-            "Viewpoint"
-        ]
+        "scripted": []
     }, 
     "MABMIS": {
         "cli": [], 
@@ -380,10 +389,7 @@
     "MarginCalculator": {
         "cli": [], 
         "loadable": [
-            "DoseMorphology", 
-            "DosePopulationHistogram", 
-            "MotionSimulatorDoubleArray", 
-            "MotionSimulator"
+            "DoseMorphology"
         ], 
         "scripted": [
             "MarginCalculator", 
@@ -440,6 +446,13 @@
             "SegmentCAD"
         ]
     }, 
+    "OpenCVExample": {
+        "cli": [
+            "BlendVectorVolumes"
+        ], 
+        "loadable": [], 
+        "scripted": []
+    }, 
     "PBNRR": {
         "cli": [
             "PBNRR"
@@ -448,9 +461,7 @@
         "scripted": []
     }, 
     "PET-IndiC": {
-        "cli": [
-            "QuantitativeIndicesCLI"
-        ], 
+        "cli": [], 
         "loadable": [], 
         "scripted": [
             "PETIndiC", 
@@ -458,8 +469,13 @@
         ]
     }, 
     "PETDICOMExtension": {
+        "cli": [], 
+        "loadable": [], 
+        "scripted": []
+    }, 
+    "PETLiverUptakeMeasurement": {
         "cli": [
-            "SUVFactorCalculator"
+            "PETLiverUptakeMeasurement"
         ], 
         "loadable": [], 
         "scripted": []
@@ -530,12 +546,11 @@
         "scripted": []
     }, 
     "Reporting": {
-        "cli": [
-            "EncodeSEG", 
-            "SEG2NRRD"
-        ], 
+        "cli": [], 
         "loadable": [], 
-        "scripted": []
+        "scripted": [
+            "Reporting"
+        ]
     }, 
     "ResampleDTIlogEuclidean": {
         "cli": [
@@ -587,12 +602,37 @@
         "loadable": [], 
         "scripted": []
     }, 
+    "ShapeQuantifier": {
+        "cli": [], 
+        "loadable": [], 
+        "scripted": [
+            "AnglePlanes", 
+            "EasyClip", 
+            "MeshStatistics", 
+            "PickAndPaint", 
+            "Q3DC", 
+            "ShapeQuantifier", 
+            "ShapeQuantifierCore"
+        ]
+    }, 
     "SkullStripper": {
         "cli": [
             "SkullStripper"
         ], 
         "loadable": [], 
         "scripted": []
+    }, 
+    "SliceTracker": {
+        "cli": [
+            "ZFrameCalibration"
+        ], 
+        "loadable": [], 
+        "scripted": [
+            "SliceTracker", 
+            "SliceTrackerRegistration", 
+            "SliceTrackerZFrameRegistration", 
+            "VolumeClipToLabel"
+        ]
     }, 
     "Slicer-AirwaySegmentation": {
         "cli": [
@@ -616,6 +656,16 @@
         "scripted": [
             "Wasp"
         ]
+    }, 
+    "SlicerAstro": {
+        "cli": [], 
+        "loadable": [], 
+        "scripted": []
+    }, 
+    "SlicerDMRI": {
+        "cli": [], 
+        "loadable": [], 
+        "scripted": []
     }, 
     "SlicerExtension-VMTK": {
         "cli": [], 
@@ -653,7 +703,29 @@
         "scripted": [
             "FiducialsToModelRegistration", 
             "ModelRegistration", 
-            "PlusRemote"
+            "PlusModelCatalogBrowser", 
+            "PlusRemote", 
+            "TextureModel", 
+            "Viewpoint"
+        ]
+    }, 
+    "SlicerOpenCV": {
+        "cli": [], 
+        "loadable": [
+            "OpenCV"
+        ], 
+        "scripted": []
+    }, 
+    "SlicerPathology": {
+        "cli": [], 
+        "loadable": [
+            "QuickTCGA", 
+            "ShortCutCore"
+        ], 
+        "scripted": [
+            "QuickTCGAEffect", 
+            "ShortCutEffect", 
+            "SlicerPathology"
         ]
     }, 
     "SlicerProstate": {
@@ -664,36 +736,14 @@
         ], 
         "loadable": [], 
         "scripted": [
-            "DistanceMapBasedRegistration"
+            "DistanceMapBasedRegistration", 
+            "SlicerProstate"
         ]
     }, 
     "SlicerRT": {
-        "cli": [
-            "plastimatch_slicer_bspline", 
-            "plastimatch_slicer_landwarp"
-        ], 
-        "loadable": [
-            "Beams", 
-            "DicomRtImportExport", 
-            "DicomSroImport", 
-            "DoseAccumulation", 
-            "DoseComparison", 
-            "DoseVolumeHistogram", 
-            "Isodose", 
-            "PlanarImage", 
-            "PlastimatchPy", 
-            "Segmentations", 
-            "SegmentComparison", 
-            "SegmentMorphology", 
-            "VffFileReader"
-        ], 
-        "scripted": [
-            "BatchStructureSetConversion", 
-            "DicomSroExport", 
-            "DvhComparison", 
-            "PlmRegister", 
-            "SegmentEditor"
-        ]
+        "cli": [], 
+        "loadable": [], 
+        "scripted": []
     }, 
     "SlicerToKiwiExporter": {
         "cli": [], 
@@ -703,7 +753,9 @@
         ]
     }, 
     "SobolevSegmenter": {
-        "cli": [], 
+        "cli": [
+            "SobolevSegmenter"
+        ], 
         "loadable": [], 
         "scripted": []
     }, 
@@ -727,11 +779,6 @@
         "scripted": [
             "TCIABrowser"
         ]
-    }, 
-    "ThingiverseBrowser": {
-        "cli": [], 
-        "loadable": [], 
-        "scripted": []
     }, 
     "UKFTractography": {
         "cli": [
@@ -788,19 +835,13 @@
             "CLIROITest", 
             "CreateDICOMSeries", 
             "CurvatureAnisotropicDiffusion", 
-            "DiffusionTensorScalarMeasurements", 
             "DiffusionTensorTest", 
-            "DiffusionWeightedVolumeMasking", 
             "DWIConvert", 
-            "DWIToDTIEstimation", 
             "EMSegmentCommandLine", 
             "EMSegmentTransformToNewFormat", 
             "ExecutionModelTour", 
             "ExpertAutomatedRegistration", 
             "ExtractSkeleton", 
-            "FiberBundleLabelSelect", 
-            "FiberPostProcess", 
-            "FiberTractMeasurements", 
             "FiducialRegistration", 
             "GaussianBlurImageFilter", 
             "GradientAnisotropicDiffusion", 
@@ -822,7 +863,6 @@
             "OtsuThresholdImageFilter", 
             "PerformMetricTest", 
             "PETStandardUptakeValueComputation", 
-            "ProbeVolumeWithModel", 
             "ResampleDTIVolume", 
             "ResampleScalarVectorDWIVolume", 
             "ResampleScalarVolume", 
@@ -831,7 +871,6 @@
             "SubtractScalarVolumes", 
             "TestGridTransformRegistration", 
             "ThresholdScalarVolume", 
-            "TractographyLabelMapSeeding", 
             "VBRAINSDemonWarp", 
             "VotingBinaryHoleFillingImageFilter"
         ], 
@@ -845,17 +884,15 @@
             "DoubleArrays", 
             "EMSegment", 
             "EMSegmentQuick", 
-            "Markups", 
             "Models", 
             "MultiVolumeExplorer", 
             "OpenIGTLinkIF", 
             "Reformat", 
             "SceneViews", 
+            "Segmentations", 
             "SubjectHierarchy", 
             "Tables", 
-            "TractographyDisplay", 
-            "TractographyInteractiveSeeding", 
-            "Transforms", 
+            "Terminologies", 
             "Units", 
             "ViewControllers", 
             "VolumeRendering", 
@@ -867,23 +904,42 @@
             "CompareVolumes", 
             "DataProbe", 
             "DICOM", 
-            "DICOM2FullBrainTractography", 
+            "DMRIInstall", 
             "Editor", 
             "Endoscopy", 
             "ExtensionWizard", 
-            "FiberBundleToLabelMap", 
             "LabelStatistics", 
             "LandmarkRegistration", 
             "MultiVolumeImporter", 
             "SampleData", 
             "ScenePerformance", 
+            "ScreenCapture", 
+            "SegmentEditor", 
+            "SegmentStatistics", 
             "SimpleFilters", 
             "SliceLinkLogic", 
             "Slicer4Minute", 
             "SurfaceToolbox", 
             "VectorToScalarVolume", 
-            "VolumeRenderingSceneClose"
+            "VolumeRenderingSceneClose", 
+            "ModA", 
+            "ModB", 
+            "ModC", 
+            "ModA", 
+            "ModB", 
+            "ModC", 
+            "ModA", 
+            "ModB", 
+            "ModC", 
+            "ModA", 
+            "ModB", 
+            "ModC"
         ]
+    }, 
+    "exStone": {
+        "cli": [], 
+        "loadable": [], 
+        "scripted": []
     }, 
     "iGyne": {
         "cli": [], 
