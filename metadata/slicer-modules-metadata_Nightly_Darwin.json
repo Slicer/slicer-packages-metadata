@@ -2031,6 +2031,14 @@
             "Amelie Meyer (PerkLab, Queen's University), Franklin King (PerkLab, Queen's University), Tamas Ungi (PerkLab, Queen's University), Andras Lasso (PerkLab, Queen's University)"
         ]
     }, 
+    "ProbeVolumeWithModel": {
+        "categories": [
+            "Surface Models"
+        ], 
+        "contributors": [
+            "Lauren O'Donnell (SPL, BWH)"
+        ]
+    }, 
     "PyDevRemoteDebug": {
         "categories": [
             "Developer Tools"

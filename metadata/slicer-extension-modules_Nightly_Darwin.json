@@ -863,6 +863,7 @@
             "OtsuThresholdImageFilter", 
             "PerformMetricTest", 
             "PETStandardUptakeValueComputation", 
+            "ProbeVolumeWithModel", 
             "ResampleDTIVolume", 
             "ResampleScalarVectorDWIVolume", 
             "ResampleScalarVolume", 
