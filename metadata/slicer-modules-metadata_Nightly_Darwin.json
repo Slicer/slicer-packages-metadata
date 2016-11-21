@@ -1149,6 +1149,15 @@
             "Casey B Goodlett (Kitware), Dominik Meier (SPL, BWH)"
         ]
     }, 
+    "FiducialRegistrationWizard": {
+        "categories": [
+            "IGT"
+        ], 
+        "contributors": [
+            "Matthew Holden (Queen's University)", 
+            "Tamas Ungi (Queen's University)"
+        ]
+    }, 
     "FiducialsToModelRegistration": {
         "categories": [
             "IGT"
@@ -1607,6 +1616,15 @@
             "Kevin Wang (Princess Margaret Cancer Centre)"
         ]
     }, 
+    "Markups": {
+        "categories": [
+            "", 
+            "Informatics"
+        ], 
+        "contributors": [
+            "Nicole Aucoin (BWH)"
+        ]
+    }, 
     "MarkupsInCompareViewersSelfTest": {
         "categories": [
             "Testing.TestCases"
@@ -1621,6 +1639,26 @@
         ], 
         "contributors": [
             "Nicole Aucoin (BWH)"
+        ]
+    }, 
+    "MarkupsToModel": {
+        "categories": [
+            "IGT"
+        ], 
+        "contributors": [
+            "Jaime Garcia Guevara (Queen's University)", 
+            "Andras Lasso (Queen's University)", 
+            "Adam Rankin (Robarts Research Center, Western University", 
+            "Thomas Vaughan (Queen's University)", 
+            "Aniqah Mair (Queen's University)"
+        ]
+    }, 
+    "MarkupsWidgetsSelfTest": {
+        "categories": [
+            "Testing.TestCases"
+        ], 
+        "contributors": [
+            "Andras Lasso (PerkLab, Queen's)"
         ]
     }, 
     "MaskCreation": {
@@ -1940,6 +1978,14 @@
         ], 
         "contributors": [
             "Christian Bauer (University of Iowa), Markus van Tol (University of Iowa), Steve Pieper (Isomics)"
+        ]
+    }, 
+    "PathExplorer": {
+        "categories": [
+            "IGT"
+        ], 
+        "contributors": [
+            "Laurent Chauvin (SNR), Atsushi Yamada (SNR), Junichi Tokuda (SNR)"
         ]
     }, 
     "PerformMetricTest": {
@@ -2798,6 +2844,19 @@
         "contributors": [
             "Tamas Ungi (Queen's University)", 
             "Matthew S. Holden (Queen's University)"
+        ]
+    }, 
+    "Transforms": {
+        "categories": [
+            "", 
+            "Registration"
+        ], 
+        "contributors": [
+            "Alex Yarmarkovich (Isomics)", 
+            "Jean-Christophe Fillion-Robin (Kitware)", 
+            "Julien Finet (Kitware)", 
+            "Andras Lasso (PerkLab, Queen's)", 
+            "Franklin King (PerkLab, Queen's)"
         ]
     }, 
     "TwoCLIsInARowTest": {
