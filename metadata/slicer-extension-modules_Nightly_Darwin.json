@@ -243,6 +243,14 @@
         "loadable": [], 
         "scripted": []
     }, 
+    "DatabaseInteractor": {
+        "cli": [], 
+        "loadable": [], 
+        "scripted": [
+            "DatabaseInteractor", 
+            "DatabaseInteractorLib"
+        ]
+    }, 
     "DebuggingTools": {
         "cli": [], 
         "loadable": [], 
@@ -306,7 +314,9 @@
     "FilmDosimetryAnalysis": {
         "cli": [], 
         "loadable": [], 
-        "scripted": []
+        "scripted": [
+            "FilmDosimetryAnalysis"
+        ]
     }, 
     "FinslerTractography": {
         "cli": [], 
@@ -315,8 +325,12 @@
     }, 
     "GelDosimetryAnalysis": {
         "cli": [], 
-        "loadable": [], 
-        "scripted": []
+        "loadable": [
+            "GelDosimetryAnalysisAlgo"
+        ], 
+        "scripted": [
+            "GelDosimetryAnalysis"
+        ]
     }, 
     "GraphCutSegment": {
         "cli": [], 
@@ -461,7 +475,9 @@
         "scripted": []
     }, 
     "PET-IndiC": {
-        "cli": [], 
+        "cli": [
+            "QuantitativeIndicesCLI"
+        ], 
         "loadable": [], 
         "scripted": [
             "PETIndiC", 
@@ -469,7 +485,9 @@
         ]
     }, 
     "PETDICOMExtension": {
-        "cli": [], 
+        "cli": [
+            "SUVFactorCalculator"
+        ], 
         "loadable": [], 
         "scripted": []
     }, 
@@ -540,17 +558,24 @@
             "Q3DC"
         ]
     }, 
+    "QuantitativeReporting": {
+        "cli": [], 
+        "loadable": [], 
+        "scripted": [
+            "QuantitativeReporting"
+        ]
+    }, 
+    "ROBEXBrainExtraction": {
+        "cli": [
+            "ROBEXBrainExtraction"
+        ], 
+        "loadable": [], 
+        "scripted": []
+    }, 
     "RSSExtension": {
         "cli": [], 
         "loadable": [], 
         "scripted": []
-    }, 
-    "Reporting": {
-        "cli": [], 
-        "loadable": [], 
-        "scripted": [
-            "Reporting"
-        ]
     }, 
     "ResampleDTIlogEuclidean": {
         "cli": [
@@ -567,6 +592,11 @@
         ]
     }, 
     "SPHARM-PDM": {
+        "cli": [], 
+        "loadable": [], 
+        "scripted": []
+    }, 
+    "ScatteredTransform": {
         "cli": [], 
         "loadable": [], 
         "scripted": []
@@ -659,13 +689,32 @@
     }, 
     "SlicerAstro": {
         "cli": [], 
-        "loadable": [], 
-        "scripted": []
+        "loadable": [
+            "AstroWelcome"
+        ], 
+        "scripted": [
+            "AstroSampleData", 
+            "SlicerAstroDataProbe"
+        ]
     }, 
     "SlicerDMRI": {
-        "cli": [], 
-        "loadable": [], 
-        "scripted": []
+        "cli": [
+            "DiffusionTensorScalarMeasurements", 
+            "DiffusionWeightedVolumeMasking", 
+            "DWIToDTIEstimation", 
+            "FiberBundleLabelSelect", 
+            "FiberTractMeasurements", 
+            "TractographyLabelMapSeeding"
+        ], 
+        "loadable": [
+            "TractographyDisplay", 
+            "TractographyInteractiveSeeding"
+        ], 
+        "scripted": [
+            "DICOM2FullBrainTractography", 
+            "FiberBundleToLabelMap", 
+            "NsgPlanTracto"
+        ]
     }, 
     "SlicerExtension-VMTK": {
         "cli": [], 
@@ -709,6 +758,15 @@
             "Viewpoint"
         ]
     }, 
+    "SlicerITKUltrasound": {
+        "cli": [
+            "ScanConvertCurvilinearArray", 
+            "ScanConvertPhasedArray3D", 
+            "ScanConvertSliceSeries"
+        ], 
+        "loadable": [], 
+        "scripted": []
+    }, 
     "SlicerOpenCV": {
         "cli": [], 
         "loadable": [
@@ -741,9 +799,25 @@
         ]
     }, 
     "SlicerRT": {
-        "cli": [], 
-        "loadable": [], 
-        "scripted": []
+        "cli": [
+            "plastimatch_slicer_bspline", 
+            "plastimatch_slicer_landwarp"
+        ], 
+        "loadable": [
+            "DicomRtImportExport", 
+            "DicomSroImport", 
+            "DoseAccumulation", 
+            "Isodose", 
+            "PlanarImage", 
+            "PlastimatchPy", 
+            "VffFileReader"
+        ], 
+        "scripted": [
+            "BatchStructureSetConversion", 
+            "DicomSroExport", 
+            "DvhComparison", 
+            "PlmRegister"
+        ]
     }, 
     "SlicerToKiwiExporter": {
         "cli": [], 
@@ -891,10 +965,8 @@
             "OpenIGTLinkIF", 
             "Reformat", 
             "SceneViews", 
-            "Segmentations", 
             "SubjectHierarchy", 
             "Tables", 
-            "Terminologies", 
             "Transforms", 
             "Units", 
             "ViewControllers", 
@@ -907,6 +979,7 @@
             "CompareVolumes", 
             "DataProbe", 
             "DICOM", 
+            "DICOMPatcher", 
             "DMRIInstall", 
             "Editor", 
             "Endoscopy", 
