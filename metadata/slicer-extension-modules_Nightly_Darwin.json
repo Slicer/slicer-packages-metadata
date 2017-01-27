@@ -155,6 +155,7 @@
             "ResampleCT", 
             "ResampleLabelMap", 
             "RescaleLabelMap", 
+            "SegmentLungAirways", 
             "SegmentLungLobes", 
             "SplitLeftLungRightLung", 
             "TransferRegionAndTypeIndicesToFromPoints"
@@ -597,7 +598,9 @@
         "scripted": []
     }, 
     "ScatteredTransform": {
-        "cli": [], 
+        "cli": [
+            "ScatteredTransform"
+        ], 
         "loadable": [], 
         "scripted": []
     }, 

@@ -2027,7 +2027,8 @@
         "contributors": [
             "Julien Finet (Kitware)", 
             "Alex Yarmakovich (Isomics)", 
-            "Nicole Aucoin (SPL, BWH)"
+            "Nicole Aucoin (SPL, BWH)", 
+            "Alexis Girault (Kitware)"
         ]
     }, 
     "MultiVolumeExplorer": {
@@ -2724,6 +2725,14 @@
             "Salma Bengali (CARMA), Alan Morris (CARMA), Josh Cates (CARMA), Rob MacLeod (CARMA)"
         ]
     }, 
+    "ScatteredTransform": {
+        "categories": [
+            "Registration.Specialized"
+        ], 
+        "contributors": [
+            "Grand Roman Joldes (The University of Western Australia)"
+        ]
+    }, 
     "ScenePerformance": {
         "categories": [
             "Testing.TestCases"
@@ -2765,6 +2774,14 @@
         ], 
         "contributors": [
             "Vivek Narayan, Jayender Jagadeesan (BWH)"
+        ]
+    }, 
+    "SegmentLungAirways": {
+        "categories": [
+            "Chest Imaging Platform.Toolkit.Segmentation"
+        ], 
+        "contributors": [
+            "Applied Chest Imaging Laboratory, Brigham and Women's Hospital. University College of Cork (UCC)."
         ]
     }, 
     "SegmentLungLobes": {
@@ -3509,7 +3526,7 @@
             "Informatics.Converters"
         ], 
         "contributors": [
-            "Andrey Fedorov, BWH"
+            "Andrey Fedorov(BWH), Christian Herz(BWH)"
         ]
     }, 
     "mpReview": {
@@ -3565,7 +3582,7 @@
             "Informatics"
         ], 
         "contributors": [
-            "Andrey Fedorov, BWH"
+            "Andrey Fedorov(BWH), Christian Herz(BWH)"
         ]
     }, 
     "slicerCloseCrashBug2590": {
@@ -3581,7 +3598,7 @@
             "Informatics"
         ], 
         "contributors": [
-            "Andrey Fedorov, BWH"
+            "Andrey Fedorov(BWH), Christian Herz(BWH)"
         ]
     }, 
     "tid1500writer": {
@@ -3589,7 +3606,7 @@
             "Informatics"
         ], 
         "contributors": [
-            "Andrey Fedorov, BWH"
+            "Andrey Fedorov(BWH), Christian Herz(BWH)"
         ]
     }
 }
