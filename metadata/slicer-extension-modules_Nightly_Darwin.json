@@ -89,7 +89,6 @@
     }, 
     "Chest_Imaging_Platform": {
         "cli": [
-            "AVGraphCut", 
             "ClassifyFissureParticles", 
             "ComputeCrossSectionalArea", 
             "ComputeDistanceMap", 
@@ -131,6 +130,7 @@
             "GetTransformationKappa", 
             "GetTransformationKappa2D", 
             "GetTransformationSimilarityMetric", 
+            "GraphCutsOptimization", 
             "LabelMapFromRegionAndTypePoints", 
             "LabelParticlesByChestRegionChestType", 
             "MaskOutLabelMapStructures", 
@@ -166,9 +166,9 @@
             "RegionType"
         ], 
         "scripted": [
+            "CIP_", 
             "CIP_BodyComposition", 
             "CIP_CalciumScoring", 
-            "CIP_Common", 
             "CIP_InteractiveLobeSegmentation", 
             "CIP_LesionModel", 
             "CIP_MIPViewer", 
@@ -261,6 +261,13 @@
             "PyDevRemoteDebug"
         ]
     }, 
+    "DeepInfer": {
+        "cli": [], 
+        "loadable": [], 
+        "scripted": [
+            "DeepInfer"
+        ]
+    }, 
     "DeveloperToolsForExtensions": {
         "cli": [], 
         "loadable": [], 
@@ -351,6 +358,7 @@
         "cli": [
             "BinShrink", 
             "IASEMImport", 
+            "IASEMImportSeries", 
             "SpacingAwareCurvatureDiffusion"
         ], 
         "loadable": [], 
@@ -505,7 +513,8 @@
             "PETTumorSegmentation"
         ], 
         "scripted": [
-            "PETTumorSegmentationEffect"
+            "PETTumorSegmentationEffect", 
+            "SegmentEditorPETTumor"
         ]
     }, 
     "PercutaneousApproachAnalysis": {
@@ -616,6 +625,15 @@
             "VolumesViewer"
         ]
     }, 
+    "SegmentEditorExtraEffects": {
+        "cli": [], 
+        "loadable": [], 
+        "scripted": [
+            "SegmentEditorFastMarching", 
+            "SegmentEditorFloodFilling", 
+            "SegmentEditorWatershed"
+        ]
+    }, 
     "SegmentationAidedRegistration": {
         "cli": [], 
         "loadable": [], 
@@ -693,6 +711,9 @@
     "SlicerAstro": {
         "cli": [], 
         "loadable": [
+            "AstroModeling", 
+            "AstroSmoothing", 
+            "AstroVolume", 
             "AstroWelcome"
         ], 
         "scripted": [
@@ -702,12 +723,14 @@
     }, 
     "SlicerDMRI": {
         "cli": [
+            "DICOMTract_to_VTK", 
             "DiffusionTensorScalarMeasurements", 
             "DiffusionWeightedVolumeMasking", 
             "DWIToDTIEstimation", 
             "FiberBundleLabelSelect", 
             "FiberTractMeasurements", 
-            "TractographyLabelMapSeeding"
+            "TractographyLabelMapSeeding", 
+            "VTK_to_DICOMTract"
         ], 
         "loadable": [
             "TractographyDisplay", 
@@ -779,10 +802,7 @@
     }, 
     "SlicerPathology": {
         "cli": [], 
-        "loadable": [
-            "QuickTCGA", 
-            "ShortCutCore"
-        ], 
+        "loadable": [], 
         "scripted": [
             "QuickTCGAEffect", 
             "ShortCutEffect", 
@@ -807,12 +827,18 @@
             "plastimatch_slicer_landwarp"
         ], 
         "loadable": [
+            "Beams", 
             "DicomRtImportExport", 
             "DicomSroImport", 
             "DoseAccumulation", 
+            "DoseComparison", 
+            "DoseVolumeHistogram", 
+            "ExternalBeamPlanning", 
             "Isodose", 
             "PlanarImage", 
             "PlastimatchPy", 
+            "SegmentComparison", 
+            "SegmentMorphology", 
             "VffFileReader"
         ], 
         "scripted": [
@@ -968,8 +994,10 @@
             "OpenIGTLinkIF", 
             "Reformat", 
             "SceneViews", 
+            "Segmentations", 
             "SubjectHierarchy", 
             "Tables", 
+            "Terminologies", 
             "Transforms", 
             "Units", 
             "ViewControllers", 
